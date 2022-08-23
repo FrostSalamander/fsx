@@ -1,0 +1,4 @@
+Title: FSX
+Version: [VERSION]
+Author: Frost_Salamander
+Description: WIP
