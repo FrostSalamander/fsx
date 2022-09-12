@@ -2,17 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "153113" } 
-		KeyValue { "LastCameraAngle" "-9.6 142.8 0" } 
-		KeyValue { "LastCameraPosition" "319.857 1005.61 75.0531" } 
+		KeyValue { "EditTimeInSeconds" "154021" } 
+		KeyValue { "LastCameraAngle" "-13.5 272.7 0" } 
+		KeyValue { "LastCameraPosition" "-163.666 1119.98 252.619" } 
 		KeyValue { "LastShaderClipboardMaterial" "tdm_streetlamp_metal" } 
-	}
-	SelectionSets
-	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 153113 }
+		TotalSecondsEdited { 154021 }
+	}
+	SelectionSets
+	{
 	}
 	SelectionGroups
 	{
@@ -4112,5 +4112,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_streetlamp_round_lit_2)
 		Node { 0 } // entity (atdm_streetlamp_round_lit_3)
 		Node { 0 } // entity (atdm_streetlamp_round_lit_4)
+		Node { 0 } // entity (func_static_274)
+		Node { 0 } // entity (func_static_275)
 	}
 }
