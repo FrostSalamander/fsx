@@ -2,17 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "209394" } 
-		KeyValue { "LastCameraAngle" "-0.599999 12.6 0" } 
-		KeyValue { "LastCameraPosition" "1080.07 -898.079 159.654" } 
+		KeyValue { "EditTimeInSeconds" "210094" } 
+		KeyValue { "LastCameraAngle" "-0.3 341.4 0" } 
+		KeyValue { "LastCameraPosition" "971.684 -809.991 130.279" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/turquoise_uneven" } 
-	}
-	MapEditTimings
-	{
-		TotalSecondsEdited { 209394 }
 	}
 	SelectionSets
 	{
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 210094 }
 	}
 	Layers
 	{
@@ -3391,6 +3391,12 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_26)
 		Node { 0 } // entity (func_static_25)
 		Node { 0 } // entity (func_static_28)
+		Node { 0 } // entity (func_static_29)
+		Node { 0 } // entity (func_static_38)
+		Node { 0 } // entity (func_static_77)
+		Node { 0 } // entity (func_static_96)
+		Node { 0 } // entity (func_static_105)
+		Node { 0 } // entity (func_static_159)
 	}
 	SelectionGroups
 	{
@@ -3871,6 +3877,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 3415 { "" }
 		SelectionGroup 3416 { "" }
 		SelectionGroup 3417 { "" }
+		SelectionGroup 3418 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -5892,5 +5899,14 @@ DarkRadiant Map Information File Version 2
 		Node { ( 403 ) ( 3403 3402 3404 ) } // entity (func_static_22)
 		Node { ( 404 ) ( 3406 ) } // entity (func_static_23)
 		Node { ( 405 ) ( 3406 ) } // entity (func_static_24)
+		Node { ( 407 ) ( 3418 ) } // entity (func_static_26)
+		Node { ( 408 ) ( 3418 ) } // entity (func_static_25)
+		Node { ( 409 ) ( 3418 ) } // entity (func_static_28)
+		Node { ( 410 ) ( 3418 ) } // entity (func_static_29)
+		Node { ( 411 ) ( 3418 ) } // entity (func_static_38)
+		Node { ( 412 ) ( 3418 ) } // entity (func_static_77)
+		Node { ( 413 ) ( 3418 ) } // entity (func_static_96)
+		Node { ( 414 ) ( 3418 ) } // entity (func_static_105)
+		Node { ( 415 ) ( 3418 ) } // entity (func_static_159)
 	}
 }

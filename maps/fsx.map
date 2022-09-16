@@ -7911,12 +7911,12 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 -184 ) ( ( 1.77635686587003e-16 -0.125 21 ) ( 0.0078125 0 8.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 0 1 0 960 ) ( ( 1.421085492696024e-15 -0.03125 123.25 ) ( 0.125 7.10542746348012e-16 149 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 1 0 0 -1192 ) ( ( 0 -0.03125 123.25 ) ( 0.0078125 0 8.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 0 0 -1 152 ) ( ( 0 -0.125 108 ) ( 0.0078125 0 8.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 0 1 -184 ) ( ( 1.77635686586998e-16 -0.1249999999999964 21 ) ( 0.01136363636363637 0 12.3636360168457 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 1 0 1000 ) ( ( 3.552713678800551e-15 -0.03124999999999956 123.25 ) ( 0.1249999999999964 8.881784197001252e-16 149 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 1 0 0 -1192 ) ( ( 0 -0.03125 123.25 ) ( 0.01136363636363637 0 12.3636360168457 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 0 -1 152 ) ( ( 0 -0.125 108 ) ( 0.01136363636363637 0 12.3636360168457 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
 ( 0 -1 0 -1088 ) ( ( 0 -0.03125 123.25 ) ( 0.125 0 108 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( -1 0 0 1184 ) ( ( 0 -0.03125 123.25 ) ( 0.0078125 0 248.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( -1 0 0 1184 ) ( ( 0 -0.03125 123.25 ) ( 0.01136363636363635 0 244.6363639831543 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
 }
 }
 // primitive 602
@@ -7935,12 +7935,12 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 -184 ) ( ( 0 -0.125 21 ) ( 0.0078125 0 7.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 0 1 0 832 ) ( ( 0 -0.03125 123.25 ) ( 0.125 8.881784197001252e-16 149 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 1 0 0 -1192 ) ( ( 0 -0.03125 123.25 ) ( 0.0078125 0 7.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 0 0 -1 152 ) ( ( 0 -0.125 108 ) ( 0.0078125 0 7.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 0 -1 0 -960 ) ( ( 0 -0.03125 123.25 ) ( 0.125 0 108 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( -1 0 0 1184 ) ( ( 0 -0.03125 123.25 ) ( 0.0078125 0 249.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 0 1 -184 ) ( ( 0 -0.125 21 ) ( 0.00480769230769231 0 4.807692527770996 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 1 0 792 ) ( ( 0 -0.03125 123.25 ) ( 0.1249999999999964 8.881784197001252e-16 149 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 1 0 0 -1192 ) ( ( 0 -0.03125 123.25 ) ( 0.00480769230769231 0 4.807692527770996 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 0 -1 152 ) ( ( 0 -0.125 108 ) ( 0.00480769230769231 0 4.807692527770996 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 -1 0 -1000 ) ( ( 0 -0.03125 123.25 ) ( 0.125 0 108 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( -1 0 0 1184 ) ( ( 0 -0.03125 123.25 ) ( 0.004807692307692318 0 252.1923077106476 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
 }
 }
 // primitive 604
@@ -7995,12 +7995,12 @@ brushDef3
 {
 brushDef3
 {
-( 0 0 1 -184 ) ( ( 0 -0.125 21 ) ( 0.0078125 0 6.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 0 1 0 704 ) ( ( 0 -0.03125 123.25 ) ( 0.125 8.881784197001252e-16 149 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 1 0 0 -1192 ) ( ( 0 -0.03125 123.25 ) ( 0.0078125 0 6.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 0 0 -1 152 ) ( ( 0 -0.125 108 ) ( 0.0078125 0 6.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( 0 -1 0 -832 ) ( ( 0 -0.03125 123.25 ) ( 0.125 0 108 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
-( -1 0 0 1184 ) ( ( 0 -0.03125 123.25 ) ( 0.0078125 0 250.5 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 0 1 -184 ) ( ( 0 -0.125 21 ) ( 0.01136363636363636 0 9 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 1 0 704 ) ( ( 0 -0.03125 123.25 ) ( 0.1249999999999964 8.881784197001e-16 149 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 1 0 0 -1192 ) ( ( 0 -0.03125 123.25 ) ( 0.01136363636363636 0 9 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 0 -1 152 ) ( ( 0 -0.125 108 ) ( 0.01136363636363636 0 9 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( 0 -1 0 -792 ) ( ( 0 -0.03125 123.25 ) ( 0.125 0 108 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
+( -1 0 0 1184 ) ( ( 0 -0.03125 123.25 ) ( 0.01136363636363635 0 248 ) ) "textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny" 0 0 0
 }
 }
 // primitive 609
@@ -42633,7 +42633,7 @@ patchDef3
 "classname" "func_static"
 "name" "func_static_207"
 "model" "models/darkmod/decorative/signs/sign_half_round_01.ase"
-"origin" "1156 -950 161"
+"origin" "1156 -1014 161"
 "rotation" "-1 -1.11022e-16 0 1.11022e-16 -1 0 0 0 1"
 "skin" "sign_shield_keg"
 }
@@ -42729,7 +42729,7 @@ brushDef3
 "light_center" "0 6 6"
 "light_radius" "140 104 164"
 "model" "models/darkmod/lights/non-extinguishable/lamp_wall_electric_01.ase"
-"origin" "1171 -780 156"
+"origin" "1168 -848 96"
 "rotation" "-1.11022e-16 1 0 -1 -1.11022e-16 0 0 0 1"
 }
 // entity 297
@@ -42737,7 +42737,7 @@ brushDef3
 "classname" "func_static"
 "name" "func_static_211"
 "model" "models/darkmod/hangers/signhanger_simple01.lwo"
-"origin" "1156 -949 168"
+"origin" "1156 -1013 168"
 "rotation" "1 0 0 0 1 0 0 0 1"
 }
 // entity 298
@@ -43989,7 +43989,7 @@ patchDef2
 "classname" "func_static"
 "name" "func_static_26"
 "model" "models/map_specific/symbols/H.ase"
-"origin" "1184 -864 158"
+"origin" "1184 -830 158"
 "rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
 "skin" "fs_letter_brass_dull_flecked"
 }
@@ -43997,17 +43997,71 @@ patchDef2
 {
 "classname" "func_static"
 "name" "func_static_25"
-"origin" "1184 -848 158"
-"rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
 "model" "models/map_specific/symbols/T.ase"
+"origin" "1184 -814 158"
+"rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
 "skin" "fs_letter_brass_dull_flecked"
 }
 // entity 409
 {
 "classname" "func_static"
 "name" "func_static_28"
-"origin" "1184 -882 158"
-"rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
 "model" "models/map_specific/symbols/E.ase"
+"origin" "1184 -848 158"
+"rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
+"skin" "fs_letter_brass_dull_flecked"
+}
+// entity 410
+{
+"classname" "func_static"
+"name" "func_static_29"
+"model" "models/map_specific/symbols/H.ase"
+"origin" "1184 -870 158"
+"rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
+"skin" "fs_letter_brass_dull_flecked"
+}
+// entity 411
+{
+"classname" "func_static"
+"name" "func_static_38"
+"origin" "1184 -888 158"
+"rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
+"model" "models/map_specific/symbols/A.ase"
+"skin" "fs_letter_brass_dull_flecked"
+}
+// entity 412
+{
+"classname" "func_static"
+"name" "func_static_77"
+"origin" "1184 -908 158"
+"rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
+"model" "models/map_specific/symbols/M.ase"
+"skin" "fs_letter_brass_dull_flecked"
+}
+// entity 413
+{
+"classname" "func_static"
+"name" "func_static_96"
+"origin" "1184 -928 158"
+"rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
+"model" "models/map_specific/symbols/M.ase"
+"skin" "fs_letter_brass_dull_flecked"
+}
+// entity 414
+{
+"classname" "func_static"
+"name" "func_static_105"
+"model" "models/map_specific/symbols/E.ase"
+"origin" "1184 -948 158"
+"rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
+"skin" "fs_letter_brass_dull_flecked"
+}
+// entity 415
+{
+"classname" "func_static"
+"name" "func_static_159"
+"origin" "1184 -964 158"
+"rotation" "1.11022e-16 -1 0 1 1.11022e-16 0 0 0 1"
+"model" "models/map_specific/symbols/R.ase"
 "skin" "fs_letter_brass_dull_flecked"
 }

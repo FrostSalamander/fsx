@@ -3,6 +3,10 @@ skin fs_letter_gold
     model models/map_specific/symbols/T.ase
     model models/map_specific/symbols/H.ase
     model models/map_specific/symbols/E.ase
+    model models/map_specific/symbols/H.ase
+    model models/map_specific/symbols/A.ase
+    model models/map_specific/symbols/M.ase
+    model models/map_specific/symbols/R.ase
 
     font textures/darkmod/metal/flat/gold01
 }
@@ -12,6 +16,10 @@ skin fs_letter_brass_dull_flecked
     model models/map_specific/symbols/T.ase
     model models/map_specific/symbols/H.ase
     model models/map_specific/symbols/E.ase
+    model models/map_specific/symbols/H.ase
+    model models/map_specific/symbols/A.ase
+    model models/map_specific/symbols/M.ase
+    model models/map_specific/symbols/R.ase
     
     font textures/darkmod/metal/flat/brass_dull_flecked
 }
