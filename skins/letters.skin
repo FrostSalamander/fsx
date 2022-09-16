@@ -1,13 +1,18 @@
-skin letter_gold
+skin fs_letter_gold
 {
-    model models/map_specific/t.lwo
+    model models/map_specific/symbols/T.ase
+    model models/map_specific/symbols/H.ase
+    model models/map_specific/symbols/E.ase
 
     font textures/darkmod/metal/flat/gold01
 }
 
-skin letter_brass_dull_flecked
+skin fs_letter_brass_dull_flecked
 {
-    model models/map_specific/t.lwo
-
+    model models/map_specific/symbols/T.ase
+    model models/map_specific/symbols/H.ase
+    model models/map_specific/symbols/E.ase
+    
     font textures/darkmod/metal/flat/brass_dull_flecked
 }
+
