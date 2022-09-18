@@ -1,0 +1,16 @@
+
+
+void movePlat(entity button,boolean bOpen,boolean bLocked,boolean bInterrupted) {
+
+    sys.println("calling script");
+    entity mover = button.getEntityKey("target0");
+    entity target = mover.getEntityKey("target"+button.getKey("moveDir"));
+    mover.moveTo(target);
+}
+
+
+// main - keep at bottom
+void main()
+{
+    sys.waitFrame();
+}
