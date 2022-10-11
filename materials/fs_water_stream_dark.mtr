@@ -10,7 +10,7 @@ textures/water_source/fs_water_stream_dark
 
 	{
 		vertexProgram HeatHazeWithMaskAndDepth.vfp
-		vertexParm 0 0, time * ((( parm5 + 0.1) - (( parm5 || 0) * 0.1)) * 7)
+		vertexParm 0 0, time * ((( parm5 + 0.1) - (( parm5 || 0) * 0.1)) * 3)
 		vertexParm 1 ((( parm6 + 1.5) - (( parm6 || 0) * 1.5)) * 4.7)
 		fragmentProgram HeatHazeWithMaskAndDepth.vfp
 		fragmentMap 0 _currentRender
