@@ -1,3 +1,42 @@
+
+// Entities
+
+string LIFT_DOOR1 = "atdm_mover_door_sliding_1";
+string LIFT_DOOR2 = "atdm_mover_door_sliding_2";
+
+boolean isBindChildrenOpen(entity mover)
+{
+    float bindChildren = mover.numBindChildren();
+    float i;
+
+    for (i=0; i < bindChildren; i++)
+    {
+        entity bindChild = mover.getBindChild(i);
+        sys.println(bindChild.getName());
+        if (bindChild.IsOpen())
+        {
+            sys.println("bind child" + bindChild.getName() + " is open");¦
+            return true;
+        }
+    }
+    return false;
+}
+
+void movePlat(entity button, boolean bOpen, boolean bLocked, boolean bInterrupted) {
+
+    //entity door1 = sys.getEntity(LIFT_DOOR1);
+    //entity door2 = sys.getEntity(LIFT_DOOR2);
+
+    entity mover = button.getEntityKey("target");
+    entity target = mover.getTarget(button.getIntKey("moveDir"));
+
+    if (!isBindChildrenOpen(mover)) {
+        mover.moveTo(target);
+    }
+}
+
+
+
 // main - keep at bottom
 void main()
 {
