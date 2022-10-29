@@ -1,0 +1,60 @@
+/*****************************************************************************
+The Dark Mod GPL Source Code
+
+This file is part of the The Dark Mod Source Code, originally based
+on the Doom 3 GPL Source Code as published in 2011.
+
+The Dark Mod Source Code is free software: you can redistribute it
+and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation, either version 3 of the License,
+or (at your option) any later version. For details, see LICENSE.TXT.
+
+Project: The Dark Mod (http://www.thedarkmod.com/)
+
+******************************************************************************/
+
+#ifndef __TDM_MOVERS__
+#define __TDM_MOVERS__
+
+/**
+Mover-related script objects and methods
+**/
+
+
+/**
+ * greebo: This is a scriptobject representing a MultiStateMoverPosition entity.
+ * It provides methods which are called when the MultiStateMover arrives or 
+ * leaves this position.
+ */
+object multistateposition
+{
+	/** 
+	 * greebo: This gets called when the mover arrives at this position.
+	 *
+	 * @mover: This is the mover entity which has just arrived.
+	 */
+	void onMultiStateMoverArrive(entity mover);
+
+	/** 
+	 * greebo: This gets called when the mover leaves this position.
+	 *
+	 * @mover: This is the mover entity which has just left.
+	 */
+	void onMultiStateMoverLeave(entity mover);
+};
+
+//---------------------------------------------------------------------------
+
+void multistateposition::onMultiStateMoverArrive(entity mover)
+{
+	sys.println("Hello");
+	sys.println(self.getName());
+    self.activateTargets(mover);
+}
+
+void multistateposition::onMultiStateMoverLeave(entity mover)
+{
+	sys.println("hi from leaving");
+}
+
+#endif //__TDM_MOVERS__

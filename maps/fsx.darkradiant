@@ -2,14 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "776012" } 
-		KeyValue { "LastCameraAngle" "-2.4 100.5 0" } 
-		KeyValue { "LastCameraPosition" "-1038.59 -85.2494 746.816" } 
+		KeyValue { "EditTimeInSeconds" "778344" } 
+		KeyValue { "LastCameraAngle" "-15 96.0001 0" } 
+		KeyValue { "LastCameraPosition" "-1218.57 -75.1427 64.2732" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/editor/aasobstacle" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 776012 }
+		TotalSecondsEdited { 778344 }
+	}
+	SelectionSets
+	{
 	}
 	Layers
 	{
@@ -12149,29 +12152,13 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_836)
 		Node { 0 } // entity (atdm_mover_elevator_button_8)
 		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (atdm_mover_door_sliding_1)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (atdm_mover_door_sliding_2)
-		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (info_locationSeparator_1)
 		Node { 0 } // entity (location_back_entrance)
 		Node { 0 } // entity (info_locationSeparator_3)
 		Node { 0 } // entity (location_apt_elevator_shaft)
 		Node { 0 } // entity (info_locationSeparator_4)
 		Node { 0 } // entity (info_locationSeparator_5)
-		Node { 0 } // entity (atdm_mover_door_sliding_3)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (atdm_mover_door_sliding_4)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (trigger_inactivity_1)
 		Node { 0 } // entity (atdm_lamp_electric_square_1_lit_14)
-		Node { 0 } // entity (func_mover_1)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (pos_apt_floor0)
 		Node { 0 } // entity (pos_apt_floor1)
 		Node { 0 } // entity (func_aas_obstacle_5)
@@ -12180,8 +12167,28 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (lift_button_floor_1)
 		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (trigger_inactivity_2)
 		Node { 0 } // entity (atdm_mover_elevator_button_9)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_mover_elevator_1)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (lift_button_floor_2)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_mover_door_sliding_5)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_mover_door_sliding_6)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_mover_door_sliding_4)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_mover_door_sliding_3)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_mover_door_sliding_2)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_mover_door_sliding_1)
 		Node { 0 } // brush (Brush)
 	}
 	SelectionGroups
@@ -13892,6 +13899,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 6105 { "" }
 		SelectionGroup 6106 { "" }
 		SelectionGroup 6107 { "" }
+		SelectionGroup 6108 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -21591,8 +21599,11 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1072 ) ( 6095 ) } // entity (func_static_1944)
 		Node { ( 1074 ) ( 6107 ) } // entity (atdm_mover_door_7)
 		Node { ( 1075 ) ( 6107 ) } // entity (atdm_handle_simple01_double_4)
-	}
-	SelectionSets
-	{
+		Node { ( 1092 11025 ) ( 6108 ) } // brush (Brush)
+		Node { ( 1092 11026 ) ( 6108 ) } // brush (Brush)
+		Node { ( 1092 11027 ) ( 6108 ) } // brush (Brush)
+		Node { ( 1092 11028 ) ( 6108 ) } // brush (Brush)
+		Node { ( 1092 11029 ) ( 6108 ) } // brush (Brush)
+		Node { ( 1092 11030 ) ( 6108 ) } // brush (Brush)
 	}
 }
