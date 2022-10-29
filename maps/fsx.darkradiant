@@ -1,5 +1,19 @@
 DarkRadiant Map Information File Version 2
 {
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "791045" } 
+		KeyValue { "LastCameraAngle" "-12.3 176.4 0" } 
+		KeyValue { "LastCameraPosition" "-1220.88 51.1193 52.8796" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/carpet/runners/ornate_red_white" } 
+	}
+	SelectionSets
+	{
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 791045 }
+	}
 	SelectionGroups
 	{
 		SelectionGroup 2 { "" }
@@ -9414,17 +9428,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1091 11059 ) ( 6108 ) } // brush (Brush)
 		Node { ( 1091 11060 ) ( 6108 ) } // brush (Brush)
 		Node { ( 1091 11061 ) ( 6108 ) } // brush (Brush)
-	}
-	MapProperties
-	{
-		KeyValue { "EditTimeInSeconds" "790601" } 
-		KeyValue { "LastCameraAngle" "-53.4 311.4 0" } 
-		KeyValue { "LastCameraPosition" "-1100.72 196.407 701.774" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/carpet/runners/ornate_red_white" } 
-	}
-	MapEditTimings
-	{
-		TotalSecondsEdited { 790601 }
 	}
 	Layers
 	{
@@ -21642,7 +21645,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (func_static_839)
+		Node { 0 } // entity (button_pos_apt_floor0)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (func_static_840)
@@ -21669,8 +21672,5 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (atdm_handle_simple01_double_5)
 		Node { 0 } // entity (atdm_sphere_brass_wall_twin_curved_4)
-	}
-	SelectionSets
-	{
 	}
 }

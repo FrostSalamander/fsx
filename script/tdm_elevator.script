@@ -1,0 +1,19 @@
+#ifndef ELEVATOR
+#define ELEVATOR
+object tdm_elevator
+{
+	entity lastTriggeredBy;
+	void init();
+	void storeTrigger(entity e, entity f);
+};
+void tdm_elevator::init()
+{
+	ResponseAdd(STIM_TRIGGER);
+	ResponseSetAction(STIM_TRIGGER,"storeTrigger");
+	ResponseEnable(STIM_TRIGGER,1);
+}
+void tdm_elevator::storeTrigger(entity e, entity f)
+{
+	lastTriggeredBy=e;
+}
+#endif

@@ -15,46 +15,91 @@ Project: The Dark Mod (http://www.thedarkmod.com/)
 
 #ifndef __TDM_MOVERS__
 #define __TDM_MOVERS__
+#include "script/tdm_elevator.script"
 
-/**
-Mover-related script objects and methods
-**/
-
-
-/**
- * greebo: This is a scriptobject representing a MultiStateMoverPosition entity.
- * It provides methods which are called when the MultiStateMover arrives or 
- * leaves this position.
- */
 object multistateposition
 {
-	/** 
-	 * greebo: This gets called when the mover arrives at this position.
-	 *
-	 * @mover: This is the mover entity which has just arrived.
-	 */
-	void onMultiStateMoverArrive(entity mover);
+    void onMultiStateMoverArrive(entity mover);
 
-	/** 
-	 * greebo: This gets called when the mover leaves this position.
-	 *
-	 * @mover: This is the mover entity which has just left.
-	 */
-	void onMultiStateMoverLeave(entity mover);
+    void onMultiStateMoverLeave(entity mover);
+
+    boolean isDoorsOpen();
+
+    void leave(entity mover);
+
+    void closeDoors();
 };
 
 //---------------------------------------------------------------------------
 
 void multistateposition::onMultiStateMoverArrive(entity mover)
 {
-	sys.println("Hello");
-	sys.println(self.getName());
     self.activateTargets(mover);
 }
 
 void multistateposition::onMultiStateMoverLeave(entity mover)
 {
-	sys.println("hi from leaving");
+    thread leave(mover);
+}
+
+void multistateposition::leave(entity mover)
+{
+    // close all the doors at this position
+    closeDoors();
+
+    // no idea why this is needed, but it doesn't work without it
+    sys.waitFrame();
+
+    // stop the lift
+    mover.stopMoving();
+
+    // the lift actually moves a bit before it's stopped.  We need it on the exact
+    // origin of the multistateposition for the 'open door' button to work, so put it back
+    mover.setOrigin(self.getOrigin());
+
+    while (isDoorsOpen())
+    {
+        sys.wait(0.1);
+    }
+
+    tdm_elevator lift = mover;
+
+    lift.activate(lift.lastTriggeredBy);
+}
+
+void multistateposition::closeDoors()
+{
+        float numDoors = self.numTargets();
+        float i;
+
+        for (i=0; i < numDoors; i++)
+        {
+            entity door = self.getTarget(i);
+            door.Close();
+        }
+}
+
+boolean multistateposition::isDoorsOpen()
+{
+
+    float numDoors = self.numTargets();
+    float i;
+
+    for (i=0; i < numDoors; i++)
+    {
+        entity door = self.getTarget(i);
+        if (door.IsOpen())
+        {
+            sys.println("door is open");
+            return true;
+        }
+        else
+        {
+            sys.println("door is closed");
+        }
+    }
+    sys.println("doors are all closed");
+    return false;
 }
 
 #endif //__TDM_MOVERS__
