@@ -1,8 +1,9 @@
 
 // Entities
 
-string LIFT_DOOR1 = "atdm_mover_door_sliding_1";
-string LIFT_DOOR2 = "atdm_mover_door_sliding_2";
+// Apartments multistate position entities
+string POS_APT_FLOOR_0 = "pos_apt_floor0";
+string POS_APT_FLOOR_1 = "pos_apt_floor1";
 
 boolean isBindChildrenOpen(entity mover)
 {
@@ -22,16 +23,22 @@ boolean isBindChildrenOpen(entity mover)
     return false;
 }
 
-void movePlat(entity button, boolean bOpen, boolean bLocked, boolean bInterrupted) {
+void controlLiftDoors(entity target, entity button, entity callscriptfunction)
+{
+    // The button that calls this is targeting the lift with 'target' spawnarg (i.e. not 'target0', 'target1', etc.)
+    entity lift = button.getEntityKey("target");
 
-    //entity door1 = sys.getEntity(LIFT_DOOR1);
-    //entity door2 = sys.getEntity(LIFT_DOOR2);
+    // Get the multistate position entity this button corresponds to
+    // custom spawnarg: didn't want to use 'target' or 'position' because they activate unwanted functionality on some buttons
+    entity multiStatePosition = button.getEntityKey("position_entity_name"); 
 
-    entity mover = button.getEntityKey("target");
-    entity target = mover.getTarget(button.getIntKey("moveDir"));
-
-    if (!isBindChildrenOpen(mover)) {
-        mover.moveTo(target);
+    // ensure the lift is idle and it's on the appropriate floor
+    if ( !lift.isMoving() && (lift.getOrigin() == multiStatePosition.getOrigin()) )
+    {
+        if (!target.IsOpen())
+        {
+            target.Open();
+        }
     }
 }
 
