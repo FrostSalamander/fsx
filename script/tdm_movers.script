@@ -44,27 +44,31 @@ void multistateposition::onMultiStateMoverLeave(entity mover)
 
 void multistateposition::leave(entity mover)
 {
-    // close all the doors at this position
-    closeDoors();
-
-    // no idea why this is needed, but it doesn't work without it
-    sys.waitFrame();
-
-    // stop the lift
-    mover.stopMoving();
-
-    // the lift actually moves a bit before it's stopped.  We need it on the exact
-    // origin of the multistateposition for the 'open door' button to work, so put it back
-    mover.setOrigin(self.getOrigin());
-
-    while (isDoorsOpen())
+    if (isDoorsOpen())
     {
-        sys.wait(0.1);
+        // close all the doors at this position
+        closeDoors();
+
+        // no idea why this is needed, but it doesn't work without it
+        sys.waitFrame();
+
+        // stop the lift
+        mover.stopMoving();
+
+        // the lift actually moves a bit before it's stopped.  We need it on the exact
+        // origin of the multistateposition for the 'open door' button to work, so put it back
+        mover.setOrigin(self.getOrigin());
+
+        while (isDoorsOpen())
+        {
+            sys.wait(0.1);
+        }
+
+        tdm_elevator lift = mover;
+
+        lift.activate(lift.lastTriggeredBy);
     }
 
-    tdm_elevator lift = mover;
-
-    lift.activate(lift.lastTriggeredBy);
 }
 
 void multistateposition::closeDoors()
