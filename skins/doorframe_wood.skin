@@ -2,6 +2,7 @@ skin doorframe_wood_walnut_02
 {
     model models/darkmod/architecture/doorframes/door_frame_wood_96x48.ase
     model models/darkmod/architecture/doorframes/door_frame_wood_104x56.ase
+    model models/darkmod/architecture/doorframes/door_frame_curved_96x48.lwo
     
     textures/darkmod/wood/boards/rough_wood_grey_ns textures/darkmod/wood/boards/wood_brown_walnut02
 }
