@@ -6,3 +6,10 @@ skin doorframe_wood_walnut_02
     
     textures/darkmod/wood/boards/rough_wood_grey_ns textures/darkmod/wood/boards/wood_brown_walnut02
 }
+
+skin fs_doorframe_wood_curved_96x48_scaled_sand
+{
+    model models/map_specific/scaled/door_frame_curved_96x48_scaled1.ase
+    
+    textures/darkmod/wood/boards/rough_wood_grey_ns textures/darkmod/wood/boards/rough_wood_sand
+}
