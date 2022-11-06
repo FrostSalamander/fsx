@@ -2,3 +2,8 @@ Title: FSX
 Version: [VERSION]
 Author: Frost_Salamander
 Description: WIP
+
+Credits:
+
+Wellingtoncrab: cobblestones pack
+IpoyPunk: Font Series 1 3D Model Collection from cgtrader.com (royalty-free license)
