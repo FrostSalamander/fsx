@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "955583" } 
-		KeyValue { "LastCameraAngle" "8.40001 173.4 0" } 
-		KeyValue { "LastCameraPosition" "1227.36 -114.334 144.517" } 
+		KeyValue { "EditTimeInSeconds" "955694" } 
+		KeyValue { "LastCameraAngle" "-13.5 218.1 0" } 
+		KeyValue { "LastCameraPosition" "1280.75 193.105 149.818" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/sandstone_largeblocks01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 955583 }
+		TotalSecondsEdited { 955694 }
 	}
 	Layers
 	{
@@ -14568,6 +14568,62 @@ DarkRadiant Map Information File Version 2
 		Node { 4 } // entity (func_static_1133)
 		Node { 4 } // entity (func_static_1134)
 		Node { 15 } // entity (atdm_lamp_oil_wall_hanging_lit_1)
+		Node { 15 } // entity (atdm_moveable_chair_dining_1_red_5)
+		Node { 15 } // entity (atdm_moveable_chair_dining_1_red_6)
+		Node { 15 } // entity (atdm_moveable_holder_round_plus_candle_3)
+		Node { 15 } // entity (func_static_1135)
+		Node { 4 } // entity (func_static_1136)
+		Node { 4 } // entity (func_static_1137)
+		Node { 4 } // entity (func_static_1138)
+		Node { 4 } // entity (func_static_1139)
+		Node { 4 } // entity (func_static_1140)
+		Node { 4 } // entity (func_static_1141)
+		Node { 4 } // entity (func_static_1142)
+		Node { 4 } // entity (func_static_1143)
+		Node { 4 } // entity (func_static_1144)
+		Node { 4 } // entity (func_static_1145)
+		Node { 15 } // entity (func_static_1146)
+		Node { 4 } // entity (func_static_1147)
+		Node { 4 } // entity (func_static_1148)
+		Node { 4 } // entity (func_static_1149)
+		Node { 4 } // entity (func_static_1150)
+		Node { 4 } // entity (func_static_1151)
+		Node { 4 } // entity (func_static_1152)
+		Node { 4 } // entity (func_static_1153)
+		Node { 4 } // entity (func_static_1154)
+		Node { 4 } // entity (func_static_1155)
+		Node { 4 } // entity (func_static_1156)
+		Node { 15 } // entity (atdm_moveable_chair_dining_1_red_7)
+		Node { 15 } // entity (atdm_moveable_holder_round_plus_candle_4)
+		Node { 15 } // entity (atdm_moveable_chair_dining_1_red_8)
+		Node { 4 } // entity (func_static_1157)
+		Node { 4 } // entity (func_static_1158)
+		Node { 15 } // entity (func_static_1159)
+		Node { 4 } // entity (func_static_1160)
+		Node { 4 } // entity (func_static_1161)
+		Node { 4 } // entity (func_static_1162)
+		Node { 4 } // entity (func_static_1163)
+		Node { 4 } // entity (func_static_1164)
+		Node { 4 } // entity (func_static_1165)
+		Node { 4 } // entity (func_static_1166)
+		Node { 4 } // entity (func_static_1167)
+		Node { 15 } // entity (atdm_moveable_chair_dining_1_red_9)
+		Node { 15 } // entity (atdm_moveable_holder_round_plus_candle_5)
+		Node { 15 } // entity (atdm_moveable_chair_dining_1_red_10)
+		Node { 4 } // entity (func_static_1168)
+		Node { 4 } // entity (func_static_1169)
+		Node { 4 } // entity (func_static_1170)
+		Node { 15 } // entity (func_static_1171)
+		Node { 4 } // entity (func_static_1172)
+		Node { 4 } // entity (func_static_1173)
+		Node { 4 } // entity (func_static_1174)
+		Node { 4 } // entity (func_static_1175)
+		Node { 4 } // entity (func_static_1176)
+		Node { 4 } // entity (func_static_1177)
+		Node { 4 } // entity (func_static_1178)
+		Node { 15 } // entity (atdm_moveable_chair_dining_1_red_11)
+		Node { 15 } // entity (atdm_moveable_holder_round_plus_candle_6)
+		Node { 15 } // entity (atdm_moveable_chair_dining_1_red_12)
 	}
 	SelectionGroups
 	{
@@ -16459,6 +16515,19 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 6458 { "" }
 		SelectionGroup 6459 { "" }
 		SelectionGroup 6460 { "" }
+		SelectionGroup 6461 { "" }
+		SelectionGroup 6462 { "" }
+		SelectionGroup 6463 { "" }
+		SelectionGroup 6464 { "" }
+		SelectionGroup 6465 { "" }
+		SelectionGroup 6466 { "" }
+		SelectionGroup 6467 { "" }
+		SelectionGroup 6468 { "" }
+		SelectionGroup 6469 { "" }
+		SelectionGroup 6470 { "" }
+		SelectionGroup 6471 { "" }
+		SelectionGroup 6472 { "" }
+		SelectionGroup 6473 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -25043,16 +25112,20 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1523 ) ( 6454 ) } // entity (func_static_2805)
 		Node { ( 1526 ) ( 6454 ) } // entity (func_static_2808)
 		Node { ( 1535 ) ( 6451 ) } // entity (atdm_moveable_loot_goblet_19)
-		Node { ( 1544 ) ( 6457 ) } // entity (func_static_1112)
-		Node { ( 1545 ) ( 6457 ) } // entity (func_static_1113)
-		Node { ( 1546 ) ( 6457 ) } // entity (func_static_1114)
-		Node { ( 1547 ) ( 6457 ) } // entity (func_static_1115)
-		Node { ( 1548 ) ( 6458 ) } // entity (func_static_1118)
-		Node { ( 1549 ) ( 6457 ) } // entity (func_static_1119)
-		Node { ( 1550 ) ( 6458 ) } // entity (func_static_1120)
-		Node { ( 1551 ) ( 6458 ) } // entity (func_static_1121)
-		Node { ( 1552 ) ( 6458 ) } // entity (func_static_1122)
-		Node { ( 1553 ) ( 6458 ) } // entity (func_static_1123)
+		Node { ( 1540 ) ( 6461 ) } // entity (atdm_moveable_chair_dining_1_red_3)
+		Node { ( 1541 ) ( 6461 ) } // entity (atdm_moveable_chair_dining_1_red_4)
+		Node { ( 1542 ) ( 6461 ) } // entity (func_static_1111)
+		Node { ( 1543 ) ( 6461 ) } // entity (atdm_moveable_holder_round_plus_candle_1)
+		Node { ( 1544 ) ( 6457 6461 ) } // entity (func_static_1112)
+		Node { ( 1545 ) ( 6457 6461 ) } // entity (func_static_1113)
+		Node { ( 1546 ) ( 6457 6461 ) } // entity (func_static_1114)
+		Node { ( 1547 ) ( 6457 6461 ) } // entity (func_static_1115)
+		Node { ( 1548 ) ( 6458 6461 ) } // entity (func_static_1118)
+		Node { ( 1549 ) ( 6457 6461 ) } // entity (func_static_1119)
+		Node { ( 1550 ) ( 6458 6461 ) } // entity (func_static_1120)
+		Node { ( 1551 ) ( 6458 6461 ) } // entity (func_static_1121)
+		Node { ( 1552 ) ( 6458 6461 ) } // entity (func_static_1122)
+		Node { ( 1553 ) ( 6458 6461 ) } // entity (func_static_1123)
 		Node { ( 1556 ) ( 6459 ) } // entity (func_static_1125)
 		Node { ( 1557 ) ( 6459 ) } // entity (func_static_1126)
 		Node { ( 1558 ) ( 6459 ) } // entity (func_static_1127)
@@ -25063,6 +25136,62 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1563 ) ( 6459 ) } // entity (func_static_1132)
 		Node { ( 1564 ) ( 6460 ) } // entity (func_static_1133)
 		Node { ( 1565 ) ( 6460 ) } // entity (func_static_1134)
+		Node { ( 1567 ) ( 6462 ) } // entity (atdm_moveable_chair_dining_1_red_5)
+		Node { ( 1568 ) ( 6462 ) } // entity (atdm_moveable_chair_dining_1_red_6)
+		Node { ( 1569 ) ( 6462 ) } // entity (atdm_moveable_holder_round_plus_candle_3)
+		Node { ( 1570 ) ( 6462 ) } // entity (func_static_1135)
+		Node { ( 1571 ) ( 6463 6462 ) } // entity (func_static_1136)
+		Node { ( 1572 ) ( 6463 6462 ) } // entity (func_static_1137)
+		Node { ( 1573 ) ( 6464 6462 ) } // entity (func_static_1138)
+		Node { ( 1574 ) ( 6464 6462 ) } // entity (func_static_1139)
+		Node { ( 1575 ) ( 6464 6462 ) } // entity (func_static_1140)
+		Node { ( 1576 ) ( 6463 6462 ) } // entity (func_static_1141)
+		Node { ( 1577 ) ( 6464 6462 ) } // entity (func_static_1142)
+		Node { ( 1578 ) ( 6463 6462 ) } // entity (func_static_1143)
+		Node { ( 1579 ) ( 6464 6462 ) } // entity (func_static_1144)
+		Node { ( 1580 ) ( 6463 6462 ) } // entity (func_static_1145)
+		Node { ( 1581 ) ( 6465 ) } // entity (func_static_1146)
+		Node { ( 1582 ) ( 6466 6465 ) } // entity (func_static_1147)
+		Node { ( 1583 ) ( 6467 6465 ) } // entity (func_static_1148)
+		Node { ( 1584 ) ( 6467 6465 ) } // entity (func_static_1149)
+		Node { ( 1585 ) ( 6466 6465 ) } // entity (func_static_1150)
+		Node { ( 1586 ) ( 6466 6465 ) } // entity (func_static_1151)
+		Node { ( 1587 ) ( 6467 6465 ) } // entity (func_static_1152)
+		Node { ( 1588 ) ( 6466 6465 ) } // entity (func_static_1153)
+		Node { ( 1589 ) ( 6467 6465 ) } // entity (func_static_1154)
+		Node { ( 1590 ) ( 6467 6465 ) } // entity (func_static_1155)
+		Node { ( 1591 ) ( 6466 6465 ) } // entity (func_static_1156)
+		Node { ( 1592 ) ( 6465 ) } // entity (atdm_moveable_chair_dining_1_red_7)
+		Node { ( 1593 ) ( 6465 ) } // entity (atdm_moveable_holder_round_plus_candle_4)
+		Node { ( 1594 ) ( 6465 ) } // entity (atdm_moveable_chair_dining_1_red_8)
+		Node { ( 1595 ) ( 6470 6468 ) } // entity (func_static_1157)
+		Node { ( 1596 ) ( 6470 6468 ) } // entity (func_static_1158)
+		Node { ( 1597 ) ( 6468 ) } // entity (func_static_1159)
+		Node { ( 1598 ) ( 6470 6468 ) } // entity (func_static_1160)
+		Node { ( 1599 ) ( 6469 6468 ) } // entity (func_static_1161)
+		Node { ( 1600 ) ( 6470 6468 ) } // entity (func_static_1162)
+		Node { ( 1601 ) ( 6469 6468 ) } // entity (func_static_1163)
+		Node { ( 1602 ) ( 6469 6468 ) } // entity (func_static_1164)
+		Node { ( 1603 ) ( 6469 6468 ) } // entity (func_static_1165)
+		Node { ( 1604 ) ( 6470 6468 ) } // entity (func_static_1166)
+		Node { ( 1605 ) ( 6469 6468 ) } // entity (func_static_1167)
+		Node { ( 1606 ) ( 6468 ) } // entity (atdm_moveable_chair_dining_1_red_9)
+		Node { ( 1607 ) ( 6468 ) } // entity (atdm_moveable_holder_round_plus_candle_5)
+		Node { ( 1608 ) ( 6468 ) } // entity (atdm_moveable_chair_dining_1_red_10)
+		Node { ( 1609 ) ( 6471 6472 ) } // entity (func_static_1168)
+		Node { ( 1610 ) ( 6473 6472 ) } // entity (func_static_1169)
+		Node { ( 1611 ) ( 6471 6472 ) } // entity (func_static_1170)
+		Node { ( 1612 ) ( 6472 ) } // entity (func_static_1171)
+		Node { ( 1613 ) ( 6471 6472 ) } // entity (func_static_1172)
+		Node { ( 1614 ) ( 6473 6472 ) } // entity (func_static_1173)
+		Node { ( 1615 ) ( 6471 6472 ) } // entity (func_static_1174)
+		Node { ( 1616 ) ( 6471 6472 ) } // entity (func_static_1175)
+		Node { ( 1617 ) ( 6473 6472 ) } // entity (func_static_1176)
+		Node { ( 1618 ) ( 6473 6472 ) } // entity (func_static_1177)
+		Node { ( 1619 ) ( 6473 6472 ) } // entity (func_static_1178)
+		Node { ( 1620 ) ( 6472 ) } // entity (atdm_moveable_chair_dining_1_red_11)
+		Node { ( 1621 ) ( 6472 ) } // entity (atdm_moveable_holder_round_plus_candle_6)
+		Node { ( 1622 ) ( 6472 ) } // entity (atdm_moveable_chair_dining_1_red_12)
 	}
 	SelectionSets
 	{
