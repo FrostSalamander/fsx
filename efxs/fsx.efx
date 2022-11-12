@@ -1,0 +1,23 @@
+Version 2
+
+//////////////
+// HOTEL
+//////////////
+eaxreverb "location_hotel_lobby" {
+  preset AUDITORIUM
+}
+eaxreverb "location_hotel_restaurant" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_hotel_restaurant_private_room" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_hotel_toilet_hallway" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_hotel_toilet_male_toilet" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_hotel_kitchen" {
+  preset CASTLE_SMALLROOM
+}

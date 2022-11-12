@@ -1,0 +1,7 @@
+skin fs_tavern_bar01_walnut
+{
+    model models/darkmod/furniture/tavern_bar01.lwo
+    
+    textures/darkmod/wood/boards/wood_brown_dull01 textures/darkmod/wood/boards/wood_brown_walnut02
+    textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/wood/panels/walnut_panel01
+}
