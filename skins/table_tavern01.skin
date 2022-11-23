@@ -1,0 +1,8 @@
+
+
+skin fs_table_tavern01_sand
+{
+	model	"models/darkmod/furniture/tables/table_tavern01.lwo"
+
+	"*"	"textures/darkmod/wood/boards/rough_wood_sand"
+}
