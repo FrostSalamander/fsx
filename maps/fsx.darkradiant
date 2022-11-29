@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1189915" } 
-		KeyValue { "LastCameraAngle" "-21 267 0" } 
-		KeyValue { "LastCameraPosition" "-189.192 4117.55 192.592" } 
+		KeyValue { "EditTimeInSeconds" "1189986" } 
+		KeyValue { "LastCameraAngle" "-76.5 181.2 0" } 
+		KeyValue { "LastCameraPosition" "-275.648 3872.42 1395.77" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/cobblestones/rough_masonry01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1189915 }
+		TotalSecondsEdited { 1189986 }
 	}
 	SelectionGroups
 	{
@@ -3030,6 +3030,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 8112 { "" }
 		SelectionGroup 8113 { "" }
 		SelectionGroup 8114 { "" }
+		SelectionGroup 8115 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -7746,6 +7747,7 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 9146 ) ( 6274 ) } // patch (Patch)
 		Node { ( 0 9147 ) ( 6274 ) } // patch (Patch)
 		Node { ( 0 9156 ) ( 6308 ) } // brush (Brush)
+		Node { ( 0 9158 ) ( 8115 ) } // brush (Brush)
 		Node { ( 0 9162 ) ( 6309 ) } // brush (Brush)
 		Node { ( 0 9163 ) ( 6309 ) } // brush (Brush)
 		Node { ( 0 9164 ) ( 6309 ) } // brush (Brush)
@@ -8731,6 +8733,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 11386 ) ( 8064 ) } // patch (Patch)
 		Node { ( 0 11387 ) ( 8064 ) } // patch (Patch)
 		Node { ( 0 11388 ) ( 8065 ) } // patch (Patch)
+		Node { ( 0 11395 ) ( 8115 ) } // brush (Brush)
+		Node { ( 0 11396 ) ( 8115 ) } // brush (Brush)
 		Node { ( 0 11421 ) ( 8088 ) } // brush (Brush)
 		Node { ( 0 11423 ) ( 8071 ) } // brush (Brush)
 		Node { ( 0 11424 ) ( 8071 ) } // brush (Brush)
