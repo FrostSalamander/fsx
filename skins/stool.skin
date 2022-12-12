@@ -1,0 +1,13 @@
+skin fs_stool_round_rough_darkbrown
+{
+    model    "models/darkmod/furniture/seating/stool_round_rough.lwo"
+
+    "*" "textures/darkmod/wood/boards/rough_wood_darkbrown"
+}
+
+skin fs_stool_round_beam_brown_old
+{
+    model    "models/darkmod/furniture/seating/stool_round_rough.lwo"
+
+    "*" "textures/darkmod/wood/panels/beam_brown_old"
+}
