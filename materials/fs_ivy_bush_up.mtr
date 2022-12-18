@@ -1,0 +1,17 @@
+
+
+textures/darkmod/decals/vegetation/fs_ivy_bush_up
+{
+	surftype15
+	description "foliage"
+
+	noSelfShadow
+	twosided
+	ladder
+	{
+		blend diffusemap
+		map models/darkmod/props/textures/ivy1_d
+		alphaTest 0.5
+	}
+	bumpmap models/darkmod/props/textures/ivy1_local
+}
