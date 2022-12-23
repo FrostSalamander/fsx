@@ -21,3 +21,25 @@ readables/fsx/scroll_atkinson_to_burns
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/hotel_booked_note
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		""
+		""
+		""
+		"     Dining Room Closed"
+		"     for Private Function"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_print_carleton_caps.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

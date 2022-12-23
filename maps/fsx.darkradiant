@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1542355" } 
-		KeyValue { "LastCameraAngle" "-16.8 207.3 0" } 
-		KeyValue { "LastCameraPosition" "1398.68 386.668 140.198" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/sandstone_largeblocks01" } 
+		KeyValue { "EditTimeInSeconds" "1543065" } 
+		KeyValue { "LastCameraAngle" "-31.8 212.7 0" } 
+		KeyValue { "LastCameraPosition" "1209.65 338.733 160.626" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/brass01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1542355 }
+		TotalSecondsEdited { 1543065 }
 	}
 	Layers
 	{
@@ -26546,7 +26546,13 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 22 } // entity (atdm_handle_ornate01_double_1)
 		Node { 22 } // entity (atdm_handle_ornate01_double_2)
-		Node { 22 } // entity (func_static_2970)
+		Node { 22 } // entity (func_static_2971)
+		Node { 22 } // brush (Brush)
+		Node { 22 } // brush (Brush)
+		Node { 22 } // patch (Patch)
+		Node { 22 } // patch (Patch)
+		Node { 22 } // patch (Patch)
+		Node { 22 } // entity (atdm_readable_immobile_paper01_1)
 	}
 	SelectionGroups
 	{
@@ -30240,6 +30246,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 9253 { "" }
 		SelectionGroup 9254 { "" }
 		SelectionGroup 9257 { "" }
+		SelectionGroup 9258 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -44259,6 +44266,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4052 ) ( 9254 9257 ) } // entity (func_static_2966)
 		Node { ( 4053 ) ( 9254 9257 ) } // entity (func_static_2968)
 		Node { ( 4054 ) ( 9254 9257 ) } // entity (func_static_2969)
+		Node { ( 4058 22421 ) ( 9258 ) } // patch (Patch)
+		Node { ( 4058 22422 ) ( 9258 ) } // patch (Patch)
 	}
 	SelectionSets
 	{
