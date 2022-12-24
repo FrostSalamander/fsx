@@ -1,0 +1,21 @@
+textures/darkmod/decals/signs/tuna
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/tuna
+	}
+}
+
+textures/darkmod/decals/signs/octopus
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/octopus
+	}
+}
