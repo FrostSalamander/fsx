@@ -6,5 +6,12 @@ Description: WIP
 Credits:
 
 Wellingtoncrab: cobblestones pack
-IpoyPunk: Font Series 1 3D Model Collection from cgtrader.com (royalty-free license)
 Greebo: For his awesome DarkRadiant work and also for Fbx2Lwo which came in handy for this FM.
+
+Models:
+
+IpoyPunk: Font Series 1 3D Model Collection from cgtrader.com (royalty-free license)
+
+Images:
+
+Gemstone image by nneem from Pixabay 

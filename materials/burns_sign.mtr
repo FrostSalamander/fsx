@@ -1,11 +1,10 @@
-textures/darkmod/decals/signs/burns
+textures/darkmod/decals/signs/burns_gem
 {
-	qer_editorimage	textures/darkmod/decals/signs/burns.tga
 	DECAL_MACRO
 	noimpact
 	
 	{
 		blend blend
-		map textures/darkmod/decals/signs/burns
+		map textures/darkmod/decals/signs/burns_gem
 	}
 }
