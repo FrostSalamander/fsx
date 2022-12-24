@@ -43,3 +43,24 @@ readables/fsx/hotel_booked_note
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_print_carleton_caps.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/hotel_note_room_21_key
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Sir,"
+		""
+		"    I had to give Atkinson in room 21 the spare key to his room.  He claims he must have lost his key at The Hammer, which I don't doubt as he reeked of drink and was quite worse for wear."
+		""
+		"    I'll head over there in the morning and speak to the landlord."
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
