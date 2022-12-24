@@ -1,0 +1,12 @@
+textures/readables/woman_coif
+{
+
+  surftype15
+  description "paper"
+
+    {
+        blend	diffusemap
+        map	textures/readables/woman_coif
+        alphaTest 0.9
+    }
+}
