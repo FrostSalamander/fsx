@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1871136" } 
-		KeyValue { "LastCameraAngle" "-14.4 42.6004 0" } 
-		KeyValue { "LastCameraPosition" "-849.032 4576.58 223.336" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/panels/molding_walnut" } 
+		KeyValue { "EditTimeInSeconds" "1871431" } 
+		KeyValue { "LastCameraAngle" "-2.4 126.6 0" } 
+		KeyValue { "LastCameraPosition" "-531.67 4578.41 205.534" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/wood_brown_walnut02" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1871136 }
+		TotalSecondsEdited { 1871431 }
 	}
 	Layers
 	{
@@ -31663,6 +31663,22 @@ DarkRadiant Map Information File Version 2
 		Node { 11 } // brush (Brush)
 		Node { 11 } // brush (Brush)
 		Node { 11 } // brush (Brush)
+		Node { 11 } // entity (func_static_3507)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // patch (Patch)
+		Node { 11 } // patch (Patch)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
 	}
 	SelectionGroups
 	{
@@ -35965,6 +35981,9 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 10349 { "" }
 		SelectionGroup 10352 { "" }
 		SelectionGroup 10355 { "" }
+		SelectionGroup 10356 { "" }
+		SelectionGroup 10361 { "" }
+		SelectionGroup 10363 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -43927,6 +43946,10 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 16483 ) ( 10295 ) } // brush (Brush)
 		Node { ( 0 16484 ) ( 10295 ) } // brush (Brush)
 		Node { ( 0 16485 ) ( 10295 ) } // brush (Brush)
+		Node { ( 0 16501 ) ( 10356 ) } // brush (Brush)
+		Node { ( 0 16502 ) ( 10356 ) } // brush (Brush)
+		Node { ( 0 16503 ) ( 10356 ) } // brush (Brush)
+		Node { ( 0 16504 ) ( 10356 ) } // brush (Brush)
 		Node { ( 2 ) ( 2 ) } // entity (Objectives)
 		Node { ( 3 ) ( 2 ) } // entity (CompassEasy)
 		Node { ( 4 ) ( 2 ) } // entity (LanternEasy)
@@ -52439,6 +52462,14 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4805 26780 ) ( 10352 ) } // brush (Brush)
 		Node { ( 4805 26782 ) ( 10352 ) } // brush (Brush)
 		Node { ( 4805 26786 ) ( 10352 ) } // brush (Brush)
+		Node { ( 4806 26787 ) ( 10361 ) } // brush (Brush)
+		Node { ( 4806 26792 ) ( 10361 ) } // brush (Brush)
+		Node { ( 4806 26795 ) ( 10361 ) } // brush (Brush)
+		Node { ( 4806 26796 ) ( 10361 ) } // brush (Brush)
+		Node { ( 4806 26797 ) ( 10363 ) } // brush (Brush)
+		Node { ( 4806 26798 ) ( 10363 ) } // brush (Brush)
+		Node { ( 4806 26800 ) ( 10363 ) } // brush (Brush)
+		Node { ( 4806 26801 ) ( 10363 ) } // brush (Brush)
 	}
 	SelectionSets
 	{
