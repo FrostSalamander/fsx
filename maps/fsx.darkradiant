@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1972508" } 
-		KeyValue { "LastCameraAngle" "-24 54.913 0" } 
-		KeyValue { "LastCameraPosition" "697.178 4772.76 93.0377" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/grey_brick_dull" } 
+		KeyValue { "EditTimeInSeconds" "1972802" } 
+		KeyValue { "LastCameraAngle" "-10.5 357.313 0" } 
+		KeyValue { "LastCameraPosition" "694.013 4791.93 67.0648" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/plaster/plaster_01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1972508 }
+		TotalSecondsEdited { 1972802 }
 	}
 	Layers
 	{
@@ -32444,6 +32444,10 @@ DarkRadiant Map Information File Version 2
 		Node { 11 } // patch (Patch)
 		Node { 11 } // patch (Patch)
 		Node { 11 } // patch (Patch)
+		Node { 11 } // entity (func_static_3669)
+		Node { 11 } // entity (func_static_3670)
+		Node { 11 } // entity (func_static_3671)
+		Node { 11 } // entity (func_static_3672)
 	}
 	SelectionSets
 	{
@@ -36874,6 +36878,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 10736 { "" }
 		SelectionGroup 10737 { "" }
 		SelectionGroup 10738 { "" }
+		SelectionGroup 10739 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -53747,6 +53752,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4999 27290 ) ( 10721 10722 ) } // patch (Patch)
 		Node { ( 4999 27291 ) ( 10721 10722 ) } // patch (Patch)
 		Node { ( 4999 27292 ) ( 10722 ) } // brush (Brush)
+		Node { ( 5006 ) ( 10739 ) } // entity (func_static_3646)
+		Node { ( 5007 ) ( 10739 ) } // entity (func_static_3647)
+		Node { ( 5008 ) ( 10739 ) } // entity (func_static_3648)
+		Node { ( 5009 ) ( 10739 ) } // entity (func_static_3649)
+		Node { ( 5010 ) ( 10739 ) } // entity (func_static_3650)
+		Node { ( 5011 ) ( 10739 ) } // entity (func_static_3643)
+		Node { ( 5012 ) ( 10739 ) } // entity (func_static_3644)
 		Node { ( 5013 ) ( 10731 ) } // entity (func_static_3645)
 		Node { ( 5014 ) ( 10731 ) } // entity (func_static_3656)
 		Node { ( 5015 ) ( 10731 ) } // entity (func_static_3655)
