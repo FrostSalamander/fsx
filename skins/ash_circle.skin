@@ -1,0 +1,6 @@
+skin ash_circle
+{
+    model models/darkmod/junk/dirt_circle01.lwo
+
+    textures/darkmod/nature/dirt/dirt_002_dark textures/darkmod/decals/dirt/ash01_crumb_edge_new
+}
