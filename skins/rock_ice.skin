@@ -1,0 +1,6 @@
+skin rock_ice
+{
+    model models/darkmod/nature/rocks/rock_tops/rock_small_12x6.ase
+
+    textures/darkmod/stone/natural/rock_brown_rough textures/darkmod/nature/snow/plain_ice01
+}
