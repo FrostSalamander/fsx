@@ -10,13 +10,15 @@ readables/fsx/scroll_atkinson_to_burns
 	{
 		"Burns,"
 		""
-		"    Change of plan.  Meet me at The Hammer instead.  Someone has gone and booked the entire hotel restaurant for themselves tonight."
+		"    Change of plan.  Meet me at The Hammer instead.  Someone has gone and booked the entire hotel restaurant for themselves tonight!"
 		""
 		"    If we can agree on price I'll bring it over to your office first thing in the morning.  If not, it will still be good to catch up after all these years!"
 		""
-		"I'll see you around 7 PM."
-		""
 		"Atkinson"
+		""
+		"P.S. If you can't make it tonight, I'm in town until Friday. Room 21 at The Watford."
+		""
+		""
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -44,23 +46,30 @@ readables/fsx/hotel_booked_note
 	"snd_page_turn"	: "readable_page_turn"
 }
 
-
-readables/fsx/hotel_note_room_21_key
+readables/fsx/hotel_shift_change_log
 {
 	precache
 	"num_pages"	: "1"
-	"page1_title"	:
+	"page1_left_title"	:
 	{
 		""
 	}
-	"page1_body"	:
+	"page1_left_body"	:
 	{
-		"Sir,"
+		"Shift log 21/08"
 		""
-		"    I had to give Atkinson in room 21 the spare key to his room.  He claims he must have lost his key at The Hammer, which I don't doubt as he reeked of drink and was quite worse for wear."
+		"13:08. Party for Coates booked restaurant for tonight.  20:00 until close. As per our usual arrangement the restaurant will be closed to other guests."
 		""
-		"    I'll head over there in the morning and speak to the landlord."
+		"21:57. Fellow by the name of Burns came wandering in asking if we'd seen Atkinson from room 21.  Apparently they had an appointment"
 	}
-	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"at The Hammer and he never showed.  I informed him that what our guests get up to outside the hotel is none of our business.  For the record, Atkinson did in fact head out around 19:00 but hasn't returned."
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
