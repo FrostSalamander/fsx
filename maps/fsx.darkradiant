@@ -2,17 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1999431" } 
-		KeyValue { "LastCameraAngle" "-1.5 219.613 0" } 
-		KeyValue { "LastCameraPosition" "-284.033 -323.164 285.916" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/decals/signs/lawyer" } 
-	}
-	SelectionSets
-	{
+		KeyValue { "EditTimeInSeconds" "2002838" } 
+		KeyValue { "LastCameraAngle" "-10.5 180.013 0" } 
+		KeyValue { "LastCameraPosition" "901.842 601.366 93.8055" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/sandstone_largeblocks01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1999431 }
+		TotalSecondsEdited { 2002838 }
 	}
 	Layers
 	{
@@ -32667,6 +32664,8 @@ DarkRadiant Map Information File Version 2
 		Node { 11 } // patch (Patch)
 		Node { 11 } // entity (info_locationSeparator_188)
 		Node { 0 } // entity (location_burns_shop)
+		Node { 11 } // entity (atdm_handle_simple01_double_20)
+		Node { 11 } // entity (atdm_handle_simple01_double_21)
 	}
 	SelectionGroups
 	{
@@ -54134,5 +54133,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5095 27493 ) ( 10791 ) } // patch (Patch)
 		Node { ( 5095 27494 ) ( 10792 ) } // patch (Patch)
 		Node { ( 5095 27495 ) ( 10792 ) } // patch (Patch)
+	}
+	SelectionSets
+	{
 	}
 }
