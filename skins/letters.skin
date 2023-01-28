@@ -7,6 +7,9 @@ skin fs_letter_gold
     model models/map_specific/symbols/A.ase
     model models/map_specific/symbols/M.ase
     model models/map_specific/symbols/R.ase
+    model models/map_specific/symbols/I.ase
+    model models/map_specific/symbols/V.ase
+    model models/map_specific/symbols/W.ase
 
     font textures/darkmod/metal/flat/gold01
 }
@@ -20,7 +23,25 @@ skin fs_letter_brass_dull_flecked
     model models/map_specific/symbols/A.ase
     model models/map_specific/symbols/M.ase
     model models/map_specific/symbols/R.ase
-    
+    model models/map_specific/symbols/I.ase
+    model models/map_specific/symbols/V.ase
+    model models/map_specific/symbols/W.ase
+
     font textures/darkmod/metal/flat/brass_dull_flecked
 }
 
+skin fs_letter_iron_flat
+{
+    model models/map_specific/symbols/T.ase
+    model models/map_specific/symbols/H.ase
+    model models/map_specific/symbols/E.ase
+    model models/map_specific/symbols/H.ase
+    model models/map_specific/symbols/A.ase
+    model models/map_specific/symbols/M.ase
+    model models/map_specific/symbols/R.ase
+    model models/map_specific/symbols/I.ase
+    model models/map_specific/symbols/V.ase
+    model models/map_specific/symbols/W.ase
+
+    font textures/darkmod/metal/flat/iron_flat
+}

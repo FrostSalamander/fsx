@@ -12,7 +12,7 @@ readables/fsx/scroll_atkinson_to_burns
 		""
 		"    Change of plan.  Meet me at The Hammer instead.  Someone has gone and booked the entire hotel restaurant for themselves tonight!"
 		""
-		"    If we can agree on price I'll bring it over to your office first thing in the morning.  If not, it will still be good to catch up after all these years!"
+		"    I'm looking forward to catching up after all these years!"
 		""
 		"Atkinson"
 		""
@@ -20,7 +20,7 @@ readables/fsx/scroll_atkinson_to_burns
 		""
 		""
 	}
-	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -85,7 +85,9 @@ readables/fsx/journal_burns
 	}
 	"page1_left_body"	:
 	{
-		"  Ah Atkinson, why did you have to get involved? My paymasters didn't know about our history until you reached out. I'm sorry my dear old friend..."
+		"19/07  "
+		""
+		"  Ah Jonas, why did you have to get involved?"
 	}
 	"page1_right_title"	:
 	{
@@ -96,5 +98,81 @@ readables/fsx/journal_burns
 		""
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/letter_atkinson
+{
+	precache
+	"num_pages"	: "3"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Dear Rupert,"
+		""
+		"  Hello old chap! I hope this letter reaches you.  My God, it's been an age since we've spoken!  However I must be brief, and forgive me for reaching out under these circumstances..."
+		""
+		"  You see, I've run into a bit of trouble recently. Business is slow, Emma and I have another child on the way and we're struggling to make ends meet as it is.  Don't get the wrong impression, I'm not"
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		"asking for money, I couldn't do that."
+		""
+		"  After our graduation, you mentioned in confidence that you had accepted a position in His Majesty's Intelligence Service.  If that is still the case, we may be able to help one another."
+		""
+		"  You see, this fellow Coates that everyone is up in arms about... he happens to be courting my neighbour's daughter.  Secretly of course. I could be in a position to provide any amount of valuable information to an agent such as yourself.  But of course, I must ask for a"
+	}
+	"page3_title"	:
+	{
+		""
+	}
+	"page3_body"	:
+	{
+		"modest stipend in return that I'm certain His Majesty could well afford."
+		""
+		"  Dear friend, my sincerest apologies if my request is out of order, but I must do what I can to support my family."
+		""
+		"  I will await your reply with some anxiety.  Say the word and I will be on the next available coach into the city."
+		""
+		"Your friend,"
+		""
+		"Jonas Atkinson"
+	}
+	"gui_page1"	: "guis/readables/scrolls/scroll_hand_ellianerelle.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page3"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/letter_burns_to_atkinson
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Johan,"
+		""
+		"    My word, how lovely to hear from you!  I will cut straight to the chase - indeed I believe I can be of service.  The jewelry trade is booming in the city at the moment and I can certainly find something for you here."
+		""
+		"    If you hurry down as promised, we shall be in each other's company by mid-next week."
+		""
+		"Your sincere friend,"
+		""
+		"Rupert Burns"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
