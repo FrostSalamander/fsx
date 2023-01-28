@@ -73,3 +73,28 @@ readables/fsx/hotel_shift_change_log
 	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/journal_burns
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"  Ah Atkinson, why did you have to get involved? My paymasters didn't know about our history until you reached out. I'm sorry my dear old friend..."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

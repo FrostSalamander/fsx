@@ -1,8 +1,26 @@
 Version 2
 
+////////////////////////
+// BURNS SHOP/RESIDENCE
+////////////////////////
+
+eaxreverb "location_burns_shop" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_burns_lounge" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_burns_hallway" {
+  preset HALLWAY
+}
+eaxreverb "location_burns_study" {
+  preset WOODEN_SMALLROOM
+}
+
 //////////////
 // HOTEL
 //////////////
+
 eaxreverb "location_hotel_lobby" {
   preset AUDITORIUM
 }
