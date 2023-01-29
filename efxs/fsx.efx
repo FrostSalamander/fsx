@@ -1,5 +1,12 @@
 Version 2
 
+//////////////
+// THE SQUARE
+//////////////
+eaxreverb "location_square" {
+  preset CITY
+}
+
 ////////////////////////
 // BURNS SHOP/RESIDENCE
 ////////////////////////
@@ -15,6 +22,41 @@ eaxreverb "location_burns_hallway" {
 }
 eaxreverb "location_burns_study" {
   preset WOODEN_SMALLROOM
+}
+
+////////////////////////////
+// HARRGINTON'S DEPT. STORE
+////////////////////////////
+
+eaxreverb "location_dept_store" {
+  preset WOODEN_LARGEROOM
+}
+eaxreverb "location_dept_store_lift" {
+  preset WOODEN_CUPBOARD
+}
+eaxreverb "location_dept_store_lift_shaft" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_dept_store_floor2" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_dept_store_office1" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_dept_store_office2" {
+  preset WOODEN_SMALLROOM
+}
+
+
+//////////////
+// THE REVIEW
+//////////////
+
+eaxreverb "location_review_office" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_review_printroom" {
+  preset WOODEN_MEDIUMROOM
 }
 
 //////////////
