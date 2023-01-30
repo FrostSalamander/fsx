@@ -176,3 +176,35 @@ readables/fsx/letter_burns_to_atkinson
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/note_review_office
+{
+	precache
+	"num_pages"	: "2"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Sir,"
+		""
+		"    I'd like to obtain your permission to pursue a new lead regarding Coates.  My sources within Crown Court tell me that the government is fed up with Coates' meddling and wants to 'get rid' of him. They are convinced that if this goes forward, it will surely be a public relations disaster. I'm no fan of the man, but he does have plenty of followers - a 'man of the people' of you will.  If the press were to expose this plot, perhaps sanity will prevail."
+		"   In addtion to that, if Coates were to"
+		"    "
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		"disappear, then the resulting power vacuum could result in chaos!  It's almost a shame that Jimmy Cook is wasting away in prison.  He's no saint, but at least with him one knows who they are dealing with.  His gang would surely pick up the slack if there are any of them left.  To my knowledge, a few of them still frequent one of those hotels in Old Town."
+		""
+		"Rogers"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
