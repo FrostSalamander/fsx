@@ -200,11 +200,34 @@ readables/fsx/note_review_office
 	}
 	"page2_body"	:
 	{
-		"disappear, then the resulting power vacuum could result in chaos!  It's almost a shame that Jimmy Cook is wasting away in prison.  He's no saint, but at least with him one knows who they are dealing with.  His gang would surely pick up the slack if there are any of them left.  To my knowledge, a few of them still frequent one of those hotels in Old Town."
+		"disappear, then the resulting power vacuum could result in chaos!  It's almost a shame that Jimmy Cook is wasting away in prison.  He's no saint, but at least with him one knows who they are dealing with.  His gang would surely pick up the slack if there are any of them left.  To my knowledge, a few of them still frequent one of those hotels in Old Town.  The Coronet perhaps?"
 		""
 		"Rogers"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
 	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/derryl_note
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Derryl,"
+		""
+		"    Jimmy wanted you to look after this dagger for him while he's away.  May I remind you that your family name has been inscribed on it, so please keep it somewhere safe."
+		""
+		"Aidan Rogers,"
+		""
+		"PORTER SOLICITORS"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

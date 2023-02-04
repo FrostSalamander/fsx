@@ -1,0 +1,10 @@
+textures/darkmod/decals/signs/coronet
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/coronet
+	}
+}

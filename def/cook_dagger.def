@@ -1,0 +1,22 @@
+entityDef cook_dagger
+{
+    "inherit"					"atdm:moveable_small_base"
+    "editor_displayFolder"		"Items/Custom"
+    "editor_usage"				"A dagger belonging to the Cook gang."
+    "model"						"models/darkmod/loot/dagger_loot.lwo"
+    "frobable"	                "1"
+    "frob_distance"             "30"
+    "mass"						"3"
+    "friction"					"0.1"
+    "bouncyness"				"0.1"
+    "snd_bounce"				"tdm_impact_dagger01"
+    "snd_acquire"	            "tool_pickup"
+    "notpushable"				"0"
+    "inv_category"				"Special"
+    "inv_droppable"				"1"
+    "inv_name"                  "Cook Dagger"
+    "inv_icon"                  "guis/assets/hud/inventory_icons/loot_icon_dagger"
+    "inv_map_start"				"0"
+    "target"					"-"
+    "scriptobject"				"InvTriggerScript"
+}
