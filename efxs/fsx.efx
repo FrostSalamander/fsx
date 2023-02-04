@@ -89,6 +89,24 @@ eaxreverb "location_hotel_room_21_toilet" {
   preset CASTLE_CUPBOARD
 }
 
+//////////////////
+// OLD TOWN LODGE
+//////////////////
+
+eaxreverb "location_oldtown_lodge_hallway" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_oldtown_lodge_bedroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_oldtown_lodge_privy" {
+  preset WOODEN_CUPBOARD
+}
+eaxreverb "location_oldtown_lodge_office" {
+  preset WOODEN_MEDIUMROOM
+}
+
+
 ////////////////
 // THE CORONET
 ////////////////
