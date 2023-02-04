@@ -88,3 +88,11 @@ eaxreverb "location_hotel_room_21" {
 eaxreverb "location_hotel_room_21_toilet" {
   preset CASTLE_CUPBOARD
 }
+
+////////////////
+// THE CORONET
+////////////////
+
+eaxreverb "location_coronet" {
+  preset WOODEN_MEDIUMROOM
+}
