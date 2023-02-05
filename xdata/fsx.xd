@@ -231,3 +231,26 @@ readables/fsx/derryl_note
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/note_brother_felix
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Brother Felix,"
+		""
+		"    Ease thy consience brother, for thy hath faithfully carried out the will of The Lord Builder as is thy duty.  Thy prisoner is now at home in the Eternal City, or suffering the fate of those not worthy."
+		""
+		"    Do not let pride cloud thy thoughts, for it is The Lord Builder who passes judgement, not thyself.  Thou shall remember this advice, and I pray thee seek The Lord Builder's advice in thy prayers, lest thy waver anew."
+		""
+		"Inquisitor Llewelyn"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
