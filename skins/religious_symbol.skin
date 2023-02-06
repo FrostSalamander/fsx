@@ -1,0 +1,6 @@
+skin religious_symbol_steel_smooth
+{
+    model models/darkmod/loot/religious_symbol01_small.lwo
+
+    tdm_hammer_loot textures/darkmod/metal/flat/steel_smooth
+}

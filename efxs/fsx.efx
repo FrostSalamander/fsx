@@ -106,11 +106,33 @@ eaxreverb "location_oldtown_lodge_office" {
   preset WOODEN_MEDIUMROOM
 }
 
-
 ////////////////
 // THE CORONET
 ////////////////
 
 eaxreverb "location_coronet" {
   preset WOODEN_MEDIUMROOM
+}
+
+///////////
+// PRISON
+///////////
+
+eaxreverb "location_prison_chapel" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_prison_builder_office" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_prison_builder_office_waitroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_prison_east_wing_second_floor" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_prison_east_wing_second_floor_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_prison_cell_block" {
+  preset CASTLE_LARGEROOM
 }
