@@ -1,4 +1,7 @@
 
+// GLOBALS
+float JIMMY_SPAWNED = 0;
+
 // Entities
 
 // Apartments multistate position entities
@@ -52,8 +55,37 @@ void controlLiftDoors(entity target, entity button, entity callscriptfunction)
     }
 }
 
+void spawnAI(string origin, string target, string class)
+{
+    sys.setSpawnArg("origin", origin);
 
+    // target their path_corner
+    sys.setSpawnArg("target0", target);
 
+    entity spawnedAI = sys.spawn(class);
+}
+
+void spawnJimmy(string origin, string target)
+{
+    if (!JIMMY_SPAWNED)
+    {
+        sys.println("spawning Jimmy..."); // TODO: DEBUG_REMOVE
+        spawnAI(origin, target, "fsx:ai_jimmy_cook");
+        JIMMY_SPAWNED = 1;
+    }
+}
+
+// Spawn Jimmy in an upper west cell
+void spawnJimmyUpperWest()
+{
+    spawnJimmy("1904.16 3380.72 378.885", "path_corner_85");
+}
+
+// Spawn Jimmy in a lower west cell
+void spawnJimmyLowerWest()
+{
+    spawnJimmy("1896.16 3644.72 194.932", "path_corner_86");
+}
 
 // main - keep at bottom
 void main()

@@ -1,0 +1,9 @@
+entityDef fsx:ai_jimmy_cook
+{
+    "inherit"                 "atdm:ai_townsfolk_beggar"
+    "name"                    "ai_jimmy_cook"
+    "shouldered_name"         "Jimmy Cook"
+    "shouldered_name_dead"    "Jimmy Cook (dead)"
+    "def_head"                "atdm:ai_head01_commoner_old"
+    "def_vocal_set"           "atdm:ai_vocal_set_mute"
+}
