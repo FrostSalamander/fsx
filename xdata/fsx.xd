@@ -254,3 +254,30 @@ readables/fsx/note_brother_felix
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/letter_jimmy_prison
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Mr. Cook,"
+		""
+		"  I regret to inform you that your appeal for a reduced sentence has been denied.  The reason given was 'failure to repent'."
+		""
+		"  Secondly, the property you wished to be passed to your brother Derryl for safe-keeping has been taken care of."
+		""
+		"Sincerely,"
+		""
+		"Aidan Rogers"
+		""
+		"PORTER SOLICITORS"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

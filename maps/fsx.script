@@ -65,12 +65,24 @@ void spawnAI(string origin, string target, string class)
     entity spawnedAI = sys.spawn(class);
 }
 
-void spawnJimmy(string origin, string target)
+void spawnEntity(string origin, string rotation, string class)
+{
+    sys.setSpawnArg("origin", origin);
+    sys.setSpawnArg("rotation", rotation);
+    
+    entity ent = sys.spawn(class);
+    //ent.setAngles(angle);
+}
+
+void spawnJimmy(string aiOrigin, string target, string letterOrigin)
 {
     if (!JIMMY_SPAWNED)
     {
         sys.println("spawning Jimmy..."); // TODO: DEBUG_REMOVE
-        spawnAI(origin, target, "fsx:ai_jimmy_cook");
+        spawnAI(aiOrigin, target, "fsx:ai_jimmy_cook");
+
+        // spawn the letter
+        spawnEntity(letterOrigin, "-0.341166 -0.940003 0 0.940003 -0.341166 0 0 0 1", "fsx:jimmy_letter");
         JIMMY_SPAWNED = 1;
     }
 }
@@ -78,13 +90,13 @@ void spawnJimmy(string origin, string target)
 // Spawn Jimmy in an upper west cell
 void spawnJimmyUpperWest()
 {
-    spawnJimmy("1904.16 3380.72 378.885", "path_corner_85");
+    spawnJimmy("1904.16 3380.72 378.885", "path_corner_85", "1869.96 3272.06 404.007");
 }
 
 // Spawn Jimmy in a lower west cell
 void spawnJimmyLowerWest()
 {
-    spawnJimmy("1896.16 3644.72 194.932", "path_corner_86");
+    spawnJimmy("1896.16 3644.72 194.932", "path_corner_86", "1876.96 3508.05 220.007");
 }
 
 // main - keep at bottom
