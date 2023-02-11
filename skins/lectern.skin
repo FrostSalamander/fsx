@@ -1,0 +1,6 @@
+skin fs_lectern_dark
+{
+    model models/darkmod/furniture/lectern.lwo
+
+    textures/darkmod/wood/panels/panel_decorative_frame_long textures/darkmod/wood/panels/panel_decorative_frame_long_dark_shiny
+}
