@@ -1,6 +1,7 @@
 
 // GLOBALS
 float JIMMY_SPAWNED = 0;
+float COATES_SPAWNED = 0;
 
 // Entities
 
@@ -97,6 +98,35 @@ void spawnJimmyUpperWest()
 void spawnJimmyLowerWest()
 {
     spawnJimmy("1896.16 3644.72 194.932", "path_corner_86", "1876.96 3508.05 220.007");
+}
+
+void spawnCoates(string origin, string target)
+{
+    if (!COATES_SPAWNED)
+    {
+        sys.println("spawning Coates..."); // TODO: DEBUG_REMOVE
+        spawnAI(origin, target, "fsx:ai_vinton_coates");
+        COATES_SPAWNED = 1;
+    }
+}
+
+// Spawn Coates in the church
+// Applies to the following zones:
+//   - location_hotel_lobby
+
+void spawnCoatesChurch(entity oldZone)
+{
+    spawnCoates("3408 4728 8.0669", "path_corner_111");
+}
+
+// Spawn Coates in the Hotel
+// Applies to the following zones:
+//   - location_mansion_lounge
+//   - location_mansion_pool_room
+
+void spawnCoatesHotel(entity oldZone)
+{
+    spawnCoates("1199.49 -42.5907 32.0669", "path_corner_18");
 }
 
 // main - keep at bottom

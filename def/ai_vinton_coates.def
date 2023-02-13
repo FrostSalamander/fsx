@@ -1,8 +1,8 @@
-entityDef atdm:ai_skinner
+entityDef fsx:ai_vinton_coates
 {
     "inherit"                 "atdm:ai_nobleman_armed"
-    "shouldered_name"         "Skinner"
-    "shouldered_name_dead"    "Skinner (dead)"
+    "shouldered_name"         "Vinton Coates"
+    "shouldered_name_dead"    "Vinton Coates (dead)"
     "def_head"                "atdm:ai_head05_nobleman_blonde"
     "def_vocal_set"           "atdm:ai_vocal_set_commander_armed_01"
     "skin"                    "nobleman/red_tunic_satin"
