@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2363419" } 
-		KeyValue { "LastCameraAngle" "-19.5 263.441 0" } 
-		KeyValue { "LastCameraPosition" "1765.51 -33.9006 134.246" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/plaster/stucco_01" } 
+		KeyValue { "EditTimeInSeconds" "2364426" } 
+		KeyValue { "LastCameraAngle" "-15.6 97.2406 0" } 
+		KeyValue { "LastCameraPosition" "1634.76 272.904 100.587" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/sandstone_largeblocks01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2363419 }
+		TotalSecondsEdited { 2364426 }
 	}
 	SelectionGroups
 	{
@@ -64808,6 +64808,11 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
+		Node { 11 } // entity (func_static_5034)
+		Node { 0 } // entity (atdm_lamp_wall_gaslight_03_lit_45)
+		Node { 0 } // entity (atdm_lamp_wall_gaslight_03_lit_46)
+		Node { 0 } // entity (atdm_lamp_wall_gaslight_03_lit_47)
+		Node { 0 } // entity (atdm_lamp_wall_gaslight_03_lit_48)
 	}
 	SelectionSets
 	{
