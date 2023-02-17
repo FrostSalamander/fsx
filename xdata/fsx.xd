@@ -281,3 +281,26 @@ readables/fsx/letter_jimmy_prison
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/letter_bridget
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"My dear Bridget,"
+		""
+		"  I won't be back until very late tonight, duty calls I'm afraid!  Have the place to yourself for the evening."
+		""
+		"  Perhaps the gift from Burns' shop I left you will bring forgiveness for my absence."
+		""
+		"V"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

@@ -81,12 +81,17 @@ eaxreverb "location_hotel_toilet_male_toilet" {
 eaxreverb "location_hotel_kitchen" {
   preset CASTLE_SMALLROOM
 }
-
 eaxreverb "location_hotel_room_21" {
   preset CASTLE_SMALLROOM
 }
 eaxreverb "location_hotel_room_21_toilet" {
   preset CASTLE_CUPBOARD
+}
+eaxreverb "location_hotel_penthouse_lift" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_hotel_penthouse_lift_shaft" {
+  preset WOODEN_CUPBOARD
 }
 
 //////////////////
