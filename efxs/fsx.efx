@@ -94,6 +94,14 @@ eaxreverb "location_hotel_penthouse_lift_shaft" {
   preset WOODEN_CUPBOARD
 }
 
+/////////////
+// OLD TOWN
+/////////////
+
+eaxreverb "location_old_town_streets" {
+  preset CITY_STREETS
+}
+
 //////////////////
 // OLD TOWN LODGE
 //////////////////
@@ -140,4 +148,35 @@ eaxreverb "location_prison_east_wing_second_floor_stairs" {
 }
 eaxreverb "location_prison_cell_block" {
   preset CASTLE_LARGEROOM
+}
+
+/////////////////
+// HODGSON HOUSE
+/////////////////
+
+eaxreverb "location_hodgson_first_floor" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_hodgson_stairs" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_hodgson_second_floor" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_hodgson_tunnel" {
+  preset CITY_SUBWAY
+}
+
+////////////
+// MANSION
+////////////
+
+eaxreverb "location_mansion_upstairs_lounge" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_mansion_coates_office" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_mansion_east_hall" {
+  preset WOODEN_LONGPASSAGE
 }
