@@ -1,0 +1,10 @@
+textures/darkmod/decals/signs/grain
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/decals/grain
+	}
+}
