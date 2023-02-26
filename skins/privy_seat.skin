@@ -27,3 +27,9 @@ skin privy_wood_walnut02
     model models/darkmod/furniture/seating/privy_seat_single.lwo
     textures/darkmod/wood/boards/rough_wood_grey textures/darkmod/wood/boards/wood_brown_walnut02
 }
+
+skin privy_wood_wtable1b
+{
+    model models/darkmod/furniture/seating/privy_seat_single.lwo
+    textures/darkmod/wood/boards/rough_wood_grey textures/darkmod/wood/boards/tiling_1d/wtable1b
+}
