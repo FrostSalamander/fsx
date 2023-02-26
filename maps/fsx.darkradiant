@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2509262" } 
-		KeyValue { "LastCameraAngle" "-1.2 67.2001 0" } 
-		KeyValue { "LastCameraPosition" "879.144 2592.62 80.8769" } 
+		KeyValue { "EditTimeInSeconds" "2510087" } 
+		KeyValue { "LastCameraAngle" "-17.4 277.8 0" } 
+		KeyValue { "LastCameraPosition" "-65.1463 1106.14 165.729" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/dark_brick_old" } 
 	}
 	Layers
@@ -42046,10 +42046,13 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (path_wait_139)
 		Node { 0 } // entity (path_corner_211)
 		Node { 0 } // entity (path_wait_140)
+		Node { 0 } // entity (func_static_411)
+		Node { 0 } // entity (atdm_lamp_electric_square_1_lit_23)
+		Node { 0 } // entity (atdm_lamp_electric_square_1_lit_24)
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2509262 }
+		TotalSecondsEdited { 2510087 }
 	}
 	SelectionGroups
 	{
@@ -47615,6 +47618,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 12758 { "" }
 		SelectionGroup 12759 { "" }
 		SelectionGroup 12760 { "" }
+		SelectionGroup 12761 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -47922,12 +47926,23 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 690 ) ( 2837 2839 ) } // brush (Brush)
 		Node { ( 0 691 ) ( 2837 2839 ) } // brush (Brush)
 		Node { ( 0 692 ) ( 2837 2839 ) } // brush (Brush)
-		Node { ( 0 712 ) ( 2850 ) } // brush (Brush)
-		Node { ( 0 714 ) ( 2850 ) } // brush (Brush)
-		Node { ( 0 715 ) ( 2851 ) } // brush (Brush)
-		Node { ( 0 716 ) ( 2851 ) } // brush (Brush)
-		Node { ( 0 717 ) ( 2852 ) } // brush (Brush)
-		Node { ( 0 718 ) ( 2852 ) } // brush (Brush)
+		Node { ( 0 712 ) ( 2850 12761 ) } // brush (Brush)
+		Node { ( 0 714 ) ( 2850 12761 ) } // brush (Brush)
+		Node { ( 0 715 ) ( 2851 12761 ) } // brush (Brush)
+		Node { ( 0 716 ) ( 2851 12761 ) } // brush (Brush)
+		Node { ( 0 717 ) ( 2852 12761 ) } // brush (Brush)
+		Node { ( 0 718 ) ( 2852 12761 ) } // brush (Brush)
+		Node { ( 0 719 ) ( 12761 ) } // brush (Brush)
+		Node { ( 0 720 ) ( 12761 ) } // brush (Brush)
+		Node { ( 0 721 ) ( 12761 ) } // brush (Brush)
+		Node { ( 0 724 ) ( 12761 ) } // brush (Brush)
+		Node { ( 0 726 ) ( 12761 ) } // brush (Brush)
+		Node { ( 0 732 ) ( 12761 ) } // brush (Brush)
+		Node { ( 0 734 ) ( 12761 ) } // brush (Brush)
+		Node { ( 0 741 ) ( 12761 ) } // brush (Brush)
+		Node { ( 0 742 ) ( 12761 ) } // brush (Brush)
+		Node { ( 0 744 ) ( 12761 ) } // brush (Brush)
+		Node { ( 0 749 ) ( 12761 ) } // brush (Brush)
 		Node { ( 0 754 ) ( 2960 ) } // brush (Brush)
 		Node { ( 0 757 ) ( 2894 ) } // brush (Brush)
 		Node { ( 0 758 ) ( 2875 2877 2894 ) } // brush (Brush)
