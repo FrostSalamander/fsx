@@ -1,0 +1,6 @@
+skin fs_pipe_kit01tiny_grey
+{
+    model models/darkmod/mechanical/pipes/pipe_kit01tiny_straight_plain.lwo
+
+    textures/darkmod/metal/flat/iron_flat textures/darkmod/metal/flat/simple_grey01
+}

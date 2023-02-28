@@ -24,6 +24,20 @@ eaxreverb "location_burns_study" {
   preset WOODEN_SMALLROOM
 }
 
+/////////////////////
+// WHARF APARTMENTS
+/////////////////////
+eaxreverb "location_wharfapt3" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_wharfapt4" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_wharfapt_hall" {
+  preset HALLWAY
+}
+
+
 ////////////////////////////
 // HARRGINTON'S DEPT. STORE
 ////////////////////////////
