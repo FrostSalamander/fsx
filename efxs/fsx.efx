@@ -162,16 +162,10 @@ eaxreverb "location_hotel_toilet_male_toilet" {
 eaxreverb "location_hotel_toilet_male_cubicle1" {
   preset CASTLE_CUPBOARD
 }
-eaxreverb "location_hotel_toilet_male_cubicle2" {
-  preset CASTLE_CUPBOARD
-}
 eaxreverb "location_hotel_toilet_female" {
   preset CASTLE_SMALLROOM
 }
 eaxreverb "location_hotel_toilet_female_cubicle1" {
-  preset CASTLE_CUPBOARD
-}
-eaxreverb "location_hotel_toilet_female_cubicle2" {
   preset CASTLE_CUPBOARD
 }
 eaxreverb "location_hotel_kitchen" {
@@ -197,6 +191,13 @@ eaxreverb "location_hotel_penthouse_lift_shaft" {
 }
 eaxreverb "location_hotel_penthouse" {
   preset CASTLE_SMALLROOM
+}
+
+/////////////
+// RIVER
+/////////////
+eaxreverb "location_river" {
+  preset OUTDOORS_VALLEY
 }
 
 /////////////
