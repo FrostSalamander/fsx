@@ -127,6 +127,15 @@ void spawnCoatesHotel(entity oldZone)
     spawnCoates("1199.49 -42.5907 32.0669", "path_corner_18");
 }
 
+// Spawn Coates in the Mansion
+// Applies to the following zones:
+//   - location_church_belfry_quarters
+
+void spawnCoatesMansion(entity oldZone)
+{
+    spawnCoates("400 4352 384.067", "path_wait_60");
+}
+
 // main - keep at bottom
 void main()
 {

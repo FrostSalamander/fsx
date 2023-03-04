@@ -1,10 +1,59 @@
 Version 2
 
 //////////////
+// TUNNELS
+//////////////
+eaxreverb "location_tunnels" {
+  preset CAVE
+}
+
+////////////////////////////
+// START ALLEY / RUSSELL ST
+////////////////////////////
+eaxreverb "location_start_alley" {
+  preset CITY_UNDERPASS
+}
+eaxreverb "location_russell_st" {
+  preset ALLEY
+}
+eaxreverb "location_ashton_arcade" {
+  preset CITY_UNDERPASS
+}
+
+//////////////////////////
+// RUSSELL ST APARTMENTS
+//////////////////////////
+eaxreverb "location_back_entrance" {
+  preset CASTLE_LARGEROOM
+}
+// location is shaft, but for the actual elevator cabin
+eaxreverb "location_apt_elevator_shaft" {
+  preset WOODEN_CUPBOARD
+}
+eaxreverb "location_apts_topfloor" {
+  preset CARPETEDHALLWAY
+}
+eaxreverb "location_apts_breakroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_apts_breakroom_toilet" {
+  preset WOODEN_COURTYARD
+}
+eaxreverb "location_russell_apt_lounge" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_russell_apt_hall" {
+  preset HALLWAY
+}
+eaxreverb "location_russell_apt_bedroom" {
+  preset WOODEN_SMALLROOM
+}
+
+//////////////
 // THE SQUARE
 //////////////
 eaxreverb "location_square" {
-  preset CITY
+  preset CITY_STREETS
 }
 
 ////////////////////////
@@ -61,16 +110,28 @@ eaxreverb "location_dept_store_office2" {
   preset WOODEN_SMALLROOM
 }
 
+///////////////////////////
+// THE HAMMER PUB BUILDING
+///////////////////////////
+eaxreverb "location_hammer_apt_third_floor" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_hammer_apt_stairwell" {
+  preset HALLWAY
+}
+eaxreverb "location_hammer_bar" {
+  preset WOODEN_MEDIUMROOM
+}
 
 //////////////
 // THE REVIEW
 //////////////
 
 eaxreverb "location_review_office" {
-  preset WOODEN_MEDIUMROOM
+  preset FACTORY_SMALLROOM
 }
 eaxreverb "location_review_printroom" {
-  preset WOODEN_MEDIUMROOM
+  preset FACTORY_MEDIUMROOM
 }
 
 //////////////
@@ -80,17 +141,38 @@ eaxreverb "location_review_printroom" {
 eaxreverb "location_hotel_lobby" {
   preset AUDITORIUM
 }
-eaxreverb "location_hotel_restaurant" {
-  preset CASTLE_MEDIUMROOM
-}
 eaxreverb "location_hotel_restaurant_private_room" {
   preset CASTLE_SMALLROOM
 }
-eaxreverb "location_hotel_toilet_hallway" {
+eaxreverb "location_hotel_restaurant" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_hotel_reception" {
   preset CASTLE_SMALLROOM
+}
+eaxreverb "location_hotel_storage" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_hotel_back_hallway" {
+  preset HALLWAY
 }
 eaxreverb "location_hotel_toilet_male_toilet" {
   preset CASTLE_SMALLROOM
+}
+eaxreverb "location_hotel_toilet_male_cubicle1" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_hotel_toilet_male_cubicle2" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_hotel_toilet_female" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_hotel_toilet_female_cubicle1" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_hotel_toilet_female_cubicle2" {
+  preset CASTLE_CUPBOARD
 }
 eaxreverb "location_hotel_kitchen" {
   preset CASTLE_SMALLROOM
@@ -101,11 +183,20 @@ eaxreverb "location_hotel_room_21" {
 eaxreverb "location_hotel_room_21_toilet" {
   preset CASTLE_CUPBOARD
 }
+eaxreverb "location_hotel_room_43" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_hotel_room_43_toilet" {
+  preset CASTLE_CUPBOARD
+}
 eaxreverb "location_hotel_penthouse_lift" {
   preset CASTLE_SMALLROOM
 }
 eaxreverb "location_hotel_penthouse_lift_shaft" {
   preset WOODEN_CUPBOARD
+}
+eaxreverb "location_hotel_penthouse" {
+  preset CASTLE_SMALLROOM
 }
 
 /////////////
