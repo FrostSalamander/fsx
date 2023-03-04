@@ -32,8 +32,6 @@ void controlLiftDoors(entity target, entity button, entity callscriptfunction)
     // The button that calls this is targeting the lift with 'target' spawnarg (i.e. not 'target0', 'target1', etc.)
     entity lift = button.getEntityKey("target");
 
-    //sys.println("target is open: " + target.IsOpen());
-
     // Get the multistate position entity this button corresponds to
     // custom spawnarg: didn't want to use 'target' or 'position' because they activate unwanted functionality on some buttons
     entity multiStatePosition = button.getEntityKey("position_entity_name"); 
