@@ -221,6 +221,20 @@ eaxreverb "location_old_town_streets" {
   preset CITY_STREETS
 }
 
+////////////////
+// WATCH HOUSE 
+////////////////
+eaxreverb "location_river_turret" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_watchhouse" {
+  preset CASTLE_SMALLROOM
+}
+// area between old town and prison over the canal
+eaxreverb "location_watchtower" {
+  preset CASTLE_SHORTPASSAGE
+}
+
 //////////////////
 // OLD TOWN LODGE
 //////////////////
@@ -250,8 +264,20 @@ eaxreverb "location_coronet" {
 // PRISON
 ///////////
 
-eaxreverb "location_prison_chapel" {
+eaxreverb "location_prison_canal" {
+  preset PIPE_LARGE
+}
+eaxreverb "location_prison_east_wing_ground_floor" {
   preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_prison_east_wing_first_floor_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_prison_east_wing_first_floor" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_prison_chapel" {
+  preset CHAPEL
 }
 eaxreverb "location_prison_builder_office" {
   preset WOODEN_MEDIUMROOM
@@ -269,9 +295,9 @@ eaxreverb "location_prison_cell_block" {
   preset CASTLE_LARGEROOM
 }
 
-/////////////////
-// HODGSON HOUSE
-/////////////////
+///////////////////////////////////
+// HODGSON HOUSE (next to mansion)
+///////////////////////////////////
 
 eaxreverb "location_hodgson_first_floor" {
   preset WOODEN_SMALLROOM
