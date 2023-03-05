@@ -201,6 +201,19 @@ eaxreverb "location_river" {
 }
 
 /////////////
+// WAREHOUSE
+/////////////
+eaxreverb "location_warehouse" {
+  preset FACTORY_LARGEROOM
+}
+eaxreverb "location_warehouse_office" {
+  preset FACTORY_SMALLROOM
+}
+eaxreverb "location_warehouse_maintenance" {
+  preset FACTORY_SMALLROOM
+}
+
+/////////////
 // OLD TOWN
 /////////////
 
