@@ -1,0 +1,8 @@
+skin sign_square01_tss
+{
+	model "models/darkmod/decorative/signs/sign_square01.ase"
+
+
+	"bc_sign01" "m_plainsight_TSS"
+
+}

@@ -194,7 +194,7 @@ readables/fsx/note_review_office
 	{
 		"Sir,"
 		""
-		"    I'd like to obtain your permission to pursue a new lead regarding Coates.  My sources within Crown Court tell me that the government is fed up with Coates' meddling and wants to 'get rid' of him. They are convinced that if this goes forward, it will surely be a public relations disaster. I'm no fan of the man, but he does have plenty of followers - a 'man of the people' of you will.  If the press were to expose this plot, perhaps sanity will prevail."
+		"    I'd like to obtain your permission to go to print regarding Coates.  My sources within Crown Court tell me that the government is fed up with Coates' meddling and wants to 'get rid' of him. They are convinced that if this goes forward, it will surely be a public relations disaster. I'm no fan of the man, but he does have plenty of followers - a 'man of the people' of you will.  If the press were to expose this plot, perhaps sanity will prevail."
 		"   In addtion to that, if Coates were to"
 		"    "
 	}
@@ -306,5 +306,87 @@ readables/fsx/letter_bridget
 		"V"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/tss_closed
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		""
+		""
+		""
+		""
+		"               CLOSED"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_print_carleton_caps.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/dept_store_lift
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Sir,"
+		""
+		"  This new lift seems to be acting up.  This morning when I was taking it up to the office I heard a strange noise and it stopped for a brief second, before resuming. I think it's fine now though."
+		""
+		"  Are you certain that we don't need to install an emergency stairwell?"
+		""
+		"Harry"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/newspaper_review
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		"       Intelligence Services in"
+		"           Assassination Plot"
+	}
+	"page1_left_body"	:
+	{
+		""
+		""
+		""
+		"  A source close to the country's top intelligence decision-makers have revealed that a local crime boss has become a target for  assassination by the spy service."
+		""
+		"  The identity of the target has not been revealed, but when pressed the source would only say 'it's not difficult to imagine who that might be.'  When asked if that person was Vinton Coates, the source ended the conversation."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"  When confronted about the plot outside his offices earlier today, spy chief Hugh Heaton replied \"Absolutely not.  We are not in the business of committing murder.  Local crime is strictly a matter for the City Watch\". "
+		""
+		"  When reminded that Coates' activities are rumoured to extend far beyond the City boundaries, Heaton replied \"Even if that were the case, the Intelligence Services remit is national security, not chasing petty criminals around\"."
+		""
+		"  Other officials could not be reached for comment."
+		""
+		"  "
+	}
+	"gui_page1"	: "guis/readables/sheets/newspaper_bridgeport02.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
