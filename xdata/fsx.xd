@@ -61,7 +61,7 @@ readables/fsx/hotel_shift_change_log
 		""
 		"13:08. Party for Coates booked restaurant for tonight.  20:00 until close. As per our usual arrangement the restaurant will be closed to other guests."
 		""
-		"17:25. TODO has taken room 43 and have confiscated all spare keys to the room.  They would not disclose the reason, but have paid in advance for three nights."
+		"17:25. The Watch has taken room 43 and have confiscated all spare keys to the room.  They would not disclose the reason, but have paid in advance for three"
 		""
 		""
 	}
@@ -71,6 +71,8 @@ readables/fsx/hotel_shift_change_log
 	}
 	"page1_right_body"	:
 	{
+		"nights."
+		""
 		"21:57. Fellow by the name of Burns came wandering in asking if we'd seen Atkinson from room 21.  Apparently they had an appointment"
 		"at The Hammer and he never showed.  I informed him that what our guests get up to outside the hotel is none of our business.  For the record, Atkinson did in fact head out around 19:00 but hasn't returned."
 	}
