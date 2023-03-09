@@ -392,3 +392,52 @@ readables/fsx/newspaper_review
 	"gui_page1"	: "guis/readables/sheets/newspaper_bridgeport02.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/letter_safe_house
+{
+	precache
+	"num_pages"	: "3"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Lieutenant,"
+		""
+		"    I'll keep this brief.  If you haven't heard the news, the operation has been exposed by the press.  It will appear in this morning's edition of The Review."
+		""
+		"    The direction is to carry on and complete your objective.  In anticipation of something like this happening a contingency plan was developed.  You are to free Coates' rival, Jimmy Cook, from prison whilst framing his gang for Coates' death."
+		""
+		"    The hope is that this will divert "
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		"suspicion from the Service while filling the power vacuum left by removing Coates with a less 'effective' personality."
+		""
+		"    I've managed to get a copy of a key to the prison.  It should unlock most doors and prison cells on the inside.  You'll need to find your own way in and locate Cook using your own means however.  Simply unlocking his cell door should suffice, he is slippery enough to escape on his own."
+		""
+		"    Additionally, obtain some property of Jimmy Cook's gang and plant it somewhere in the prison.  The chapel"
+	}
+	"page3_title"	:
+	{
+		""
+	}
+	"page3_body"	:
+	{
+		" would be a good place where hopefully one of the priests will be able to recognize it."
+		""
+		"Good luck"
+		""
+		"Lennard"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+	"gui_page3"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
