@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2628518" } 
-		KeyValue { "LastCameraAngle" "-0.900002 90.3002 0" } 
-		KeyValue { "LastCameraPosition" "1353.91 3981.26 450.62" } 
+		KeyValue { "EditTimeInSeconds" "2629934" } 
+		KeyValue { "LastCameraAngle" "-43.8 85.2002 0" } 
+		KeyValue { "LastCameraPosition" "329.013 2254.44 279.382" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/decals/signs/decal_gui" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2628518 }
+		TotalSecondsEdited { 2629934 }
 	}
 	SelectionSets
 	{
@@ -43899,6 +43899,8 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (trigger_once_3)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (prison_office_key)
+		Node { 0 } // entity (atdm_target_message_disable_1)
+		Node { 0 } // entity (atdm_readable_immobile_letter01_1)
 	}
 	SelectionGroups
 	{
