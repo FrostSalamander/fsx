@@ -1,0 +1,6 @@
+entityDef fsx:prison_cell_key
+{
+    "inherit"       "atdm:key_simple_old"
+    "name"          "prison_cell_key"
+    "inv_name"      "Prison cell key"
+}
