@@ -1,0 +1,10 @@
+textures/darkmod/decals/prison
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/decals/prison
+	}
+}
