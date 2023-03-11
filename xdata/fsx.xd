@@ -441,3 +441,30 @@ readables/fsx/letter_safe_house
 	"gui_page3"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/journal_lodge_landlord
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"    Derryl is late with his rent again.  I never should have let him move in. I figured with Jimmy in prison he'd think about turning his life around and try to make an honest living.  Instead, all he does is hang around The Coronet all day and spend what little coin he has on ale."
+		""
+		"   I can't exactly just kick him"
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"out either. I guess this is what I get for being his brother-in-law."
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
