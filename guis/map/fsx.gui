@@ -1,0 +1,59 @@
+windowDef Desktop
+{
+	rect	0,0,640,480
+
+	windowDef TitlePicture
+	{
+		rect	0,0,640,480
+		visible	1
+		background	"guis/assets/fsx_loading_screen"
+	}
+
+	windowDef ProgressBarInitialize
+	{
+		rect	230,457,( "gui::map_loading" * 175 ),16
+
+		windowDef LoadingFill
+		{
+			rect	0,0,256,16
+			background	"guis/assets/splash/load"
+		}
+	}
+
+	windowDef Action
+	{
+		rect	0,0,0,0
+		visible	1
+
+		onTime 50
+                {
+			set "FlareBox::rect" "17 0 54 21" ;
+		}
+
+		onTime 100
+                {
+			set "FlareBox::rect" "37 0 54 21" ;
+		}
+
+		onTime 150
+                 {
+			set "FlareBox::rect" "57 0 54 21" ;
+		}
+
+		onTime 200
+                 {
+			set "FlareBox::rect" "67 0 54 21" ;
+		}
+
+		onTime 250
+                 {
+			set "FlareBox::rect" "81 0 54 21" ;
+		}
+
+		onTime 300
+                {
+			set "FlareBox::rect" "100 0 54 21" ;
+		}
+	}
+}
+

@@ -468,3 +468,61 @@ readables/fsx/journal_lodge_landlord
 	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/scroll_briefing
+{
+	precache
+	"num_pages"	: "4"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Lieutenant,"
+		""
+		"  You are to eliminate one Vinton Coates.  He is a well-known local criminal who despite his unsavoury reputation has amassed a large number of followers.  Some of his devotees include local officials whose pockets he no doubt keeps lined with his ill-gotten gains."
+		""
+		"  You may wonder why we are taking this drastic step instead of just putting him in prison.  The answer to that is complicated, but in short his influence"
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		" has reached places we are not comfortable with and we don't feel much would change with him behind bars. His main asset is his charisma.  As long as he's alive his influence will be felt."
+		""
+		"  We feel the most likely places to locate Coates are either his mansion in Old town or The Watford Hotel in Lady Everly Square where he leases a penthouse suite. Failing that, he is known to pay his respects at the Builder Church in the northeast of Old Town."
+		""
+		"  Although he is of common descent, he"
+	}
+	"page3_title"	:
+	{
+		""
+	}
+	"page3_body"	:
+	{
+		"likes to dress himself up in the finest attire, usually a red jacket and a red hat.  Beware the fact that he is known to use misdirection when making plans."
+		""
+		"  As for the method of execution, we would prefer if you were to take a subtle approach. We don't pretend that suspicion towards our service won't arise, but discretion can only help. Perhaps he could have an accident near a body of water... you get the idea. Persons not associated with Coates are stricly off-limits."
+	}
+	"page4_title"	:
+	{
+		""
+	}
+	"page4_body"	:
+	{
+		"    An associate by the name of Lennard will provide you with a safe house.  You can obtain extra equipement there if required. He is located in Old Town but you will not be able to simply knock on his front door.  However he is expecting you and you should be able to find a way in with your skills."
+		""
+		"Good luck,"
+		""
+		"The Director"
+	}
+	"gui_page1"	: "guis/readables/scrolls/scroll_calig_carolingia.gui"
+	"gui_page2"	: "guis/readables/scrolls/scroll_calig_carolingia.gui"
+	"gui_page3"	: "guis/readables/scrolls/scroll_calig_carolingia.gui"
+	"gui_page4"	: "guis/readables/scrolls/scroll_calig_carolingia.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

@@ -1,0 +1,28 @@
+maps/fsx/mission_briefing
+{
+ "num_pages": "2"
+ 
+ "page1_body" :
+ {
+   ""
+   ""
+   "    Since the fiasco at Watchgate I've been laying low. Although the perpetrators of a treasonous plot were exposed and arrested, I narrowly escaped with my life."
+   "The brass were not very impressed with the way things played out, so I was forced to take a little vacation."
+   ""
+   "    Futhermore, my cover story during the Watchgate mission has left me with an unfortunate habit: larceny on an alarming scale and the taste for the finer things in life."
+   ""
+   "    I've been reactivated and am heading off to the city of Highborough."
+  }
+
+ "page2_body" :
+ {
+   ""
+   "    What little I do know of Highborough is this: it is a small walled city that has expanded beyond its surrounding river.  The older part is called "
+   "'Old Town' and consists of two sections. One is mainly inns and cheap lodging and the other has a heavy Builder presence, where they maintain a church, an abbey and a prison."
+   ""
+   "    The newer part is Lady Everly Square, where the more prosperous tend to reside and set up their trade."
+   ""
+   "    My briefing will be presented to me on arrival in a sealed envelope, which I am to open and read immediately."
+ }
+
+}
