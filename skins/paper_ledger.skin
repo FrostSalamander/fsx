@@ -1,0 +1,6 @@
+skin fs_paper_ledger
+{
+    model models/darkmod/readables/paper1.lwo
+
+    scroll1 textures/darkmod/decals/papers/ledger01
+}

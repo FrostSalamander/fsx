@@ -30,10 +30,10 @@ boolean isBindChildrenOpen(entity mover)
     for (i=0; i < bindChildren; i++)
     {
         entity bindChild = mover.getBindChild(i);
-        sys.println(bindChild.getName());
+        //sys.println(bindChild.getName());
         if (bindChild.IsOpen())
         {
-            sys.println("bind child" + bindChild.getName() + " is open");¦
+            //sys.println("bind child" + bindChild.getName() + " is open");¦
             return true;
         }
     }
@@ -185,6 +185,10 @@ void triggerSafeHouseObjective()
 
     // Spawn the letter
     spawnEntity("320 2294 222.881", "1 0 0 0 1 0 0 0 1", "fsx:safe_house_letter");
+
+    // Spawn the newspaper. We prefer if the player finds this in the Review Office, but
+    // in case they never find it they can read it here after Coates is killed.
+    spawnEntity("363.295 2236.69 21.3811", "0.759739 0.650229 0 -0.650229 0.759739 0 0 0 1", "fsx:newspaper");
 }
 
 void completeSafeHouseObjective()

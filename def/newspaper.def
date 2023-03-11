@@ -1,0 +1,7 @@
+entityDef fsx:newspaper
+{
+    "inherit"           "atdm:readable_immobile_paper01"
+    "name"              "jimmy_prison_letter"
+    "model"             "models/darkmod/readables/newspaper01.lwo"
+    "xdata_contents"    "readables/fsx/newspaper_review"
+}
