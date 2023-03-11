@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2643427" } 
-		KeyValue { "LastCameraAngle" "-45 337.501 0" } 
-		KeyValue { "LastCameraPosition" "700.911 2516.88 386.282" } 
+		KeyValue { "EditTimeInSeconds" "2643948" } 
+		KeyValue { "LastCameraAngle" "-13.2 223.501 0" } 
+		KeyValue { "LastCameraPosition" "412.205 2211.96 87.2123" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/door/wood/old_weathered_boards01" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2643427 }
+		TotalSecondsEdited { 2643948 }
 	}
 	SelectionGroups
 	{
@@ -71486,5 +71486,10 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_lamp_oil_wall_lit_5)
 		Node { 0 } // entity (func_static_5998)
 		Node { 0 } // entity (func_static_5999)
+		Node { 0 } // entity (func_static_6000)
+		Node { 0 } // entity (func_static_6001)
+		Node { 0 } // entity (atdm_moveable_candle_default_2)
+		Node { 0 } // entity (func_static_6002)
+		Node { 0 } // entity (func_static_6003)
 	}
 }
