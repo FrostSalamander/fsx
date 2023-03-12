@@ -50,7 +50,7 @@ readables/fsx/hotel_booked_note
 readables/fsx/hotel_shift_change_log
 {
 	precache
-	"num_pages"	: "1"
+	"num_pages"	: "2"
 	"page1_left_title"	:
 	{
 		""
@@ -61,7 +61,7 @@ readables/fsx/hotel_shift_change_log
 		""
 		"13:08. Party for Coates booked restaurant for tonight.  20:00 until close. As per our usual arrangement the restaurant will be closed to other guests."
 		""
-		"17:25. The Watch has taken room 43 and have confiscated all spare keys to the room.  They would not disclose the reason, but have paid in advance for three"
+		"17:25. There has been an incident in room 43. The City Watch has placed an officer on the 4th floor for 'extra security' and have confiscated all spare keys to the room. "
 		""
 		""
 	}
@@ -71,12 +71,29 @@ readables/fsx/hotel_shift_change_log
 	}
 	"page1_right_body"	:
 	{
-		"nights."
+		"They would not disclose any details, but have paid in advance for three nights."
 		""
 		"21:57. Fellow by the name of Burns came wandering in asking if we'd seen Atkinson from room 21.  Apparently they had an appointment"
-		"at The Hammer and he never showed.  I informed him that what our guests get up to outside the hotel is none of our business.  For the record, Atkinson did in fact head out around 19:00 but hasn't returned."
+		"at The Hammer and he never showed.  I informed him that what our guests get up to outside the hotel is none of our business.  For the record, Atkinson did in fact head out"
+	}
+	"page2_left_title"	:
+	{
+		""
+	}
+	"page2_left_body"	:
+	{
+		"around 19:00 but hasn't returned."
+	}
+	"page2_right_title"	:
+	{
+		""
+	}
+	"page2_right_body"	:
+	{
+		""
 	}
 	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page2"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -134,7 +151,7 @@ readables/fsx/letter_atkinson
 		""
 		"  After our graduation, you mentioned in confidence that you had accepted a position in His Majesty's Intelligence Service.  If that is still the case, we may be able to help one another."
 		""
-		"  You see, this fellow Coates that everyone is up in arms about... he happens to be courting my neighbour's daughter.  Secretly of course. I could be in a position to provide any amount of valuable information to an agent such as yourself.  But of course, I must ask for a"
+		"  You see, this fellow Coates that everyone is up in arms about... he happens to be courting my neighbour's daughter, Ella.  Secretly of course. I could be in a position to provide any amount of valuable information to an agent such as yourself.  But of course, I must ask for a"
 	}
 	"page3_title"	:
 	{
@@ -524,5 +541,28 @@ readables/fsx/scroll_briefing
 	"gui_page2"	: "guis/readables/scrolls/scroll_calig_carolingia.gui"
 	"gui_page3"	: "guis/readables/scrolls/scroll_calig_carolingia.gui"
 	"gui_page4"	: "guis/readables/scrolls/scroll_calig_carolingia.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/letter_room_43
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Detective,"
+		""
+		"  After inspecting the crime scene, my conclusion is that this is nothing more than a simple robbery that escalated.  The victim, Ella Watts, appears to be a naive young girl on her first trip alone to the City. The security at this hotel has always been questionable. I expect your report to confirm my findings."
+		""
+		"  Leave Jennings on the door for a couple of days while this gets cleaned up.  Absolutely no one is to be allowed in."
+		""
+		"Commander Bryant"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
