@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2655236" } 
-		KeyValue { "LastCameraAngle" "-45.9 214.8 0" } 
-		KeyValue { "LastCameraPosition" "2032.14 1987.01 427.002" } 
+		KeyValue { "EditTimeInSeconds" "2655731" } 
+		KeyValue { "LastCameraAngle" "-63 40.8001 0" } 
+		KeyValue { "LastCameraPosition" "1676.48 1027.25 337.709" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/tdm_nodrawsolid_wood" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2655236 }
+		TotalSecondsEdited { 2655731 }
 	}
 	Layers
 	{
@@ -44083,6 +44083,8 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (atdm_moveable_candle_short_37)
 		Node { 0 } // entity (func_static_6024)
+		Node { 0 } // entity (atdm_loot_currency_coin_10g_imperial_1)
+		Node { 0 } // entity (atdm_readable_immobile_scroll01_2)
 	}
 	SelectionGroups
 	{
