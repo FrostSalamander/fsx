@@ -169,7 +169,9 @@ void triggerSafeHouseObjective()
     {
         if (isObjectiveComplete(OBJ_KILL_COATES))
         {
-            $player1.setObjectiveText(OBJ_SAFE_HOUSE, "Check in at Lennard's safe house");
+            // The kill objective may have just displayed, so wait a bit until displaying the next one
+            sys.wait(3);
+            $player1.setObjectiveText(OBJ_SAFE_HOUSE, "Well done. Now check in at Lennard's safe house");
         }
         else
         {
