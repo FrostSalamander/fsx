@@ -252,6 +252,25 @@ eaxreverb "location_oldtown_lodge_office" {
   preset WOODEN_MEDIUMROOM
 }
 
+////////////////////////
+// LENNARD'S SAFE HOUSE
+////////////////////////
+eaxreverb "location_lennard_front" {
+  preset CITY_UNDERPASS
+}
+eaxreverb "location_lennard_lounge" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_lennard_stairs" {
+  preset WOODEN_LONGPASSAGE
+}
+eaxreverb "location_lennard_bedroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_lennard_bathroom" {
+  preset WOODEN_CUPBOARD
+}
+
 ////////////////
 // THE CORONET
 ////////////////
@@ -294,6 +313,44 @@ eaxreverb "location_prison_east_wing_second_floor_stairs" {
 eaxreverb "location_prison_cell_block" {
   preset CASTLE_LARGEROOM
 }
+eaxreverb "location_prison_north_top_floor" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_prison_torture_room" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_prison_second_floor_entrance" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_prison_north_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_prison_north_ground_floor" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_prison_exercise_washroom" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_prison_exercise_room" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_prison_exercise_room_steps" {
+  preset CASTLE_SHORTPASSAGE
+}
+
+////////////////////////////
+// AREA SOUTHEAST OF PRISON
+////////////////////////////
+eaxreverb "location_prison_courtyard" {
+  preset CASTLE_COURTYARD
+}
+eaxreverb "location_prison_well" {
+  preset UNDERWATER
+}
+eaxreverb "location_oldtown_east" {
+  preset ALLEY
+}
+
 
 ///////////////////////////////////
 // HODGSON HOUSE (next to mansion)
