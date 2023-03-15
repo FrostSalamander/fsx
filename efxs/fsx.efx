@@ -312,10 +312,33 @@ eaxreverb "location_hodgson_tunnel" {
   preset CITY_SUBWAY
 }
 
+///////////////////////////////////////////
+// CANAL HOUSE/PASSAGE (across from Abbey)
+///////////////////////////////////////////
+eaxreverb "location_canal_passage" {
+  preset CITY_SUBWAY
+}
+eaxreverb "location_canal_passage_house" {
+  preset WOODEN_SMALLROOM
+}
+
 ////////////
 // MANSION
 ////////////
 
+// watch house at the back
+eaxreverb "location_mansion_watchhouse" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mansion_garden_passage" {
+  preset CASTLE_COURTYARD
+}
+eaxreverb "location_mansion_back_garden" {
+  preset CASTLE_COURTYARD
+}
+eaxreverb "location_mansion_pool_room" {
+  preset SPORT_GYMNASIUM
+}
 eaxreverb "location_mansion_upstairs_lounge" {
   preset WOODEN_MEDIUMROOM
 }
