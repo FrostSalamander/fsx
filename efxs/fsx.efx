@@ -337,8 +337,67 @@ eaxreverb "location_mansion_back_garden" {
   preset CASTLE_COURTYARD
 }
 eaxreverb "location_mansion_pool_room" {
-  preset SPORT_GYMNASIUM
+  preset CASTLE_LARGEROOM
 }
+eaxreverb "location_mansion_pool_changeroom1" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mansion_pool_changeroom2" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mansion_pool_bar" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_mansion_kitchen_back" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mansion_kitchen" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mansion_kitchen_larder" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_mansion_kitchen_service" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_mansion_dining_room" {
+  preset WOODEN_LARGEROOM
+}
+eaxreverb "location_mansion_dining_room_hall" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_mansion_entrance_hall" {
+  preset WOODEN_HALL
+}
+eaxreverb "location_mansion_groundfloor_hall" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_mansion_study_hall" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_mansion_study" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_mansion_lounge" {
+  preset WOODEN_LARGEROOM
+}
+eaxreverb "location_mansion_middle_west_hall" {
+  preset WOODEN_LONGPASSAGE
+}
+eaxreverb "location_mansion_west_stairs_up" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_mansion_west_stairs_down" {
+  preset WOODEN_SHORTPASSAGE
+}
+
+eaxreverb "location_mansion_groundfloor_entrance" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_mansion_wine_cellar" {
+  preset CASTLE_SMALLROOM
+}
+
 eaxreverb "location_mansion_upstairs_lounge" {
   preset WOODEN_MEDIUMROOM
 }
@@ -347,4 +406,23 @@ eaxreverb "location_mansion_coates_office" {
 }
 eaxreverb "location_mansion_east_hall" {
   preset WOODEN_LONGPASSAGE
+}
+eaxreverb "location_mansion_east_stairs_down" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_mansion_bedroom" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_mansion_bedroom_toilet" {
+  preset WOODEN_CUPBOARD
+}
+
+eaxreverb "location_mansion_upper_hall" {
+  preset WOODEN_HALL
+}
+eaxreverb "location_mansion_east_drawing_room" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_mansion_west_drawing_room" {
+  preset WOODEN_MEDIUMROOM
 }
