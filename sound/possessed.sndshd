@@ -1,0 +1,24 @@
+fs_possessed
+{
+
+	editor_displayFolder	voices/undead/revenant
+
+	minDistance	1
+	maxDistance	25
+	volume -1
+
+
+sound/voices/undead/revenant/idle_latin_01.ogg
+sound/voices/undead/revenant/idle_latin_02.ogg
+sound/voices/undead/revenant/idle_latin_03.ogg
+
+sound/voices/undead/revenant/idle03.ogg
+sound/voices/undead/revenant/idle04.ogg
+sound/voices/undead/revenant/idle05.ogg
+sound/voices/undead/revenant/idle08.ogg
+
+sound/voices/undead/revenant/tdm_ai_revenant_idle01.ogg
+
+
+
+}
