@@ -77,12 +77,12 @@ void spawnAI(string origin, string target, string class)
     entity spawnedAI = sys.spawn(class);
 }
 
-void spawnEntity(string origin, string rotation, string class)
+entity spawnEntity(string origin, string rotation, string class)
 {
     sys.setSpawnArg("origin", origin);
     sys.setSpawnArg("rotation", rotation);
     
-    entity ent = sys.spawn(class);
+    return sys.spawn(class);
 }
 
 void spawnJimmy(string aiOrigin, string target, string letterOrigin, string cellDoor)

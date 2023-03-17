@@ -631,3 +631,47 @@ readables/fsx/letter_mansion_kitchen
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/note_abbey_loft
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"  "
+		""
+		""
+		"  I beeseech thou all to grant Brother Gregory respite whilst he doth wage his battle."
+		""
+		"Abbot Frederick"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_carolingia.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/abbey_abbot_letter
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"Father Frederick,"
+		""
+		"    I doth believe that I hath discovered the root of Brother Gregory's affliction. 'Tis said that he did come upon an ancient relic whilst appraising wares from a local merchant. I doth postulate that the relic is a vessel of evil, and that its malevolent spirit hath taken possession of Gregory's body. It behooves us, Father, to seek out this cursed artifact and purge it from our midst."
+		""
+		"Raphael"
+	}
+	"gui_page1"	: "guis/readables/scrolls/scroll_calig_carolingia.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

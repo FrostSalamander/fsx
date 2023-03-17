@@ -1,10 +1,9 @@
 
-
-particle fs_breath
+particle fs_breath2
 {
 	depthHack	10.000
 	{
-		count 				1
+		count 				2
 		material 			textures/particles/smokepuff
 		time 				7.000
 		cycles 				0.000
@@ -15,7 +14,7 @@ particle fs_breath
 		direction 			outward 20.000
 		orientation 		view
 		speed 				"0.500" to "0.000"
-		size 				"35.500" to "50.500"
+		size 				"5.000" to "20.000"
 		aspect 				"1.000"
 		rotation 			"91.000" to "32.000"
 		randomDistribution 	1

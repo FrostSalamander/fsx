@@ -1,0 +1,6 @@
+skin fs_weapon_rack_wtable
+{
+    model models/darkmod/furniture/shelves/weapon_rack01.lwo
+
+    textures/darkmod/wood/boards/rough_wood_grey_ns textures/darkmod/wood/boards/tiling_1d/wtable1b
+}
