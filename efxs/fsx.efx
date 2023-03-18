@@ -380,6 +380,64 @@ eaxreverb "location_canal_passage_house" {
 }
 
 ////////////
+// ABBEY
+////////////
+eaxreverb "location_abbey_passage_kitchen_brewery" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_abbey_kitchen" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_abbey_dining_hall" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_abbey_chapel" {
+  preset CASTLE_LARGEROOM
+}
+eaxreverb "location_abbey_hall_passage" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_abbey_priest_room" {
+  preset WOODEN_LARGEROOM
+}
+eaxreverb "location_abbey_priest_steps" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_abbey_courtyard" {
+  preset CASTLE_COURTYARD
+}
+eaxreverb "location_abbey_passage_quarters_brewery" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_abbey_quarters" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_abbey_loft" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_abbey_top_entrance" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_abbey_toilet2" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_abbey_toilet1" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_abbey_library" {
+  preset WOODEN_LARGEROOM
+}
+eaxreverb "location_abbey_courtyard_stairs" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_abbey_front_passage" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_abbey_scriptorium" {
+  preset CASTLE_SMALLROOM
+}
+
+////////////
 // MANSION
 ////////////
 

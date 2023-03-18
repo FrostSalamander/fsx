@@ -1,0 +1,9 @@
+entityDef fsx:ragdoll_gregory
+{
+    "inherit"                 "atdm:env_ragdoll_rusted_builder"
+    "name"                    "gregory_respawn"
+    "shouldered_name"         "Brother Gregory"
+    "shouldered_name_dead"    "Brother Gregory"
+    "origin"                  "2322.88 4720.57 297.75"
+    "rotation"                "-1.34561e-17 1.10204e-16 1 0.121203 -0.992628 1.11022e-16 0.992628 0.121203 0"
+}

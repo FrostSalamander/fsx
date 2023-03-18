@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2710096" } 
-		KeyValue { "LastCameraAngle" "-2.10001 89.7 0" } 
-		KeyValue { "LastCameraPosition" "2307.25 4602.32 306.6" } 
+		KeyValue { "EditTimeInSeconds" "2713472" } 
+		KeyValue { "LastCameraAngle" "-12.3 52.5009 0" } 
+		KeyValue { "LastCameraPosition" "2301.64 4633.16 328.101" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2710096 }
+		TotalSecondsEdited { 2713472 }
 	}
 	SelectionSets
 	{
@@ -72271,18 +72271,18 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (info_locationSeparator_283)
 		Node { 0 } // entity (location_abbey_loft)
 		Node { 0 } // entity (func_emitter_98)
-		Node { 0 } // entity (speaker_19)
+		Node { 0 } // entity (speaker_gregory_demon)
 		Node { 0 } // entity (func_static_6119)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (atdm_moveable_holder_tall_plus_candle_short_3)
+		Node { 0 } // entity (abbey_loft_candle)
 		Node { 0 } // entity (speaker_20)
 		Node { 0 } // entity (trigger_relay_1)
 		Node { 0 } // entity (trigger_relay_3)
-		Node { 0 } // entity (light_139)
+		Node { 0 } // entity (demon_light)
 		Node { 0 } // entity (func_emitter_99)
 		Node { 0 } // entity (func_static_6120)
 		Node { 0 } // brush (Brush)
@@ -72347,5 +72347,10 @@ DarkRadiant Map Information File Version 2
 		Node { 11 } // entity (path_corner_272)
 		Node { 11 } // entity (path_wait_202)
 		Node { 0 } // entity (func_emitter_100)
+		Node { 0 } // entity (trigger_relay_demon_off)
+		Node { 0 } // entity (func_remove_platform)
+		Node { 0 } // entity (func_remove_ragdoll)
+		Node { 0 } // entity (speaker_gregory_drop)
+		Node { 0 } // entity (key_master)
 	}
 }
