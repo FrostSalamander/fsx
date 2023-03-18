@@ -1,0 +1,6 @@
+skin fs_book_mount_wtable1b
+{
+    model models/darkmod/furniture/book_mount_standing.lwo
+
+    textures/darkmod/wood/boards/wood_brown_walnut textures/darkmod/wood/boards/tiling_1d/wtable1b
+}

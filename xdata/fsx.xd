@@ -648,7 +648,7 @@ readables/fsx/note_abbey_loft
 		""
 		"  I beeseech thou all to grant Brother Gregory respite whilst he doth wage his battle."
 		""
-		"Abbot Frederick"
+		"Father Frederick"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_carolingia.gui"
 	"snd_page_turn"	: "readable_page_turn"
