@@ -701,3 +701,75 @@ readables/fsx/note_watch_commander
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/journal_warehouse_ivan
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		"  Maintenance Log"
+	}
+	"page1_left_body"	:
+	{
+		""
+		" "
+		""
+		"Tuesday"
+		"--------"
+		"These damned lifts.  Ever since Troutbeck got himself hung for treason and his business closed, we've been unable to get them serviced.  I think I've worked out how to fix them, and it's the perfect leverage to force that penny pincher Goddard to give me a pay rise."
+	}
+	"page1_right_title"	:
+	{
+		"  Maintenance Log"
+	}
+	"page1_right_body"	:
+	{
+		""
+		""
+		""
+		"Friday"
+		"------"
+		"There is a very odd odour coming from the second floor somewhere.  I wonder if someone has forgotten about a shipment from Elliot's."
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/letter_coats_sharpe
+{
+	precache
+	"num_pages"	: "2"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"Sharpe,"
+		""
+		"  Your display of loyalty in dealing with the Watts girl is commendable.  It is certainly unpleasant, but we do what we must."
+		""
+		"  But that is in the past, however recent it may be.  Now to the future. You see, City Watch officials and mayors are only the start.  I've been exploring how a certain foreign nation can help culture my interests.  The stakes are about to be raised Sharpe, and as my head of security"
+	}
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		"your role is about to become even more crucial."
+		""
+		"    Onwards and upwards, Sharpe!  Things are only going to get better.  When you go to collect your weekly stipend you'll find a substanial increase."
+		""
+		"    Also, start making plans to recruit more security staff, and please appoint an understudy.  I'll need you closer to my side for the road ahead."
+		""
+		"V"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
