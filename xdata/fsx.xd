@@ -423,11 +423,11 @@ readables/fsx/letter_safe_house
 	{
 		"Lieutenant,"
 		""
-		"    I'll keep this brief.  If you haven't heard the news, the operation has been exposed by the press.  It will appear in this morning's edition of The Review."
+		"    I'll keep this brief.  If you haven't heard the news, the operation has been exposed by the press.  It will appear in this morning's edition of The Review, of which I have a copy downstairs if you wish to see for yourself."
 		""
 		"    The direction is to carry on and complete your objective.  In anticipation of something like this happening a contingency plan was developed.  You are to free Coates' rival, Jimmy Cook, from prison whilst framing his gang for Coates' death."
 		""
-		"    The hope is that this will divert "
+		""
 	}
 	"page2_title"	:
 	{
@@ -435,11 +435,10 @@ readables/fsx/letter_safe_house
 	}
 	"page2_body"	:
 	{
-		"suspicion from the Service while filling the power vacuum left by removing Coates with a less 'effective' personality."
+		"  "
+		"  The hope is that this will divert suspicion from the Service while filling the power vacuum left by removing Coates with a less 'effective' personality."
 		""
 		"    I've managed to get a copy of a key to the prison.  It should unlock most doors and prison cells on the inside.  You'll need to find your own way in and locate Cook using your own means however.  Simply unlocking his cell door should suffice, he is slippery enough to escape on his own."
-		""
-		"    Additionally, obtain some property of Jimmy Cook's gang and plant it somewhere in the prison.  The chapel"
 	}
 	"page3_title"	:
 	{
@@ -447,7 +446,8 @@ readables/fsx/letter_safe_house
 	}
 	"page3_body"	:
 	{
-		" would be a good place where hopefully one of the priests will be able to recognize it."
+		""
+		"    Additionally, obtain some property belonging to Jimmy Cook's gang and plant it somewhere in the prison. The chapel would be a good place where hopefully one of the priests will be able to recognize it."
 		""
 		"Good luck"
 		""
@@ -673,5 +673,31 @@ readables/fsx/abbey_abbot_letter
 		"Raphael"
 	}
 	"gui_page1"	: "guis/readables/scrolls/scroll_calig_carolingia.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/note_watch_commander
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"Commander Bryant,"
+		""
+		"  This incident at The Watford...I trust you are dealing with it?  "
+		""
+		"  You expressed concern whether or not our mutual friend is worth the trouble.  I have come to the conclusion that most certainly he is not."
+		""
+		"  Let's discuss the matter further tonight at our 'meeting'."
+		""
+		"Mayor Obsorne"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

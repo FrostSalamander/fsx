@@ -49,11 +49,37 @@ eaxreverb "location_russell_apt_bedroom" {
   preset WOODEN_SMALLROOM
 }
 
-//////////////
-// THE SQUARE
-//////////////
-eaxreverb "location_square" {
-  preset CITY_STREETS
+////////////////////
+// BRANDT APARTMENT
+////////////////////
+eaxreverb "location_brandt_kitchen" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_brandt_lounge" {
+  preset WOODEN_LARGEROOM
+}
+eaxreverb "location_brandt_bedroom" {
+  preset WOODEN_MEDIUMROOM
+}
+
+///////////////////////
+// MATTHEWS APARTMENT
+///////////////////////
+eaxreverb "location_matthews_lounge" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_matthews_stairs" {
+  preset WOODEN_LONGPASSAGE
+}
+eaxreverb "location_matthews_bedroom" {
+  preset WOODEN_SMALLROOM
+}
+
+//////////////////
+// WATCH STATION
+//////////////////
+eaxreverb "location_watch_station" {
+  preset WOODEN_SMALLROOM
 }
 
 ////////////////////////
@@ -71,6 +97,13 @@ eaxreverb "location_burns_hallway" {
 }
 eaxreverb "location_burns_study" {
   preset WOODEN_SMALLROOM
+}
+
+//////////////
+// THE SQUARE
+//////////////
+eaxreverb "location_square" {
+  preset CITY_STREETS
 }
 
 /////////////////////
