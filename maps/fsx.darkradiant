@@ -27604,14 +27604,14 @@ DarkRadiant Map Information File Version 2
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2735470" } 
-		KeyValue { "LastCameraAngle" "-24 117.001 0" } 
-		KeyValue { "LastCameraPosition" "-576.733 4126.49 263.224" } 
+		KeyValue { "EditTimeInSeconds" "2736671" } 
+		KeyValue { "LastCameraAngle" "-7.19999 276.001 0" } 
+		KeyValue { "LastCameraPosition" "676.496 4616.91 279.045" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/carpet/rugs/rug_whitey_striped_design" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2735470 }
+		TotalSecondsEdited { 2736671 }
 	}
 	Layers
 	{
@@ -73055,6 +73055,22 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (path_corner_292)
 		Node { 0 } // entity (path_wait_228)
 		Node { 0 } // entity (path_wait_229)
+		Node { 0 } // entity (atdm_moveable_loot_bottle_5)
+		Node { 0 } // entity (atdm_moveable_loot_bottle_6)
+		Node { 0 } // entity (atdm_moveable_loot_bottle_7)
+		Node { 0 } // entity (atdm_moveable_loot_bottle_8)
+		Node { 0 } // entity (atdm_moveable_loot_bottle_9)
+		Node { 0 } // entity (path_corner_293)
+		Node { 0 } // entity (path_wait_230)
+		Node { 0 } // entity (atdm_ai_proguard_8)
+		Node { 0 } // entity (path_corner_294)
+		Node { 0 } // entity (path_wait_231)
+		Node { 0 } // entity (decision_guard_party_in)
+		Node { 0 } // entity (path_wait_233)
+		Node { 0 } // entity (path_corner_295)
+		Node { 0 } // entity (path_corner_296)
+		Node { 0 } // entity (path_wait_234)
+		Node { 0 } // entity (decision_guard_party_out)
 	}
 	SelectionSets
 	{
