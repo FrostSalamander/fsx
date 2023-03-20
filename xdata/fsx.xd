@@ -622,11 +622,11 @@ readables/fsx/letter_mansion_kitchen
 	{
 		"Perkins,"
 		""
-		"  Prepare the venison tonight.  I'm expecting some very important guests. I may or may not be present for dinner."
+		"  Prepare the venison tonight.  Mr Coates is expecting some very important guests. He may or may not be present for dinner."
 		""
 		"  Also, don't serve that pudding we had last week. It was dire."
 		""
-		"V"
+		"Whitworth"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -771,5 +771,32 @@ readables/fsx/letter_coats_sharpe
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/note_whitworth
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Whitworth,"
+		""
+		"    Don't forget about the guests tonight.  I'm expecting:"
+		""
+		"Lord Wolseley"
+		"Commander Bryant"
+		"Mayor Osbourne"
+		""
+		"    I have some other business to attend to this evening as well.  If I'm not present when they arrive, keep them entertained for as long as is necessary.  Be sure to leave them some gifts and refreshments in the lounge.  Be generous!"
+		""
+		"V"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
