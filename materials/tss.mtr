@@ -14,7 +14,7 @@ m_plainsight_TSS
     {
         if ( parm11 > 0 )
         blend       add
-        map         textures/darkmod/decals/signs/m_plainsight_inn
+        map         textures/darkmod/wood/signs/m_plainsight_TSS
         rgb         0.15 * parm11
     }
 }
