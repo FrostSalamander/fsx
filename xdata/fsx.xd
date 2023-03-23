@@ -531,7 +531,7 @@ readables/fsx/scroll_briefing
 	}
 	"page4_body"	:
 	{
-		"    An associate by the name of Lennard will provide you with a safe house.  You can obtain extra equipement there if required. He is located in Old Town but you will not be able to simply knock on his front door.  However he is expecting you and you should be able to find a way in with your skills."
+		"    An associate by the name of Lennard will provide you with a safe house.  You can obtain extra equip¦¦ment there if required. He is located in Old Town but you will not be able to simply knock on his front door.  However he is expecting you and you should be able to find a way in with your skills."
 		""
 		"Good luck,"
 		""
@@ -690,7 +690,7 @@ readables/fsx/note_watch_commander
 		""
 		"Commander Bryant,"
 		""
-		"  This incident at The Watford...I trust you are dealing with it?  "
+		"  This incident at The Watford...I trust you are handling it appropriately?  "
 		""
 		"  You expressed concern whether or not our mutual friend is worth the trouble.  I have come to the conclusion that most certainly he is not."
 		""

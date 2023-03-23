@@ -39,6 +39,9 @@ eaxreverb "location_apts_breakroom" {
 eaxreverb "location_apts_breakroom_toilet" {
   preset WOODEN_COURTYARD
 }
+eaxreverb "location_apts_maintenance_room" {
+  preset CASTLE_SMALLROOM
+}
 eaxreverb "location_russell_apt_lounge" {
   preset WOODEN_MEDIUMROOM
 }
@@ -72,7 +75,7 @@ eaxreverb "location_matthews_stairs" {
   preset WOODEN_LONGPASSAGE
 }
 eaxreverb "location_matthews_bedroom" {
-  preset WOODEN_SMALLROOM
+  preset WOODEN_MEDIUMROOM
 }
 
 //////////////////
