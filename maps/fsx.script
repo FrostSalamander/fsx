@@ -180,17 +180,17 @@ void triggerSafeHouseObjective()
 
         // set the safe house objective visible
         $player1.setObjectiveVisible(OBJ_SAFE_HOUSE, 1);
+
+        // Spawn prison cell key at Lennard's
+        spawnEntity("335.972 2295.93 223.278", "0.592432 0.80562 0 -0.80562 0.592432 0 0 0 1", "fsx:prison_cell_key");
+
+        // Spawn the letter
+        spawnEntity("320 2294 222.881", "1 0 0 0 1 0 0 0 1", "fsx:safe_house_letter");
+
+        // Spawn the newspaper. We prefer if the player finds this in the Review Office, but
+        // in case they never find it they can read it here after Coates is killed.
+        spawnEntity("363.295 2236.69 21.3811", "0.759739 0.650229 0 -0.650229 0.759739 0 0 0 1", "fsx:newspaper");
     }
-
-    // Spawn prison cell key at Lennard's
-    spawnEntity("335.972 2295.93 223.278", "0.592432 0.80562 0 -0.80562 0.592432 0 0 0 1", "fsx:prison_cell_key");
-
-    // Spawn the letter
-    spawnEntity("320 2294 222.881", "1 0 0 0 1 0 0 0 1", "fsx:safe_house_letter");
-
-    // Spawn the newspaper. We prefer if the player finds this in the Review Office, but
-    // in case they never find it they can read it here after Coates is killed.
-    spawnEntity("363.295 2236.69 21.3811", "0.759739 0.650229 0 -0.650229 0.759739 0 0 0 1", "fsx:newspaper");
 }
 
 void completeSafeHouseObjective()

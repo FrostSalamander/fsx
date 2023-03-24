@@ -263,12 +263,31 @@ eaxreverb "location_old_town_streets" {
 eaxreverb "location_river_turret" {
   preset CASTLE_SHORTPASSAGE
 }
+eaxreverb "location_river_turret" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_watchhouse_ladder" {
+  preset CASTLE_SHORTPASSAGE
+}
 eaxreverb "location_watchhouse" {
   preset CASTLE_SMALLROOM
 }
 // area between old town and prison over the canal
 eaxreverb "location_watchtower" {
   preset CASTLE_SHORTPASSAGE
+}
+
+/////////////////////////////
+// FINCH HOUSE (near prison)
+//////////////////////////////
+eaxreverb "location_finch_topfloor" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_finch_stairs" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_finch_groundfloor" {
+  preset WOODEN_SMALLROOM
 }
 
 //////////////////
@@ -387,6 +406,33 @@ eaxreverb "location_oldtown_east" {
   preset ALLEY
 }
 
+///////////////
+// CHURCH AREA 
+///////////////
+eaxreverb "location_oldtown_church_area" {
+  preset CITY_STREETS
+}
+eaxreverb "location_church_belfry_quarters" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_church_belfry_bedroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_church_belfry" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_church_stairs1" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_church_stairs2" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_church_entrance_hall" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_church_nave" {
+  preset DOME_SAINTPAULS
+}
 
 ///////////////////////////////////
 // HODGSON HOUSE (next to mansion)
