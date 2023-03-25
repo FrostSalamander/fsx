@@ -501,7 +501,7 @@ readables/fsx/scroll_briefing
 		""
 		"  You are to eliminate one Vinton Coates.  He is a well-known local criminal who despite his unsavoury reputation has amassed a large number of followers.  Some of his devotees include local officials whose pockets he no doubt keeps lined with his ill-gotten gains."
 		""
-		"  You may wonder why we are taking this drastic step instead of just putting him in prison.  The answer to that is complicated, but in short his influence"
+		"  You may wonder why this is not just a matter left to the local authorities?  The answer to that is complicated, but in short his influence  has reached "
 	}
 	"page2_title"	:
 	{
@@ -509,7 +509,7 @@ readables/fsx/scroll_briefing
 	}
 	"page2_body"	:
 	{
-		" has reached places we are not comfortable with and we don't feel much would change with him behind bars. His main asset is his charisma.  As long as he's alive his influence will be felt."
+		"places we are not comfortable with and we don't feel much would change with him behind bars. His main asset is his charisma.  As long as he's alive his influence will be felt."
 		""
 		"  We feel the most likely places to locate Coates are either his mansion in Old town or The Watford Hotel in Lady Everly Square where he leases a penthouse suite. Failing that, he is known to pay his respects at the Builder Church in the northeast of Old Town."
 		""
@@ -531,7 +531,7 @@ readables/fsx/scroll_briefing
 	}
 	"page4_body"	:
 	{
-		"    An associate by the name of Lennard will provide you with a safe house.  You can obtain extra equip¦¦ment there if required. He is located in Old Town but you will not be able to simply knock on his front door.  However he is expecting you and you should be able to find a way in with your skills."
+		"    An associate by the name of Lennard will provide you with a safe house.  You can obtain extra equipment there if required. He is located in Old Town but you will not be able to simply knock on his front door.  However he is expecting you and you should be able to find a way in with your skills."
 		""
 		"Good luck,"
 		""
