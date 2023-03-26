@@ -787,16 +787,44 @@ readables/fsx/note_whitworth
 	{
 		"Whitworth,"
 		""
-		"    Don't forget about the guests tonight.  I'm expecting:"
-		""
-		"Lord Wolseley"
-		"Commander Bryant"
-		"Mayor Osbourne"
+		"    Don't forget about the guests tonight!"
 		""
 		"    I have some other business to attend to this evening as well.  If I'm not present when they arrive, keep them entertained for as long as is necessary.  Be sure to leave them some gifts and refreshments in the lounge.  Be generous!"
 		""
 		"V"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/mansion_logbook
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		""
+		"Visitor log 21/08"
+		""
+		"23:35. Lord Wolseley"
+		""
+		"23: 43. Mayor Osbourne"
+		""
+		"00:17. Commander Bryant"
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
