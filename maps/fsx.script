@@ -22,6 +22,10 @@ string TARGET_STATE_COOK = "target_set_cook_objective_state";
 string PRISON_DOOR_LW = "VaultDoorLW";
 string PRISON_DOOR_UW = "VaultDoorUW";
 
+// Pop-up message entities
+string DISABLE_PRISON_POPUP = "target_disable_prison_popup";
+string TRIGGER_NEWSPAPER_POPUP = "trigger_newspaper_popup";
+
 boolean isBindChildrenOpen(entity mover)
 {
     float bindChildren = mover.numBindChildren();
@@ -191,12 +195,27 @@ void triggerSafeHouseObjective()
         // in case they never find it they can read it here after Coates is killed.
         spawnEntity("363.295 2236.69 21.3811", "0.759739 0.650229 0 -0.650229 0.759739 0 0 0 1", "fsx:newspaper");
     }
+    else
+    {
+        // If you've killed Coates but haven't yet been to the safe house, display a pop up if you read the newspaper.
+        // Just gives 'some reaction' to seeing the news.
+
+        // This scenario can happen if you start in Old Town and then eventually kill Coates in the hotel
+        // before you get to The Review
+        if (isObjectiveComplete(OBJ_KILL_COATES) && !isObjectiveComplete(OBJ_SAFE_HOUSE))
+        {
+            sys.trigger(sys.getEntity(TRIGGER_NEWSPAPER_POPUP));
+        } 
+    }
 }
 
 void completeSafeHouseObjective()
 {
     // complete the 'get to the safe house' objective
     $player1.setObjectiveState(OBJ_SAFE_HOUSE, OBJ_COMPLETE);
+
+    // disable the prison popup message
+    sys.trigger(sys.getEntity(DISABLE_PRISON_POPUP));
 
     sys.wait(3);
 
