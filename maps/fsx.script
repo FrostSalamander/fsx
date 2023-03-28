@@ -26,6 +26,9 @@ string PRISON_DOOR_UW = "VaultDoorUW";
 string DISABLE_PRISON_POPUP = "target_disable_prison_popup";
 string TRIGGER_NEWSPAPER_POPUP = "trigger_newspaper_popup";
 
+// Triggers
+string TRIGGER_ATKINSON_OBJECTIVE = "trigger_relay_atkinson_objective";
+
 boolean isBindChildrenOpen(entity mover)
 {
     float bindChildren = mover.numBindChildren();
@@ -238,6 +241,11 @@ void frobMask(entity ent)
     // update location entity with new ambient settings
     $location_abbey_loft.setKey("ambient", "snd_abbey");
     $location_abbey_loft.setKey("ambient_light", "0.04 0.04 0.04");
+}
+
+void frobAtkinson()
+{
+    sys.trigger(sys.getEntity(TRIGGER_ATKINSON_OBJECTIVE));
 }
 
 // main - keep at bottom
