@@ -134,7 +134,8 @@ void spawnCoates(string origin, string target)
 
 // Spawn Coates in the church
 // Applies to the following zones:
-//   - location_hotel_lobby
+//   - location_hotel_lobby (if entering from the lift or the storage room)
+//   - location_hotel_back_hallway (if entering through back door via the warehouse)
 
 void spawnCoatesChurch(entity oldZone)
 {
