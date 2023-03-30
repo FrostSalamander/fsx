@@ -28,6 +28,7 @@ string TRIGGER_NEWSPAPER_POPUP = "trigger_newspaper_popup";
 
 // Triggers
 string TRIGGER_ATKINSON_OBJECTIVE = "trigger_relay_atkinson_objective";
+string TRIGGER_COUNT_FIREARROW = "trigger_count_firearrow";
 
 boolean isBindChildrenOpen(entity mover)
 {
@@ -139,6 +140,14 @@ void spawnCoates(string origin, string target)
 
 void spawnCoatesChurch(entity oldZone)
 {
+    // spawns a fire arrow in the church.  Uses a trigger_count so the arrow is only spawned once.
+    // Check if Coates is spawned first so the arrow doesn't get spawned if Coates gets spawned
+    // somewhere else before the player enters the hotel.
+    if (!COATES_SPAWNED)
+    {
+        sys.trigger(sys.getEntity(TRIGGER_COUNT_FIREARROW));
+    }
+
     spawnCoates("3408 4728 8.0669", "path_corner_111");
 }
 
@@ -247,6 +256,11 @@ void frobMask(entity ent)
 void frobAtkinson()
 {
     sys.trigger(sys.getEntity(TRIGGER_ATKINSON_OBJECTIVE));
+}
+
+void spawnFireArrow()
+{
+    spawnEntity("3384.7 3912 917.835", "-0.0495337 0 0.998772 0 1 0 -0.998772 0 -0.0495337", "atdm:ammo_firearrow");
 }
 
 // main - keep at bottom

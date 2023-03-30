@@ -3,10 +3,8 @@ Version: [VERSION]
 Author: Frost_Salamander
 Description: WIP
 
-Credits:
-
-Wellingtoncrab: cobblestones pack
-Greebo: For his awesome DarkRadiant work and also for Fbx2Lwo which came in handy for this FM.
+Credits
+-------
 
 Models:
 
@@ -19,3 +17,4 @@ Tuna image by Gordon Johnson from Pixabay
 Octopus image by Mohamed Hassan from Pixabay
 Woman in coif image by Clker-Free-Vector-Images from Pixabay
 Grain image by OpenClipart-Vectors from Pixabay
+Map parchment image by Gerd Altmann from Pixabay 
