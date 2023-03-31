@@ -307,6 +307,13 @@ eaxreverb "location_oldtown_lodge_office" {
   preset WOODEN_MEDIUMROOM
 }
 
+////////////////////
+// OLD TOWN HOUSES
+////////////////////
+eaxreverb "location_oldtown_house" {
+  preset WOODEN_SMALLROOM
+}
+
 ////////////////////////
 // LENNARD'S SAFE HOUSE
 ////////////////////////
