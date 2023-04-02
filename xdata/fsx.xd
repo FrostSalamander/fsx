@@ -847,3 +847,36 @@ readables/fsx/note_belfry
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_carolingia.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/news_crime_roundup
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"              'WATCHGATE 4' FOUND "
+		"                 GUILTY OF TREASON"
+		""
+		"    Four Watchgate residents suspected of a treasonous plot to overthrow the King have been found guilty of treason.  The plot, which would have seen Lord Henley Eaton installed on the throne, was thwarted by the Intelligence Services."
+		"    Lord Eaton, who some argue has a legitimate claim to the throne, was exonerated of any wrongdoing."
+		"    Walter Troutbeck, Nelson Cooper, Harlan Bancroft and Priscilla Pembroke are to be sentenced on Friday."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"                    COOK JAILED"
+		"    Renowed local gangster Jimmy Cook has been jailed for racketeering offences.  The conviction follows a lengthy investigation into his dealings with several local businesses."
+		"    Elliot Seafoods owner Newman Elliot had this to say: \"It's such a relief.  Now the residents of Highborough can enjoy their eels guilt-free.\""
+		"   Cook was sentenced to 10 years in Firthgate Prison."
+	}
+	"gui_page1"	: "guis/readables/sheets/newspaper_bridgeport03.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
