@@ -5,6 +5,6 @@ textures/darkmod/decals/signs/burns_gem
 	
 	{
 		blend blend
-		map textures/darkmod/decals/signs/burns_gem
+		map textures/darkmod/decals/signs/burns
 	}
 }
