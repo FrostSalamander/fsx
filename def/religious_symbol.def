@@ -1,0 +1,9 @@
+entityDef nm_religious_symbol
+{
+    "inherit"					"atdm:moveable_small_base"
+    "editor_usage"				"A moveable non-loot religious symbol."
+    "model"						"models/darkmod/loot/religious_symbol01.lwo"
+    "skin"                      "religious_symbol_steel_smooth"
+    "snd_bounce"	     		"tdm_impact_steelpot_01"
+    "bouncyness"			    "0"
+}

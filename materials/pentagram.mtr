@@ -1,0 +1,10 @@
+textures/darkmod/decals/pentagram
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/pentagram
+	}
+}

@@ -322,7 +322,7 @@ readables/fsx/letter_bridget
 		""
 		"  Perhaps the gift from Burns' shop I left you will bring forgiveness for my absence."
 		""
-		"V"
+		"V.C."
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -580,7 +580,7 @@ readables/fsx/scroll_warehouse_office
 		""
 		"  Consider this a token of my appreciation for dealing with my problem."
 		""
-		"V"
+		"V.C."
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -601,7 +601,7 @@ readables/fsx/letter_mansion_party
 		""
 		"  Enjoy your evening. We can discuss business later!"
 		""
-		"V"
+		"V.C."
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -751,7 +751,7 @@ readables/fsx/letter_coats_sharpe
 		""
 		"  Your display of loyalty in dealing with the Watts girl is commendable.  It is certainly unpleasant, but we do what we must."
 		""
-		"  But that is in the past, however recent it may be.  Now to the future. You see, City Watch officials and mayors are only the start.  I've been exploring how a certain foreign nation can help culture my interests.  The stakes are about to be raised Sharpe, and as my head of security"
+		"  But that is in the past, however recent it may be.  Now to the future. You see, City Watch officials and mayors are only the start.  I've been exploring how a certain foreign nation can help culture my interests.  The stakes are about to be raised Sharpe, and as my head of security your role is about to become even"
 	}
 	"page2_title"	:
 	{
@@ -759,13 +759,14 @@ readables/fsx/letter_coats_sharpe
 	}
 	"page2_body"	:
 	{
-		"your role is about to become even more crucial."
+		"more crucial."
+		""
+		"    The Builders are a different story.  They are incorruptible, but I have someone looking into an alternative approach."
 		""
 		"    Onwards and upwards, Sharpe!  Things are only going to get better.  When you go to collect your weekly stipend you'll find a substanial increase."
 		""
 		"    Also, start making plans to recruit more security staff, and please appoint an understudy.  I'll need you closer to my side for the road ahead."
-		""
-		"V"
+		"                          V.C."
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
@@ -789,7 +790,7 @@ readables/fsx/note_whitworth
 		""
 		"    I have some other business to attend to this evening as well.  If I'm not present when they arrive, keep them entertained for as long as is necessary.  Be sure to leave them some gifts and refreshments in the lounge.  Be generous!"
 		""
-		"V"
+		"V.C."
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -878,5 +879,55 @@ readables/fsx/news_crime_roundup
 		"   Cook was sentenced to 10 years in Firthgate Prison."
 	}
 	"gui_page1"	: "guis/readables/sheets/newspaper_bridgeport03.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/bookshop_journal
+{
+	precache
+	"num_pages"	: "2"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"    Never would I have thought that I would be using these tomes for their intended purpose.  i am just a dealer in rare books, not a practitioner of the occult."
+		""
+		"    Thanks to that lowlife Jimmy Cook, I barely pull in enough income to eat.  Although he's finally been sent to prison, his even more unpleasant brother Derryl has taken up the slack."
+		""
+		"    Then Vinton Coates approached me.  If I could "
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"find a way to influence the Builders using occult magic, he would 'convince' the Cooks to back off.  When I asked why he chose me rather than a proper mage, he said something about keeping a low profile. I suppose mages aren't known for their loyalty."
+		""
+		"    Regardless, from what I do know about the practice, what he's asking for is fairly straighforward.  I have lent the artefact to Brother Gregory for 'appraisal', claiming it was outside my area"
+	}
+	"page2_left_title"	:
+	{
+		""
+	}
+	"page2_left_body"	:
+	{
+		"of expertise. Coupled with the ritual I performed in the attic I expect results within twenty four hours."
+		""
+		"    What those results will be, I frankly have no idea."
+	}
+	"page2_right_title"	:
+	{
+		""
+	}
+	"page2_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
+	"gui_page2"	: "guis/readables/books/book_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
