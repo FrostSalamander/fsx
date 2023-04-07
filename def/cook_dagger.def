@@ -5,7 +5,7 @@ entityDef cook_dagger
     "editor_usage"				"A dagger belonging to the Cook gang."
     "model"						"models/darkmod/loot/dagger_loot.lwo"
     "frobable"	                "1"
-    "frob_distance"             "30"
+    "frob_distance"             "60"
     "mass"						"3"
     "friction"					"0.1"
     "bouncyness"				"0.1"
