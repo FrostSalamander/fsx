@@ -931,3 +931,27 @@ readables/fsx/bookshop_journal
 	"gui_page2"	: "guis/readables/books/book_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/fsx/pub_note_bartender
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Faye,"
+		""
+		"    I hope you are settling in well!"
+		""
+		"    Keep an eye on that gentleman over there by the toilets.  His name is Burns and he's a regular here.  Pleasant chap, runs the jewellery shop over in the arcade."
+		"    He usually has one or two and calls it an evening, but he seems to have had a particularly bad day.  If he becomes unmanagable, send for me and I'll take care of seeing him out."
+		""
+		"Mr Reed"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
