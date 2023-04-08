@@ -1,0 +1,24 @@
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+  categories:
+    - title: Bug fixes
+      labels:
+        - bug
+    - title: Improvements
+      labels:
+        - improvement
+        - enhancement
+    - title: Performance
+      labels:
+        - performance
+    - title: Gameplay
+      labels:
+        - gameplay
+    - title: Housekeeping
+      labels:
+        - housekeeping
+    - title: Other Changes
+      labels:
+        - "*"
