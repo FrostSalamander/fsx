@@ -1,4 +1,4 @@
-$rev = "0.1-beta"
+$rev = "0.2-beta"
 $revSuffix="_v$rev"
 $timestamp = Get-Date -Format "dd/MM/yyyy HH:mm"
 
