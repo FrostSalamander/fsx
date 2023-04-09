@@ -1,0 +1,8 @@
+tdm_heavy_stone_scratching01_fs
+{
+    editor_displayFolder    sfx/movement/sliding
+    no_dups
+    shakes    0.5
+
+    sound/sfx/movement/sliding/stone_scratch01_loop.wav
+}
