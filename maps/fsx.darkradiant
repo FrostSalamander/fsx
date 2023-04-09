@@ -2,13 +2,13 @@ DarkRadiant Map Information File Version 2
 {
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2923945 }
+		TotalSecondsEdited { 2924080 }
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2923945" } 
-		KeyValue { "LastCameraAngle" "-12.9 250.2 0" } 
-		KeyValue { "LastCameraPosition" "817.305 2774.72 320.726" } 
+		KeyValue { "EditTimeInSeconds" "2924080" } 
+		KeyValue { "LastCameraAngle" "12.6 352.2 0" } 
+		KeyValue { "LastCameraPosition" "66.3425 2137.32 111.471" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/cobblestones/flagstones02_plain" } 
 	}
 	SelectionGroups
@@ -6114,6 +6114,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 13544 { "" }
 		SelectionGroup 13545 { "" }
 		SelectionGroup 13546 { "" }
+		SelectionGroup 13547 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -11075,13 +11076,24 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 10626 ) ( 9037 ) } // brush (Brush)
 		Node { ( 0 10629 ) ( 9037 ) } // brush (Brush)
 		Node { ( 0 10630 ) ( 9037 ) } // brush (Brush)
-		Node { ( 0 10658 ) ( 9030 ) } // brush (Brush)
-		Node { ( 0 10664 ) ( 9030 ) } // brush (Brush)
-		Node { ( 0 10675 ) ( 9030 ) } // brush (Brush)
-		Node { ( 0 10676 ) ( 9030 ) } // brush (Brush)
-		Node { ( 0 10677 ) ( 9030 ) } // brush (Brush)
-		Node { ( 0 10678 ) ( 9030 ) } // brush (Brush)
+		Node { ( 0 10658 ) ( 9030 13547 ) } // brush (Brush)
+		Node { ( 0 10664 ) ( 9030 13547 ) } // brush (Brush)
+		Node { ( 0 10665 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10666 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10667 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10668 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10669 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10670 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10671 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10672 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10673 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10675 ) ( 9030 13547 ) } // brush (Brush)
+		Node { ( 0 10676 ) ( 9030 13547 ) } // brush (Brush)
+		Node { ( 0 10677 ) ( 9030 13547 ) } // brush (Brush)
+		Node { ( 0 10678 ) ( 9030 13547 ) } // brush (Brush)
 		Node { ( 0 10688 ) ( 9016 ) } // brush (Brush)
+		Node { ( 0 10718 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10719 ) ( 13547 ) } // brush (Brush)
 		Node { ( 0 10721 ) ( 9027 ) } // brush (Brush)
 		Node { ( 0 10722 ) ( 9027 ) } // brush (Brush)
 		Node { ( 0 10723 ) ( 9027 ) } // brush (Brush)
@@ -11104,6 +11116,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 10752 ) ( 9029 9032 ) } // patch (Patch)
 		Node { ( 0 10753 ) ( 9029 9032 ) } // patch (Patch)
 		Node { ( 0 10754 ) ( 9029 9032 ) } // patch (Patch)
+		Node { ( 0 10765 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10766 ) ( 13547 ) } // brush (Brush)
+		Node { ( 0 10767 ) ( 13547 ) } // brush (Brush)
 		Node { ( 0 10781 ) ( 9057 9059 ) } // brush (Brush)
 		Node { ( 0 10782 ) ( 9046 9047 9057 9059 ) } // brush (Brush)
 		Node { ( 0 10783 ) ( 9046 9047 9057 9059 ) } // brush (Brush)
