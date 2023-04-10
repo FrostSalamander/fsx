@@ -30,6 +30,9 @@ string TRIGGER_NEWSPAPER_POPUP = "trigger_newspaper_popup";
 string TRIGGER_ATKINSON_OBJECTIVE = "trigger_relay_atkinson_objective";
 string TRIGGER_COUNT_FIREARROW = "trigger_count_firearrow";
 
+// Locations
+string LOCATION_ABBEY_LOFT = "location_abbey_loft";
+
 boolean isBindChildrenOpen(entity mover)
 {
     float bindChildren = mover.numBindChildren();
@@ -38,10 +41,8 @@ boolean isBindChildrenOpen(entity mover)
     for (i=0; i < bindChildren; i++)
     {
         entity bindChild = mover.getBindChild(i);
-        //sys.println(bindChild.getName());
         if (bindChild.IsOpen())
         {
-            //sys.println("bind child" + bindChild.getName() + " is open");¦
             return true;
         }
     }
@@ -69,10 +70,6 @@ void controlLiftDoors(entity target, entity button, entity callscriptfunction)
             target.Open();
         }
     }
-    else
-    {
-        sys.println("lift is on wrong floor or is moving");
-    }
 }
 
 void spawnAI(string origin, string target, string class)
@@ -99,7 +96,6 @@ void spawnJimmy(string aiOrigin, string target, string letterOrigin, string cell
     {
         JIMMY_SPAWNED = 1;
 
-        sys.println("spawning Jimmy..."); // TODO: DEBUG_REMOVE
         spawnAI(aiOrigin, target, "fsx:ai_jimmy_cook");
 
         // spawn the letter
@@ -127,7 +123,6 @@ void spawnCoates(string origin, string target)
 {
     if (!COATES_SPAWNED)
     {
-        sys.println("spawning Coates..."); // TODO: DEBUG_REMOVE
         spawnAI(origin, target, "fsx:ai_vinton_coates");
         COATES_SPAWNED = 1;
     }
@@ -249,8 +244,9 @@ void frobMask(entity ent)
     frob_item(ent);
 
     // update location entity with new ambient settings
-    $location_abbey_loft.setKey("ambient", "snd_abbey");
-    $location_abbey_loft.setKey("ambient_light", "0.04 0.04 0.04");
+    entity abbeyLoft = sys.getEntity(LOCATION_ABBEY_LOFT);
+    abbeyLoft.setKey("ambient", "snd_abbey");
+    abbeyLoft.setKey("ambient_light", "0.04 0.04 0.04");
 }
 
 void frobAtkinson()
