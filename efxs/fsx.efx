@@ -7,6 +7,16 @@ eaxreverb "location_tunnels" {
   preset CAVE
 }
 
+//////////////////////
+// CITY WALL / TURRET
+//////////////////////
+eaxreverb "location_old_town_turret" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_old_town_wall_lower" {
+  preset CASTLE_SHORTPASSAGE
+}
+
 ////////////////////////////
 // START ALLEY / RUSSELL ST
 ////////////////////////////
