@@ -1,0 +1,13 @@
+skin ladder_rung_iron_flat
+{
+    model models/darkmod/architecture/ladders/ladder_rung.lwo
+
+    textures/darkmod/metal/flat/heavy_rust_pocked01 textures/darkmod/metal/flat/iron_flat
+}
+
+skin ladder_rung_iron_rough
+{
+    model models/darkmod/architecture/ladders/ladder_rung.lwo
+
+    textures/darkmod/metal/flat/heavy_rust_pocked01 textures/darkmod/metal/flat/iron_rough
+}
