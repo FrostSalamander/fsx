@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2933970" } 
-		KeyValue { "LastCameraAngle" "-3.90001 28.8001 0" } 
-		KeyValue { "LastCameraPosition" "1737.33 4130.52 255.709" } 
+		KeyValue { "EditTimeInSeconds" "2934234" } 
+		KeyValue { "LastCameraAngle" "-17.7 57.3001 0" } 
+		KeyValue { "LastCameraPosition" "500.92 1634.51 437.676" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/dark_brick_old" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2933970 }
+		TotalSecondsEdited { 2934234 }
 	}
 	SelectionSets
 	{
@@ -76220,5 +76220,6 @@ DarkRadiant Map Information File Version 2
 		Node { 4 } // entity (lever2)
 		Node { 4 } // entity (func_static_5600)
 		Node { 4 } // entity (func_static_6622)
+		Node { 4 } // entity (atdm_moveable_plant_pot_1)
 	}
 }
