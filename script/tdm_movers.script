@@ -66,7 +66,7 @@ void multistateposition::leave(entity mover)
 
         tdm_elevator lift = mover;
 
-        sys.println("triggered by: " + lift.lastTriggeredBy.getName());
+        //sys.println("triggered by: " + lift.lastTriggeredBy.getName());
 
         lift.activate(lift.lastTriggeredBy);
     }
@@ -100,7 +100,7 @@ boolean multistateposition::isDoorsOpen()
             return true;
         }
     }
-    sys.println("doors are all closed");
+    //sys.println("doors are all closed");
     return false;
 }
 
