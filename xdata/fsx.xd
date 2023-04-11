@@ -361,7 +361,7 @@ readables/fsx/dept_store_lift
 	}
 	"page1_body"	:
 	{
-		"Sir,"
+		"Mr Harrington,"
 		""
 		"  This new lift seems to be acting up.  This morning when I was taking it up to the office I heard a strange noise and it stopped for a brief second, before resuming. I think it's fine now though."
 		""
@@ -953,5 +953,32 @@ readables/fsx/pub_note_bartender
 		"Mr Reed"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/harrington_letter_tss
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Mr Archibald Harrington,"
+		""
+		"    As a recent customer of Troutbeck Security Services, I am duty bound to inform you of the imminent liquidation of TSS due to the recent events sourrounding our founder, Walter Troubeck."
+		"    Consequently, all support for our products will cease with immediate effect.  You may be able to claim compensation for any defects or malfunctions through your business owner's insurance policy."
+		""
+		"Regretfully yours,"
+		""
+		"Eleanor Bailey"
+		"Troutbeck Security Services"
+		"#2 West Arcade"
+		"Highborough"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
