@@ -45,13 +45,6 @@ skin small_stone_mortar_sloppy_dark2
     textures/darkmod/stone/brick/rough_brick_grey textures/darkmod/plaster/mortar_sloppy_dark2
 }
 
-skin small_stone_mortar_sloppy_dark2
-{
-    model models/darkmod/architecture/chimneys/small_stone.lwo
-
-    textures/darkmod/stone/brick/rough_brick_grey textures/darkmod/plaster/mortar_sloppy_dark2
-}
-
 skin small_stone_mortar_plaster_leaking
 {
     model models/darkmod/architecture/chimneys/small_stone.lwo
