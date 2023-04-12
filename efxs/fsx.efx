@@ -368,7 +368,7 @@ eaxreverb "location_coronet" {
 ///////////
 
 eaxreverb "location_prison_canal" {
-  preset PIPE_LARGE
+  preset SEWERPIPE
 }
 eaxreverb "location_prison_east_wing_ground_floor" {
   preset CASTLE_MEDIUMROOM
