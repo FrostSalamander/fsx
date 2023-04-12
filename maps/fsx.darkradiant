@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2940390" } 
-		KeyValue { "LastCameraAngle" "-15.6 302.7 0" } 
-		KeyValue { "LastCameraPosition" "2606.09 5347.02 226.258" } 
+		KeyValue { "EditTimeInSeconds" "2940490" } 
+		KeyValue { "LastCameraAngle" "-30 27.9 0" } 
+		KeyValue { "LastCameraPosition" "292.678 3048.45 102.981" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/tdm_nodrawsolid_stone" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2940390 }
+		TotalSecondsEdited { 2940490 }
 	}
 	Layers
 	{
@@ -53725,6 +53725,8 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 13582 { "" }
 		SelectionGroup 13583 { "" }
 		SelectionGroup 13585 { "" }
+		SelectionGroup 13586 { "" }
+		SelectionGroup 13587 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -60995,6 +60997,7 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 15501 ) ( 12031 ) } // brush (Brush)
 		Node { ( 0 15502 ) ( 12031 ) } // brush (Brush)
 		Node { ( 0 15503 ) ( 12031 ) } // brush (Brush)
+		Node { ( 0 15505 ) ( 13587 ) } // brush (Brush)
 		Node { ( 0 15507 ) ( 12032 ) } // brush (Brush)
 		Node { ( 0 15508 ) ( 12032 ) } // brush (Brush)
 		Node { ( 0 15518 ) ( 12043 12044 ) } // brush (Brush)
@@ -61961,6 +61964,11 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 18832 ) ( 83 84 ) } // patch (Patch)
 		Node { ( 0 18852 ) ( 13349 ) } // brush (Brush)
 		Node { ( 0 18853 ) ( 13349 ) } // brush (Brush)
+		Node { ( 0 18918 ) ( 13586 13587 ) } // brush (Brush)
+		Node { ( 0 18919 ) ( 13586 13587 ) } // brush (Brush)
+		Node { ( 0 18920 ) ( 13586 13587 ) } // brush (Brush)
+		Node { ( 0 18921 ) ( 13586 13587 ) } // brush (Brush)
+		Node { ( 0 18922 ) ( 13586 13587 ) } // brush (Brush)
 		Node { ( 0 18932 ) ( 13379 ) } // brush (Brush)
 		Node { ( 0 18952 ) ( 9072 ) } // brush (Brush)
 		Node { ( 0 18953 ) ( 9072 ) } // brush (Brush)
@@ -63014,6 +63022,7 @@ DarkRadiant Map Information File Version 2
 		Node { ( 536 20217 ) ( 5126 5127 ) } // patch (Patch)
 		Node { ( 537 ) ( 5128 ) } // entity (func_static_500)
 		Node { ( 538 ) ( 5128 ) } // entity (func_static_501)
+		Node { ( 544 ) ( 13587 ) } // entity (func_static_505)
 		Node { ( 545 20220 ) ( 5253 ) } // patch (Patch)
 		Node { ( 545 20221 ) ( 5254 ) } // patch (Patch)
 		Node { ( 545 20222 ) ( 5254 ) } // patch (Patch)
@@ -71558,6 +71567,7 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5757 29592 ) ( 12027 ) } // patch (Patch)
 		Node { ( 5758 ) ( 12029 ) } // entity (atdm_lamp_electric_outdoor_unattached_lit_28)
 		Node { ( 5759 ) ( 12030 ) } // entity (func_emitter_67)
+		Node { ( 5761 ) ( 13587 ) } // entity (func_static_4594)
 		Node { ( 5762 29593 ) ( 12036 ) } // brush (Brush)
 		Node { ( 5762 29594 ) ( 12036 ) } // brush (Brush)
 		Node { ( 5762 29595 ) ( 12036 ) } // brush (Brush)
@@ -74779,14 +74789,16 @@ DarkRadiant Map Information File Version 2
 		Node { ( 9567 ) ( 13252 ) } // entity (func_static_6311)
 		Node { ( 9571 ) ( 13259 ) } // entity (func_static_6313)
 		Node { ( 9572 ) ( 13259 ) } // entity (atdm_liquid_water_26)
-		Node { ( 9582 ) ( 13264 ) } // entity (func_static_1247)
-		Node { ( 9583 ) ( 13264 ) } // entity (func_static_6315)
-		Node { ( 9584 ) ( 13264 ) } // entity (func_static_1248)
-		Node { ( 9585 ) ( 13264 ) } // entity (func_static_6316)
-		Node { ( 9586 ) ( 13264 ) } // entity (func_static_6314)
-		Node { ( 9587 ) ( 13264 ) } // entity (func_static_6319)
-		Node { ( 9588 ) ( 13264 ) } // entity (func_static_6318)
-		Node { ( 9589 ) ( 13264 ) } // entity (func_static_6317)
+		Node { ( 9581 ) ( 13587 ) } // entity (func_static_6312)
+		Node { ( 9582 ) ( 13264 13587 ) } // entity (func_static_1247)
+		Node { ( 9583 ) ( 13264 13587 ) } // entity (func_static_6315)
+		Node { ( 9584 ) ( 13264 13587 ) } // entity (func_static_1248)
+		Node { ( 9585 ) ( 13264 13587 ) } // entity (func_static_6316)
+		Node { ( 9586 ) ( 13264 13587 ) } // entity (func_static_6314)
+		Node { ( 9587 ) ( 13264 13587 ) } // entity (func_static_6319)
+		Node { ( 9588 ) ( 13264 13587 ) } // entity (func_static_6318)
+		Node { ( 9589 ) ( 13264 13587 ) } // entity (func_static_6317)
+		Node { ( 9590 ) ( 13587 ) } // entity (func_static_6320)
 		Node { ( 9594 35401 ) ( 13265 ) } // patch (Patch)
 		Node { ( 9594 35402 ) ( 13265 ) } // patch (Patch)
 		Node { ( 9594 35403 ) ( 13265 ) } // patch (Patch)
