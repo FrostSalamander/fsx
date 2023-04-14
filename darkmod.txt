@@ -1,4 +1,4 @@
 Title: High Expectations
+Description: Follow 'The Lieutenant' on his next mission to the City of Highborough
 Version: [VERSION]
 Author: Frost_Salamander
-Description: Follow 'The Lieutenant' on his next mission to the City of Highborough
