@@ -187,7 +187,7 @@ void triggerSafeHouseObjective()
         }
         else
         {
-            $player1.setObjectiveText(OBJ_SAFE_HOUSE, "Your mission has been exposed! Check in at Lennard's safe house for direction.");
+            $player1.setObjectiveText(OBJ_SAFE_HOUSE, "Your mission has been exposed! Carry on with your objective, but check in at Lennard's safe house at some point for direction.");
         }
 
         // set the safe house objective visible
