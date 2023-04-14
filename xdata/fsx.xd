@@ -688,11 +688,9 @@ readables/fsx/note_watch_commander
 		""
 		"Commander Bryant,"
 		""
-		"  This incident at The Watford...I trust you are handling it appropriately?  "
+		"    The agreed plan is as follows: after the girl is taken care of, you are to secure the scene with one of your men.  One you can trust, although he shall not be privy to what happens next."
 		""
-		"  You expressed concern whether or not our mutual friend is worth the trouble.  I have come to the conclusion that most certainly he is not."
-		""
-		"  Let's discuss the matter further tonight at our 'meeting'."
+		"    After that, Coates' mole is to be placed in the room, where upon discovery the next morning he will be declared the perpetrator."
 		""
 		"Mayor Obsorne"
 	}
@@ -749,9 +747,8 @@ readables/fsx/letter_coats_sharpe
 		""
 		"Sharpe,"
 		""
-		"  Your display of loyalty in dealing with the Watts girl is commendable.  It is certainly unpleasant, but we do what we must."
-		""
-		"  But that is in the past, however recent it may be.  Now to the future. You see, City Watch officials and mayors are only the start.  I've been exploring how a certain foreign nation can help culture my interests.  The stakes are about to be raised Sharpe, and as my head of security your role is about to become even"
+		"  Your display of loyalty in dealing with the Watts girl is commendable.  It is certainly distasteful but we do what we must. Now that our 'friend' has outlived his usefulness, we must deal with him next and then we can put this unpleasantness behind us."
+		"    Now to the future. You see, City Watch officials and mayors are only the start.  I've been exploring how a certain foreign nation can help culture my interests.  The stakes are about to be raised Sharpe, and as my head of security your role is"
 	}
 	"page2_title"	:
 	{
@@ -759,14 +756,13 @@ readables/fsx/letter_coats_sharpe
 	}
 	"page2_body"	:
 	{
-		"more crucial."
 		""
+		"about to become even more crucial."
 		"    The Builders are a different story.  They are incorruptible, but I have someone looking into an alternative approach."
-		""
 		"    Onwards and upwards, Sharpe!  Things are only going to get better.  When you go to collect your weekly stipend you'll find a substanial increase."
+		"    Also, start making plans to recruit more security staff and please appoint an understudy.  I'll need you closer to my side for the road ahead.          "
 		""
-		"    Also, start making plans to recruit more security staff, and please appoint an understudy.  I'll need you closer to my side for the road ahead."
-		"                          V.C."
+		"V.C."
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
