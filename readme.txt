@@ -5,25 +5,12 @@ Author: Frost_Salamander
 Version: [VERSION]
 Build Date: [TIMESTAMP]
 
-Credits
--------
-
-Beta Testers:
-- wesp5
-- Acolytesix
-- Shadow
-- Cambridge Spy
-- AluminumHaste
-- Jaxa
-- thebigh
-- joebarnin
-- Mezla
+Beta Testers: wesp5, Acolytesix, Shadow, Cambridge Spy, AluminumHaste, Jaxa, thebigh, joebarnin, Mezla
 
 Models:
 - IpoyPunk: Font Series 1 3D Model Collection from cgtrader.com (royalty-free license)
 
 Images:
-
 - Gemstone image by nneem from Pixabay
 - Tuna image by Gordon Johnson from Pixabay
 - Octopus image by Mohamed Hassan from Pixabay
