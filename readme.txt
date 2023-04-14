@@ -8,6 +8,17 @@ Build Date: [TIMESTAMP]
 Credits
 -------
 
+Beta Testers:
+- wesp5
+- Acolytesix
+- Shadow
+- Cambridge Spy
+- AluminumHaste
+- Jaxa
+- thebigh
+- joebarnin
+- Mezla
+
 Models:
 - IpoyPunk: Font Series 1 3D Model Collection from cgtrader.com (royalty-free license)
 
