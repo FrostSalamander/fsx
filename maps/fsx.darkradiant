@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2952394" } 
-		KeyValue { "LastCameraAngle" "-6.29999 80.1 0" } 
-		KeyValue { "LastCameraPosition" "-1245.7 1322.92 -399.822" } 
+		KeyValue { "EditTimeInSeconds" "2952513" } 
+		KeyValue { "LastCameraAngle" "-8.1 305.4 0" } 
+		KeyValue { "LastCameraPosition" "1158.22 4742.15 95.7044" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/metal_diamond_pattern3_moonlit" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2952394 }
+		TotalSecondsEdited { 2952513 }
 	}
 	Layers
 	{
@@ -53021,7 +53021,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 12545 { "" }
 		SelectionGroup 12560 { "" }
 		SelectionGroup 12561 { "" }
-		SelectionGroup 12564 { "" }
 		SelectionGroup 12566 { "" }
 		SelectionGroup 12567 { "" }
 		SelectionGroup 12568 { "" }
@@ -72928,8 +72927,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 7191 31438 ) ( 12533 ) } // patch (Patch)
 		Node { ( 7194 31443 ) ( 9882 ) } // brush (Brush)
 		Node { ( 7194 31444 ) ( 9882 ) } // brush (Brush)
-		Node { ( 7202 ) ( 12564 ) } // entity (atdm_lamp_electric_outdoor_unattached_lit_34)
-		Node { ( 7203 ) ( 12564 ) } // entity (func_static_5181)
 		Node { ( 7203 31452 ) ( 12566 ) } // brush (Brush)
 		Node { ( 7203 31453 ) ( 12566 ) } // patch (Patch)
 		Node { ( 7204 ) ( 12567 ) } // entity (func_static_5182)
