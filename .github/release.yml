@@ -10,6 +10,8 @@ changelog:
       labels:
         - improvement
         - enhancement
+    - title: Visuals
+        - visuals
     - title: Readables
       labels:
         - readables
