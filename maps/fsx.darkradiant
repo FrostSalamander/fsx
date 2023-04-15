@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2953901" } 
-		KeyValue { "LastCameraAngle" "1.4 86.6997 0" } 
-		KeyValue { "LastCameraPosition" "-1250.18 1268.67 -400.191" } 
+		KeyValue { "EditTimeInSeconds" "2954112" } 
+		KeyValue { "LastCameraAngle" "-10.5 38.9997 0" } 
+		KeyValue { "LastCameraPosition" "1035.67 593.848 719.251" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/dark_brick_old" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2953901 }
+		TotalSecondsEdited { 2954112 }
 	}
 	Layers
 	{
@@ -47674,6 +47674,7 @@ DarkRadiant Map Information File Version 2
 		Node { 11 } // entity (func_static_6641)
 		Node { 11 } // patch (Patch)
 		Node { 4 } // entity (func_static_6642)
+		Node { 4 } // entity (key_hotel_room_43_duplicate)
 	}
 	SelectionGroups
 	{
@@ -53770,7 +53771,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 13546 { "" }
 		SelectionGroup 13547 { "" }
 		SelectionGroup 13549 { "" }
-		SelectionGroup 13550 { "" }
 		SelectionGroup 13551 { "" }
 		SelectionGroup 13552 { "" }
 		SelectionGroup 13553 { "" }
@@ -73382,25 +73382,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 7939 32639 ) ( 5924 ) } // brush (Brush)
 		Node { ( 7939 32641 ) ( 5924 ) } // brush (Brush)
 		Node { ( 7939 32643 ) ( 9031 ) } // brush (Brush)
-		Node { ( 7947 ) ( 13550 ) } // entity (func_static_5626)
-		Node { ( 7948 ) ( 13550 ) } // entity (atdm_moveable_chair_dining_2_red_14)
 		Node { ( 7949 ) ( 13549 ) } // entity (func_static_5624)
-		Node { ( 7950 ) ( 13550 ) } // entity (func_static_5628)
-		Node { ( 7951 ) ( 13550 ) } // entity (atdm_moveable_holder_small_plus_candle2_18)
 		Node { ( 7952 ) ( 13549 ) } // entity (atdm_moveable_scroll_rolled_up_52)
 		Node { ( 7953 ) ( 13549 ) } // entity (atdm_moveable_scroll_rolled_up_53)
 		Node { ( 7954 ) ( 13549 ) } // entity (atdm_moveable_scroll_rolled_up_55)
 		Node { ( 7955 ) ( 13549 ) } // entity (atdm_moveable_scroll_rolled_up_54)
 		Node { ( 7956 ) ( 13549 ) } // entity (atdm_moveable_scroll_rolled_up_56)
 		Node { ( 7957 ) ( 13549 ) } // entity (func_static_5627)
-		Node { ( 7958 ) ( 13550 ) } // entity (func_static_5629)
-		Node { ( 7959 ) ( 13550 ) } // entity (func_static_5625)
-		Node { ( 7960 ) ( 13550 ) } // entity (func_static_5631)
-		Node { ( 7961 ) ( 13550 ) } // entity (BlottingPad8)
-		Node { ( 7962 ) ( 13550 ) } // entity (func_static_5633)
-		Node { ( 7963 ) ( 13550 ) } // entity (func_static_5630)
-		Node { ( 7964 ) ( 13550 ) } // entity (func_static_5632)
-		Node { ( 7965 ) ( 13550 ) } // entity (notice1)
 		Node { ( 7972 ) ( 12836 ) } // entity (atdm_moveable_chair_dining_2_red_15)
 		Node { ( 7973 32677 ) ( 12837 ) } // brush (Brush)
 		Node { ( 7973 32678 ) ( 12837 ) } // brush (Brush)
