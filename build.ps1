@@ -32,7 +32,7 @@ remove-item -path $stagingDir\* -Filter * -Force -Recurse
 copy-item -path $missionDir -destination $stagingDir -recurse
 
 # remove unwanted files
-remove-item -path $stagingMissionDir -include .git,savegames,.gitignore,.github,build.ps1,changelog.txt,consolehistory.dat,dmx.darkradiant,dmx.bak,dmx.darkradiant.bak,dmx.xd.bkup,README.md -Force -Recurse
+remove-item -path $stagingMissionDir -include .git,savegames,.gitignore,.github,build.ps1,changelog.txt,consolehistory.dat,*.darkradiant,*.bak,README.md -Force -Recurse
 
 # token replace version
 (Get-Content $darkmodtxt).replace('[VERSION]', $rev) | Set-Content $darkmodtxt 
