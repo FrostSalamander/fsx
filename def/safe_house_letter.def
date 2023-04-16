@@ -1,6 +1,7 @@
 entityDef fsx:safe_house_letter
 {
-    "inherit"           "atdm:readable_immobile_letter01"
+    "inherit"           "atdm:readable_mobile_letter01"
     "xdata_contents"    "readables/fsx/letter_safe_house"
+    "inv_name"          "Safe house letter"
     "trigger_on_close"  "target_safehouse_objectives"
 }

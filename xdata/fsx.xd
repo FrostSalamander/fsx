@@ -436,9 +436,9 @@ readables/fsx/letter_safe_house
 	"page2_body"	:
 	{
 		"  "
-		"  The hope is that this will divert suspicion from the Service while filling the power vacuum left by removing Coates with a less 'effective' personality."
+		"  The hope is that the prison break coinciding with Coates' death will paint the Cook gang as the likely perpetrators.  If Cook escapes he will be a wanted man whose freedom is unlikely to last, but it is the type of clumsy scheme typical of these louts."
 		""
-		"    I've managed to get a copy of a key to the prison.  It should unlock most doors and prison cells on the inside.  You'll need to find your own way in and locate Cook using your own means however.  Simply unlocking his cell door should suffice, he is slippery enough to escape on his own."
+		"    I've managed to get a copy of a key to the prison.  It should unlock most doors and prison cells on the inside.  You'll need to find your own way in and locate Cook using your own means however.  Simply unlocking his cell door should suffice,"
 	}
 	"page3_title"	:
 	{
@@ -447,7 +447,9 @@ readables/fsx/letter_safe_house
 	"page3_body"	:
 	{
 		""
-		"    Additionally, obtain some property belonging to Jimmy Cook's gang and plant it somewhere in the prison. The kitchen would be a good place as it's near one of the entrances."
+		" he is slippery enough to escape on his own."
+		""
+		"    Additionally, obtain some property belonging to Jimmy Cook's gang and plant it somewhere in the prison. This way the investigation will stay focused on the Cook gang.  A good place to start would be with Jimmy's brother Derryl, who is known to frequent The Coronet tavern.  "
 		""
 		"Good luck"
 		""
