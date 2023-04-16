@@ -18,10 +18,6 @@ string POS_APT_FLOOR_1 = "pos_apt_floor1";
 // Jimmy Cook objective state target
 string TARGET_STATE_COOK = "target_set_cook_objective_state";
 
-// Prison cell doors
-string PRISON_DOOR_LW = "VaultDoorLW";
-string PRISON_DOOR_UW = "VaultDoorUW";
-
 // Pop-up message entities
 string DISABLE_PRISON_POPUP = "target_disable_prison_popup";
 string TRIGGER_NEWSPAPER_POPUP = "trigger_newspaper_popup";
@@ -88,35 +84,6 @@ entity spawnEntity(string origin, string rotation, string class)
     sys.setSpawnArg("rotation", rotation);
     
     return sys.spawn(class);
-}
-
-void spawnJimmy(string aiOrigin, string target, string letterOrigin, string cellDoor)
-{
-    if (!JIMMY_SPAWNED)
-    {
-        JIMMY_SPAWNED = 1;
-
-        spawnAI(aiOrigin, target, "fsx:ai_jimmy_cook");
-
-        // spawn the letter
-        spawnEntity(letterOrigin, "-0.341166 -0.940003 0 0.940003 -0.341166 0 0 0 1", "fsx:jimmy_letter");
-
-        // target the objective state entity with the cell door
-        sys.getEntity(cellDoor).addTarget(sys.getEntity(TARGET_STATE_COOK));
-
-    }
-}
-
-// Spawn Jimmy in an upper west cell
-void spawnJimmyUpperWest()
-{
-    spawnJimmy("1904.16 3380.72 378.885", "path_corner_85", "1869.96 3272.06 404.007", PRISON_DOOR_UW);
-}
-
-// Spawn Jimmy in a lower west cell
-void spawnJimmyLowerWest()
-{
-    spawnJimmy("1896.16 3644.72 194.932", "path_corner_86", "1876.96 3508.05 220.007", PRISON_DOOR_LW);
 }
 
 void spawnCoates(string origin, string target)
