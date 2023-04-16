@@ -2,13 +2,13 @@ DarkRadiant Map Information File Version 2
 {
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2955297 }
+		TotalSecondsEdited { 2955738 }
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2955297" } 
-		KeyValue { "LastCameraAngle" "-83.7 244.8 0" } 
-		KeyValue { "LastCameraPosition" "1003.77 -340.807 766.702" } 
+		KeyValue { "EditTimeInSeconds" "2955738" } 
+		KeyValue { "LastCameraAngle" "-10.8 268.8 0" } 
+		KeyValue { "LastCameraPosition" "561.955 2330.09 371.515" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/dark_brick_old" } 
 	}
 	SelectionGroups
@@ -6148,6 +6148,9 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 13595 { "" }
 		SelectionGroup 13596 { "" }
 		SelectionGroup 13597 { "" }
+		SelectionGroup 13598 { "" }
+		SelectionGroup 13599 { "" }
+		SelectionGroup 13600 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -28506,6 +28509,14 @@ DarkRadiant Map Information File Version 2
 		Node { ( 10211 ) ( 13593 ) } // entity (speaker_27)
 		Node { ( 10214 ) ( 13595 ) } // entity (speaker_29)
 		Node { ( 10215 ) ( 13595 ) } // entity (func_emitter_111)
+		Node { ( 10244 ) ( 13600 ) } // entity (atdm_loot_currency_coin_04g_menoan_3)
+		Node { ( 10245 ) ( 13600 ) } // entity (atdm_loot_currency_coin_04g_menoan_4)
+		Node { ( 10246 ) ( 13599 ) } // entity (atdm_loot_currency_coin_02g_imperial_6)
+		Node { ( 10247 ) ( 13599 ) } // entity (atdm_loot_currency_coin_02g_imperial_7)
+		Node { ( 10248 ) ( 13598 ) } // entity (atdm_loot_currency_coin_01g_imperial_12)
+		Node { ( 10249 ) ( 13598 ) } // entity (atdm_loot_currency_coin_01g_imperial_13)
+		Node { ( 10250 ) ( 13598 ) } // entity (atdm_loot_currency_coin_01g_imperial_14)
+		Node { ( 10251 ) ( 13598 ) } // entity (atdm_loot_currency_coin_01g_imperial_15)
 	}
 	Layers
 	{
@@ -76174,6 +76185,14 @@ DarkRadiant Map Information File Version 2
 		Node { 4 } // entity (fsx_ai_jimmy_cook_1)
 		Node { 4 } // entity (fsx_jimmy_letter_1)
 		Node { 4 } // entity (atdm_ai_townsfolk_beggar_14)
+		Node { 4 } // entity (atdm_loot_currency_coin_04g_menoan_3)
+		Node { 4 } // entity (atdm_loot_currency_coin_04g_menoan_4)
+		Node { 4 } // entity (atdm_loot_currency_coin_02g_imperial_6)
+		Node { 4 } // entity (atdm_loot_currency_coin_02g_imperial_7)
+		Node { 4 } // entity (atdm_loot_currency_coin_01g_imperial_12)
+		Node { 4 } // entity (atdm_loot_currency_coin_01g_imperial_13)
+		Node { 4 } // entity (atdm_loot_currency_coin_01g_imperial_14)
+		Node { 4 } // entity (atdm_loot_currency_coin_01g_imperial_15)
 	}
 	SelectionSets
 	{
