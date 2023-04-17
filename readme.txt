@@ -5,7 +5,7 @@ Author: Frost_Salamander
 Version: [VERSION]
 Build Date: [TIMESTAMP]
 
-Beta Testers: wesp5, Acolytesix, Shadow, Cambridge Spy, AluminumHaste, Jaxa, thebigh, joebarnin, Mezla
+Beta Testers: wesp5, Acolytesix, Shadow, Cambridge Spy, AluminumHaste, Jaxa, thebigh, joebarnin, Mezla, Snatcher
 
 Models:
 - IpoyPunk: Font Series 1 3D Model Collection from cgtrader.com (royalty-free license)
