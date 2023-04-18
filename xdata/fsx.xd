@@ -739,7 +739,7 @@ readables/fsx/journal_warehouse_ivan
 readables/fsx/letter_coats_sharpe
 {
 	precache
-	"num_pages"	: "2"
+	"num_pages"	: "3"
 	"page1_title"	:
 	{
 		""
@@ -762,12 +762,23 @@ readables/fsx/letter_coats_sharpe
 		"about to become even more crucial."
 		"    The Builders are a different story.  They are incorruptible, but I have someone looking into an alternative approach."
 		"    Onwards and upwards, Sharpe!  Things are only going to get better.  When you go to collect your weekly stipend you'll find a substanial increase."
-		"    Also, start making plans to recruit more security staff and please appoint an understudy.  I'll need you closer to my side for the road ahead.          "
+		"    Also, start making plans to recruit more security staff and please appoint an understudy.  I'll need you closer to my side for the road ahead. If you are in need of funds while out and"
+		""
+		""
+	}
+	"page3_title"	:
+	{
+		""
+	}
+	"page3_body"	:
+	{
+		" about, I would prefer you make use of the safe at The Watford.  I trust you've memorised the combination."
 		""
 		"V.C."
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"gui_page3"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -978,5 +989,25 @@ readables/fsx/harrington_letter_tss
 		"Highborough"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/fsx/scroll_hotel_safe_combo
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		""
+		""
+		"    681"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
