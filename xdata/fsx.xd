@@ -916,7 +916,7 @@ readables/fsx/bookshop_journal
 	{
 		"find a way to influence the Builders using occult magic, he would 'convince' the Cooks to back off.  When I asked why he chose me rather than a proper mage, he said something about keeping a low profile. I suppose mages aren't known for their loyalty."
 		""
-		"    Regardless, from what I do know about the practice, what he's asking for is fairly straighforward.  I have lent the artefact to Brother Gregory for 'appraisal', claiming it was outside my area"
+		"    Regardless, from what I do know about the practice, what he's asking for is fairly straighforward.  I have lent the artefact to Brother Gregory at the abbey for 'appraisal', claiming it was"
 	}
 	"page2_left_title"	:
 	{
@@ -924,7 +924,7 @@ readables/fsx/bookshop_journal
 	}
 	"page2_left_body"	:
 	{
-		"of expertise. Coupled with the ritual I performed in the attic I expect results within twenty four hours."
+		"outside my area of expertise. Coupled with the ritual I performed in the attic I expect results within twenty four hours."
 		""
 		"    What those results will be, I frankly have no idea."
 	}
