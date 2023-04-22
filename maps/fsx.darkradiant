@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2973759" } 
-		KeyValue { "LastCameraAngle" "-27.6 105.9 0" } 
-		KeyValue { "LastCameraPosition" "1535.24 864.514 200.205" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
+		KeyValue { "EditTimeInSeconds" "2973938" } 
+		KeyValue { "LastCameraAngle" "-27 268.2 0" } 
+		KeyValue { "LastCameraPosition" "1700.98 -834.701 463.671" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/pagfloor02_dark" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2973759 }
+		TotalSecondsEdited { 2973938 }
 	}
 	SelectionSets
 	{
