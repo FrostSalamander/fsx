@@ -228,9 +228,14 @@ void frobBroach()
 }
 
 
-void spawnFireArrow()
+void spawnArrows()
 {
+    // spawn fire arrow in belfry
     spawnEntity("3384.7 3912 917.835", "-0.0495337 0 0.998772 0 1 0 -0.998772 0 -0.0495337", "atdm:ammo_firearrow");
+
+    // spawn broadheads in Griffin the bell-ringer's bedroom
+    sys.setSpawnArg("inv_ammo_amount", "5");
+    spawnEntity("3474.24 3941.25 454.432", "-0.961595 0 -0.274472 0 1 0 0.274472 0 -0.961595", "atdm:ammo_broadhead");
 }
 
 // main - keep at bottom
