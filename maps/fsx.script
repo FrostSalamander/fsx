@@ -21,6 +21,7 @@ string TARGET_STATE_COOK = "target_set_cook_objective_state";
 // Pop-up message entities
 string DISABLE_PRISON_POPUP = "target_disable_prison_popup";
 string TRIGGER_NEWSPAPER_POPUP = "trigger_newspaper_popup";
+string POPUP_ELLA_BROACH = "popup_ella_broach";
 
 // Triggers
 string TRIGGER_ATKINSON_OBJECTIVE = "trigger_relay_atkinson_objective";
@@ -220,6 +221,12 @@ void frobAtkinson()
 {
     sys.trigger(sys.getEntity(TRIGGER_ATKINSON_OBJECTIVE));
 }
+
+void frobBroach()
+{
+    sys.trigger(sys.getEntity(POPUP_ELLA_BROACH));
+}
+
 
 void spawnFireArrow()
 {
