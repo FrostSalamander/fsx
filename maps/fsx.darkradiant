@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2974937" } 
-		KeyValue { "LastCameraAngle" "-60 105.3 0" } 
-		KeyValue { "LastCameraPosition" "1592.95 3962.18 126.487" } 
+		KeyValue { "EditTimeInSeconds" "2976513" } 
+		KeyValue { "LastCameraAngle" "-10.8 332.4 0" } 
+		KeyValue { "LastCameraPosition" "-345.561 4318.03 218.603" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/pagfloor02_dark" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2974937 }
+		TotalSecondsEdited { 2976513 }
 	}
 	SelectionSets
 	{
@@ -5762,9 +5762,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 13122 { "" }
 		SelectionGroup 13124 { "" }
 		SelectionGroup 13127 { "" }
-		SelectionGroup 13129 { "" }
-		SelectionGroup 13130 { "" }
-		SelectionGroup 13131 { "" }
 		SelectionGroup 13132 { "" }
 		SelectionGroup 13133 { "" }
 		SelectionGroup 13137 { "" }
@@ -14199,7 +14196,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 18016 ) ( 9685 ) } // brush (Brush)
 		Node { ( 0 18017 ) ( 9685 ) } // brush (Brush)
 		Node { ( 0 18018 ) ( 9685 ) } // brush (Brush)
-		Node { ( 0 18019 ) ( 13129 13131 ) } // brush (Brush)
 		Node { ( 0 18038 ) ( 13137 ) } // brush (Brush)
 		Node { ( 0 18039 ) ( 13137 ) } // brush (Brush)
 		Node { ( 0 18040 ) ( 13137 ) } // brush (Brush)
@@ -26909,15 +26905,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 9042 34989 ) ( 6384 ) } // brush (Brush)
 		Node { ( 9042 34990 ) ( 6384 ) } // brush (Brush)
 		Node { ( 9094 ) ( 76 ) } // entity (func_static_996)
-		Node { ( 9119 ) ( 13129 13131 ) } // entity (func_static_6177)
-		Node { ( 9120 ) ( 13130 13131 ) } // entity (func_static_6178)
-		Node { ( 9121 ) ( 13130 13131 ) } // entity (func_static_6179)
-		Node { ( 9122 ) ( 13130 13131 ) } // entity (func_static_6180)
-		Node { ( 9123 ) ( 13130 13131 ) } // entity (func_static_6181)
-		Node { ( 9124 ) ( 13130 13131 ) } // entity (func_static_6182)
-		Node { ( 9125 ) ( 13130 13131 ) } // entity (func_static_6183)
-		Node { ( 9126 ) ( 13130 13131 ) } // entity (func_static_6184)
-		Node { ( 9127 ) ( 13130 13131 ) } // entity (func_static_6185)
 		Node { ( 9191 35018 ) ( 13132 ) } // brush (Brush)
 		Node { ( 9191 35019 ) ( 13132 ) } // brush (Brush)
 		Node { ( 9191 35020 ) ( 13132 ) } // brush (Brush)
@@ -72690,7 +72677,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_6174)
 		Node { 0 } // entity (func_static_6175)
 		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (atdm_ai_guard_elite_02_2)
+		Node { 0 } // entity (ai_sharpe)
 		Node { 0 } // entity (sharpe_letter)
 		Node { 0 } // entity (path_corner_282)
 		Node { 0 } // entity (path_wait_216)
@@ -76317,5 +76304,9 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (trigger_once_12)
 		Node { 0 } // brush (Brush)
 		Node { 4 } // entity (atdm_lamp_electric_outdoor_down_rusty_lit_13)
+		Node { 4 } // entity (target_setobjective_visibility_sharpe)
+		Node { 4 } // entity (atdm_playertools_mine_2)
+		Node { 4 } // entity (ellas_broach)
+		Node { 4 } // entity (popup_ella_broach)
 	}
 }
