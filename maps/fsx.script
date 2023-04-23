@@ -3,6 +3,10 @@
 float JIMMY_SPAWNED = 0;
 float COATES_SPAWNED = 0;
 
+float BRYANT_LETTER_READ = 0;
+float SHARPE_LETTER_READ = 0;
+float ATKINSON_LETTER_READ = 0;
+
 // Entities
 
 // OBJECTIVES
@@ -10,6 +14,7 @@ float OBJ_KILL_COATES = 1;
 float OBJ_SAFE_HOUSE = 2;
 float OBJ_FREE_COOK = 3;
 float OBJ_LEAVE_DAGGER = 4;
+float OBJ_KILL_SHARPE = 12;
 
 // Apartments multistate position entities
 string POS_APT_FLOOR_0 = "pos_apt_floor0";
@@ -237,6 +242,36 @@ void spawnArrows()
     sys.setSpawnArg("inv_ammo_amount", "5");
     spawnEntity("3474.24 3941.25 454.432", "-0.961595 0 -0.274472 0 1 0 0.274472 0 -0.961595", "atdm:ammo_broadhead");
 }
+
+void setSharpeObjectiveVisible()
+{
+    // The objective won't make much sense unless all the letters are read
+    // and the player visits the crime scene
+    if (BRYANT_LETTER_READ && SHARPE_LETTER_READ && ATKINSON_LETTER_READ)
+    {
+        $player1.setObjectiveVisible(OBJ_KILL_SHARPE, 1);
+    }
+}
+
+void readBryantLetter()
+{
+    BRYANT_LETTER_READ = 1;
+    setSharpeObjectiveVisible();
+}
+
+void readSharpeLetter()
+{
+    SHARPE_LETTER_READ = 1;
+    setSharpeObjectiveVisible();
+}
+
+void readAtkinsonLetter()
+{
+    ATKINSON_LETTER_READ = 1;
+    setSharpeObjectiveVisible();
+}
+
+
 
 // main - keep at bottom
 void main()
