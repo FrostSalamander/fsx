@@ -1,4 +1,4 @@
-$rev = "0.5-beta"
+$rev = "1.0"
 $revSuffix="_v$rev"
 $timestamp = Get-Date -Format "dd/MM/yyyy HH:mm"
 
@@ -10,7 +10,7 @@ $stagingMissionDir = "$stagingDir\$devFolderName"
 $darkmodtxt = "$stagingMissionDir\darkmod.txt"
 $readme = "$stagingMissionDir\readme.txt"
 
-$pkg = "$stagingMissionDir\$missionName$revSuffix"
+$pkg = "$stagingMissionDir\$missionName"
 
 $dmap = Read-Host -Prompt 'Did you delete and recompile the map files?'
 if ( $dmap -notin "Y","y") {
