@@ -142,7 +142,7 @@ boolean isObjectiveComplete(float objNum)
 
 boolean isObjectiveVisible(float objNum)
 {
-    return ($player1.getObjectiveVisible(2) == 1);
+    return ($player1.getObjectiveVisible(objNum) == 1);
 }
 
 void triggerSafeHouseObjective()
