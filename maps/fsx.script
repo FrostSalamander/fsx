@@ -32,6 +32,10 @@ string POPUP_ELLA_BROACH = "popup_ella_broach";
 string TRIGGER_ATKINSON_OBJECTIVE = "trigger_relay_atkinson_objective";
 string TRIGGER_COUNT_FIREARROW = "trigger_count_firearrow";
 
+string TRIGGER_COATES_CHURCH = "trigger_coates_church";
+string TRIGGER_COATES_HOTEL = "trigger_coates_hotel";
+string TRIGGER_COATES_MANSION = "trigger_coates_mansion";
+
 // Locations
 string LOCATION_ABBEY_LOFT = "location_abbey_loft";
 
@@ -74,16 +78,6 @@ void controlLiftDoors(entity target, entity button, entity callscriptfunction)
     }
 }
 
-void spawnAI(string origin, string target, string class)
-{
-    sys.setSpawnArg("origin", origin);
-
-    // target their path_corner
-    sys.setSpawnArg("target0", target);
-
-    entity spawnedAI = sys.spawn(class);
-}
-
 entity spawnEntity(string origin, string rotation, string class)
 {
     sys.setSpawnArg("origin", origin);
@@ -92,11 +86,12 @@ entity spawnEntity(string origin, string rotation, string class)
     return sys.spawn(class);
 }
 
-void spawnCoates(string origin, string target)
+// triggers a trigger relay, which in turn teleports Coates and sets his path node
+void spawnCoates(string triggerName)
 {
     if (!COATES_SPAWNED)
     {
-        spawnAI(origin, target, "fsx:ai_vinton_coates");
+        sys.trigger(sys.getEntity(triggerName));
         COATES_SPAWNED = 1;
     }
 }
@@ -116,17 +111,19 @@ void spawnCoatesChurch(entity oldZone)
         sys.trigger(sys.getEntity(TRIGGER_COUNT_FIREARROW));
     }
 
-    spawnCoates("3408 4728 8.0669", "path_corner_111");
+    spawnCoates(TRIGGER_COATES_CHURCH);
 }
 
 // Spawn Coates in the Hotel
 // Applies to the following zones:
 //   - location_mansion_lounge
 //   - location_mansion_pool_room
+//   - location_mansion_groundfloor_entrance
+//   - location_mansion_upstairs_lounge
 
 void spawnCoatesHotel(entity oldZone)
 {
-    spawnCoates("1199.49 -42.5907 32.0669", "path_corner_18");
+    spawnCoates(TRIGGER_COATES_HOTEL);
 }
 
 // Spawn Coates in the Mansion
@@ -135,7 +132,7 @@ void spawnCoatesHotel(entity oldZone)
 
 void spawnCoatesMansion(entity oldZone)
 {
-    spawnCoates("400 4352 384.067", "path_wait_60");
+    spawnCoates(TRIGGER_COATES_MANSION);
 }
 
 boolean isObjectiveComplete(float objNum)
