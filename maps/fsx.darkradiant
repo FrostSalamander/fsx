@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2981499" } 
-		KeyValue { "LastCameraAngle" "4.2 87 0" } 
-		KeyValue { "LastCameraPosition" "565.218 285.904 894.563" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/sandstone_largeblocks01" } 
+		KeyValue { "EditTimeInSeconds" "2981615" } 
+		KeyValue { "LastCameraAngle" "6.9 68.4 0" } 
+		KeyValue { "LastCameraPosition" "815.609 49.7881 323.82" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/iron_flat" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2981499 }
+		TotalSecondsEdited { 2981615 }
 	}
 	Layers
 	{
@@ -53147,9 +53147,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 12496 { "" }
 		SelectionGroup 12497 { "" }
 		SelectionGroup 12498 { "" }
-		SelectionGroup 12499 { "" }
 		SelectionGroup 12500 { "" }
-		SelectionGroup 12501 { "" }
 		SelectionGroup 12502 { "" }
 		SelectionGroup 12503 { "" }
 		SelectionGroup 12504 { "" }
@@ -72833,21 +72831,14 @@ DarkRadiant Map Information File Version 2
 		Node { ( 6967 ) ( 12489 ) } // entity (func_static_5098)
 		Node { ( 6974 ) ( 12496 ) } // entity (atdm_liquid_water_17)
 		Node { ( 6979 ) ( 12497 ) } // entity (atdm_liquid_water_18)
-		Node { ( 6980 ) ( 12499 12501 ) } // entity (func_static_1231)
-		Node { ( 6981 ) ( 12499 12501 ) } // entity (func_static_1232)
-		Node { ( 6982 ) ( 12499 12501 ) } // entity (func_static_1233)
-		Node { ( 6983 ) ( 12500 12501 ) } // entity (func_static_1234)
-		Node { ( 6984 ) ( 12500 12501 ) } // entity (func_static_1235)
-		Node { ( 6985 ) ( 12500 12501 ) } // entity (func_static_1236)
-		Node { ( 6986 ) ( 12499 12501 ) } // entity (func_static_5105)
-		Node { ( 6987 ) ( 12499 12501 ) } // entity (func_static_5106)
-		Node { ( 6988 ) ( 12499 12501 ) } // entity (func_static_5107)
-		Node { ( 6989 ) ( 12499 12501 ) } // entity (func_static_5108)
-		Node { ( 6990 ) ( 12498 12501 ) } // entity (func_static_5109)
-		Node { ( 6991 ) ( 12498 12501 ) } // entity (func_static_1227)
-		Node { ( 6992 ) ( 12498 12501 ) } // entity (func_static_1228)
-		Node { ( 6993 ) ( 12498 12501 ) } // entity (func_static_5110)
-		Node { ( 6994 ) ( 12498 12501 ) } // entity (func_static_5111)
+		Node { ( 6983 ) ( 12500 ) } // entity (func_static_1234)
+		Node { ( 6984 ) ( 12500 ) } // entity (func_static_1235)
+		Node { ( 6985 ) ( 12500 ) } // entity (func_static_1236)
+		Node { ( 6990 ) ( 12498 ) } // entity (func_static_5109)
+		Node { ( 6991 ) ( 12498 ) } // entity (func_static_1227)
+		Node { ( 6992 ) ( 12498 ) } // entity (func_static_1228)
+		Node { ( 6993 ) ( 12498 ) } // entity (func_static_5110)
+		Node { ( 6994 ) ( 12498 ) } // entity (func_static_5111)
 		Node { ( 6995 31206 ) ( 2927 ) } // patch (Patch)
 		Node { ( 6995 31207 ) ( 2927 ) } // patch (Patch)
 		Node { ( 6995 31208 ) ( 2927 ) } // patch (Patch)
