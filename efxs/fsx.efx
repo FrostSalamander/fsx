@@ -489,6 +489,9 @@ eaxreverb "location_canal_passage" {
 eaxreverb "location_canal_passage_house" {
   preset WOODEN_SMALLROOM
 }
+eaxreverb "location_streets_canal_houses" {
+  preset CITY_STREETS
+}
 
 ////////////
 // ABBEY

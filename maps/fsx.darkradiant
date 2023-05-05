@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2981947" } 
-		KeyValue { "LastCameraAngle" "0.199999 99.6 0" } 
-		KeyValue { "LastCameraPosition" "2432.33 3887.61 75.4654" } 
+		KeyValue { "EditTimeInSeconds" "2982448" } 
+		KeyValue { "LastCameraAngle" "-27.9 357.9 0" } 
+		KeyValue { "LastCameraPosition" "1119.11 4387.75 195.796" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/iron_flat" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2981947 }
+		TotalSecondsEdited { 2982448 }
 	}
 	Layers
 	{
@@ -47846,6 +47846,7 @@ DarkRadiant Map Information File Version 2
 		Node { 4 } // entity (trigger_coates_mansion)
 		Node { 4 } // entity (func_static_4912)
 		Node { 4 } // entity (func_static_4913)
+		Node { 4 } // entity (location_streets_canal_houses)
 	}
 	SelectionGroups
 	{
