@@ -5,14 +5,14 @@ DarkRadiant Map Information File Version 2
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2982653" } 
-		KeyValue { "LastCameraAngle" "-34.2 185.4 0" } 
-		KeyValue { "LastCameraPosition" "2045.51 5429.13 190.417" } 
+		KeyValue { "EditTimeInSeconds" "2982754" } 
+		KeyValue { "LastCameraAngle" "-53.7 204.3 0" } 
+		KeyValue { "LastCameraPosition" "671.916 1748.64 365.184" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/water_source/water_dark" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2982653 }
+		TotalSecondsEdited { 2982754 }
 	}
 	SelectionGroups
 	{
@@ -6159,6 +6159,8 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 13628 { "" }
 		SelectionGroup 13629 { "" }
 		SelectionGroup 13630 { "" }
+		SelectionGroup 13631 { "" }
+		SelectionGroup 13632 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -28508,6 +28510,10 @@ DarkRadiant Map Information File Version 2
 		Node { ( 10343 37407 ) ( 13627 13619 ) } // brush (Brush)
 		Node { ( 10343 37408 ) ( 13628 13629 13626 13619 ) } // brush (Brush)
 		Node { ( 10343 37409 ) ( 13627 13619 ) } // brush (Brush)
+		Node { ( 10359 ) ( 13631 ) } // entity (atdm_lamp_electric_outdoor_unattached_lit_49)
+		Node { ( 10360 ) ( 13631 ) } // entity (func_static_4914)
+		Node { ( 10360 37411 ) ( 13632 ) } // brush (Brush)
+		Node { ( 10360 37412 ) ( 13632 ) } // patch (Patch)
 	}
 	Layers
 	{
@@ -76342,5 +76348,9 @@ DarkRadiant Map Information File Version 2
 		Node { 4 } // entity (location_streets_canal_houses)
 		Node { 0 } // entity (atdm_liquid_water_6)
 		Node { 0 } // brush (Brush)
+		Node { 10 } // entity (atdm_lamp_electric_outdoor_unattached_lit_49)
+		Node { 10 } // entity (func_static_4914)
+		Node { 10 } // brush (Brush)
+		Node { 10 } // patch (Patch)
 	}
 }
