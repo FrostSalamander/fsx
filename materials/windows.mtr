@@ -1,0 +1,16 @@
+textures/darkmod/window/fs_smallpanels_4w_dirty01_unlit
+{
+
+	qer_editorimage	textures/darkmod/window/smallpanels_4w_dirty01_unlit_ed
+	glass
+	noselfshadow
+	diffusemap _black
+	{
+		blend add
+		map 	textures/darkmod/window/smallpanels_4w_dirty01_unlit
+		rgb .4
+	}
+	frobstage_texture textures/darkmod/window/smallpanels_4w_dirty01_unlit 0.15 0.40
+
+
+}
