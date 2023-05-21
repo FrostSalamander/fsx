@@ -32,9 +32,13 @@ string POPUP_ELLA_BROACH = "popup_ella_broach";
 string TRIGGER_ATKINSON_OBJECTIVE = "trigger_relay_atkinson_objective";
 string TRIGGER_COUNT_FIREARROW = "trigger_count_firearrow";
 
+// Coates teleport triggers
 string TRIGGER_COATES_CHURCH = "trigger_coates_church";
 string TRIGGER_COATES_HOTEL = "trigger_coates_hotel";
 string TRIGGER_COATES_MANSION = "trigger_coates_mansion";
+
+// Triggered when Coates is killed
+string TRIGGER_SAFE_HOUSE = "trigger_safe_house";
 
 // Locations
 string LOCATION_ABBEY_LOFT = "location_abbey_loft";
@@ -163,15 +167,8 @@ void triggerSafeHouseObjective()
         // set the safe house objective visible
         $player1.setObjectiveVisible(OBJ_SAFE_HOUSE, 1);
 
-        // Spawn prison cell key at Lennard's
-        spawnEntity("335.972 2295.93 223.278", "0.592432 0.80562 0 -0.80562 0.592432 0 0 0 1", "fsx:prison_cell_key");
-
-        // Spawn the letter
-        spawnEntity("320 2294 222.881", "1 0 0 0 1 0 0 0 1", "fsx:safe_house_letter");
-
-        // Spawn the newspaper. We prefer if the player finds this in the Review Office, but
-        // in case they never find it they can read it here after Coates is killed.
-        spawnEntity("363.295 2236.69 21.3811", "0.759739 0.650229 0 -0.650229 0.759739 0 0 0 1", "fsx:newspaper");
+        // Trigger teleport of prison key, safe house letter and newspaper into the safe house
+        sys.trigger(sys.getEntity(TRIGGER_SAFE_HOUSE));
     }
     else
     {
