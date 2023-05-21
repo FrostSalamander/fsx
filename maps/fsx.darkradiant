@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2982922" } 
-		KeyValue { "LastCameraAngle" "3.9 55.8 0" } 
-		KeyValue { "LastCameraPosition" "-820.064 4057.93 255.206" } 
+		KeyValue { "EditTimeInSeconds" "2983545" } 
+		KeyValue { "LastCameraAngle" "-36.6 101.7 0" } 
+		KeyValue { "LastCameraPosition" "346.061 2202 313.928" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/window/fs_smallpanels_4w_dirty01_unlit" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2982922 }
+		TotalSecondsEdited { 2983545 }
 	}
 	SelectionGroups
 	{
@@ -76349,6 +76349,13 @@ DarkRadiant Map Information File Version 2
 		Node { 10 } // entity (func_static_4914)
 		Node { 10 } // brush (Brush)
 		Node { 10 } // patch (Patch)
+		Node { 4 } // entity (fsx_prison_cell_key_1)
+		Node { 4 } // entity (teleport_prison_key)
+		Node { 4 } // entity (fsx_safe_house_letter_1)
+		Node { 4 } // entity (trigger_safe_house)
+		Node { 4 } // entity (teleport_safe_house_letter)
+		Node { 4 } // entity (teleport_newspaper)
+		Node { 4 } // entity (fsx_newspaper_1)
 	}
 	SelectionSets
 	{
